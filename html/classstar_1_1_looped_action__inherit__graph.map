@@ -1,0 +1,4 @@
+<map id="star::LoopedAction" name="star::LoopedAction">
+<area shape="rect" id="node2" href="$classstar_1_1_action.html" title="{star::Action\n|# m_pParent\l# m_IsPaused\l# m_IsInitialized\l|+ Action()\l+ Action()\l+ ~Action()\l+ Destroy()\l+ Restart()\l+ Pause()\l+ Resume()\l+ BaseUpdate()\l+ BaseInitialize()\l+ SetParent()\l+ GetParent()\l# Initialize()\l# Update()\l}" alt="" coords="11,219,129,501"/>
+<area shape="rect" id="node3" href="$classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="7,5,135,171"/>
+</map>

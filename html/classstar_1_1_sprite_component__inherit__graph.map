@@ -1,0 +1,5 @@
+<map id="star::SpriteComponent" name="star::SpriteComponent">
+<area shape="rect" id="node4" href="$classstar_1_1_spritesheet_component.html" title="{star::SpritesheetComponent\n|# m_SpritesheetName\l# m_Spritesheet\l# m_Animations\l|+ SpritesheetComponent()\l+ ~SpritesheetComponent()\l+ Update()\l+ Play()\l+ Restart()\l+ Pause()\l+ Stop()\l+ PushAnimation()\l+ PlayAnimation()\l+ PlayAnimation()\land 14 more...\l# InitializeComponent()\l}" alt="" coords="5,955,189,1223"/>
+<area shape="rect" id="node2" href="$classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_pParentObject\l# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="20,219,175,517"/>
+<area shape="rect" id="node3" href="$classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="33,5,161,171"/>
+</map>

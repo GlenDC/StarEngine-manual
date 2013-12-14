@@ -1,0 +1,11 @@
+<map id="StarEngine/jni/StarEngine.h" name="StarEngine/jni/StarEngine.h">
+<area shape="rect" id="node2" href="$defines_8h.html" title="defines.h" alt="" coords="228,312,303,339"/>
+<area shape="rect" id="node14" href="$_f_p_s_8h.html" title="Helpers/FPS.h" alt="" coords="103,155,209,181"/>
+<area shape="rect" id="node16" href="$_load_screen_8h.html" title="Scenes/LoadScreen.h" alt="" coords="361,80,511,107"/>
+<area shape="rect" id="node3" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="377,395,543,421"/>
+<area shape="rect" id="node4" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="371,469,492,496"/>
+<area shape="rect" id="node11" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="101,395,203,421"/>
+<area shape="rect" id="node17" href="$_shader_8h.html" title="../Graphics/Shader.h" alt="" coords="447,155,589,181"/>
+<area shape="rect" id="node23" href="$_filepath_8h.html" title="../Helpers/Filepath.h" alt="" coords="284,155,423,181"/>
+<area shape="rect" id="node21" href="$jni_2_assets_2_resource_8h.html" title="../Assets/Resource.h" alt="" coords="442,229,587,256"/>
+</map>

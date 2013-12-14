@@ -1,0 +1,24 @@
+<map id="StarEngine/jni/Input/Index.h" name="StarEngine/jni/Input/Index.h">
+<area shape="rect" id="node2" href="$_x_m_l_index_8h.html" title="XMLIndex.h" alt="" coords="865,96,953,123"/>
+<area shape="rect" id="node29" href="$_input_2_gestures_2_index_8h.html" title="Gestures/Index.h" alt="" coords="1211,96,1332,123"/>
+<area shape="rect" id="node3" href="$_x_m_l_container_8h.html" title="XMLContainer.h" alt="" coords="565,171,677,197"/>
+<area shape="rect" id="node26" href="$_x_m_l_file_parser_8h.html" title="XMLFileParser.h" alt="" coords="861,485,979,512"/>
+<area shape="rect" id="node28" href="$_x_m_l_file_serializer_8h.html" title="XMLFileSerializer.h" alt="" coords="1003,485,1136,512"/>
+<area shape="rect" id="node4" href="$defines_8h.html" title="../defines.h" alt="" coords="570,635,656,661"/>
+<area shape="rect" id="node5" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="144,709,309,736"/>
+<area shape="rect" id="node16" href="$_dictionary_8h.html" title="../Helpers/Dictionary.h" alt="" coords="546,245,696,272"/>
+<area shape="rect" id="node6" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="197,784,317,811"/>
+<area shape="rect" id="node13" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="526,709,628,736"/>
+<area shape="rect" id="node18" href="$_helpers_8h.html" title="Helpers.h" alt="" coords="377,411,455,437"/>
+<area shape="rect" id="node20" href="$_logger_8h.html" title="../Logger.h" alt="" coords="499,560,583,587"/>
+<area shape="rect" id="node24" href="$_dictionary_8inl.html" title="Dictionary.inl" alt="" coords="573,328,669,355"/>
+<area shape="rect" id="node21" href="$_color_8h.html" title="../Graphics/Color.h" alt="" coords="605,485,736,512"/>
+<area shape="rect" id="node23" href="$_helpers_8inl.html" title="Helpers.inl" alt="" coords="245,485,328,512"/>
+<area shape="rect" id="node22" href="$_color_8inl.html" title="Color.inl" alt="" coords="659,560,728,587"/>
+<area shape="rect" id="node27" href="$_filepath_8h.html" title="..\\Helpers\\Filepath.h" alt="" coords="912,560,1051,587"/>
+<area shape="rect" id="node30" href="$_base_gesture_8h.html" title="BaseGesture.h" alt="" coords="1183,245,1292,272"/>
+<area shape="rect" id="node33" href="$_tap_gesture_8h.html" title="TapGesture.h" alt="" coords="1481,171,1580,197"/>
+<area shape="rect" id="node34" href="$_double_tap_gesture_8h.html" title="DoubleTapGesture.h" alt="" coords="1126,171,1265,197"/>
+<area shape="rect" id="node35" href="$_swipe_gesture_8h.html" title="SwipeGesture.h" alt="" coords="1291,171,1405,197"/>
+<area shape="rect" id="node36" href="$_gesture_manager_8h.html" title="GestureManager.h" alt="" coords="973,171,1101,197"/>
+</map>

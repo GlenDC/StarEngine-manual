@@ -1,0 +1,14 @@
+<map id="StarEngine/jni/Components/Physics/RectangleColliderComponent.h" name="StarEngine/jni/Components/Physics/RectangleColliderComponent.h">
+<area shape="rect" id="node2" href="$_base_collider_component_8h.html" title="BaseColliderComponent.h" alt="" coords="126,96,297,123"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title="defines.h" alt="" coords="237,469,312,496"/>
+<area shape="rect" id="node22" href="$_rect_8h.html" title="../../Helpers\\Rect.h" alt="" coords="469,320,600,347"/>
+<area shape="rect" id="node3" href="$_base_component_8h.html" title="../BaseComponent.h" alt="" coords="275,171,416,197"/>
+<area shape="rect" id="node19" href="$_color_8h.html" title="../../Graphics/Color.h" alt="" coords="94,320,236,347"/>
+<area shape="rect" id="node4" href="$_entity_8h.html" title="../Entity.h" alt="" coords="306,245,384,272"/>
+<area shape="rect" id="node17" href="$_hash_tag_8h.html" title="Helpers/HashTag.h" alt="" coords="313,320,444,347"/>
+<area shape="rect" id="node6" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="72,544,237,571"/>
+<area shape="rect" id="node7" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="155,619,276,645"/>
+<area shape="rect" id="node14" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="313,544,415,571"/>
+<area shape="rect" id="node18" href="$_logger_8h.html" title="../Logger.h" alt="" coords="363,395,447,421"/>
+<area shape="rect" id="node20" href="$_color_8inl.html" title="Color.inl" alt="" coords="168,395,237,421"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="StarEngine/jni/Graphics/UI/UICursor.h" name="StarEngine/jni/Graphics/UI/UICursor.h">
+<area shape="rect" id="node2" href="$_scene_manager_8inl.html" title="StarEngine/jni/Scenes\l/SceneManager.inl" alt="" coords="3305,97,3455,138"/>
+<area shape="rect" id="node21" href="$_base_scene_8cpp.html" title="StarEngine/jni/Scenes\l/BaseScene.cpp" alt="" coords="4230,278,4380,319"/>
+<area shape="rect" id="node22" href="$_scene_manager_8cpp.html" title="StarEngine/jni/Scenes\l/SceneManager.cpp" alt="" coords="4405,278,4555,319"/>
+<area shape="rect" id="node25" href="$_graphics_2_u_i_2_index_8h.html" title="StarEngine/jni/Graphics\l/UI/Index.h" alt="" coords="1818,97,1976,138"/>
+<area shape="rect" id="node31" href="$_u_i_cursor_8cpp.html" title="StarEngine/jni/Graphics\l/UI/UICursor.cpp" alt="" coords="4039,97,4197,138"/>
+<area shape="rect" id="node3" href="$_scene_manager_8h.html" title="StarEngine/jni/Scenes\l/SceneManager.h" alt="" coords="2390,187,2540,229"/>
+<area shape="rect" id="node4" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="776,376,875,403"/>
+<area shape="rect" id="node5" href="$_about_scene_8cpp.html" title="jni/scenes/AboutScene.cpp" alt="" coords="1215,285,1396,312"/>
+<area shape="rect" id="node6" href="$_game_over_scene_8cpp.html" title="jni/scenes/GameOverScene.cpp" alt="" coords="1420,285,1628,312"/>
+<area shape="rect" id="node7" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="1653,285,1835,312"/>
+<area shape="rect" id="node8" href="$_main_menu_8cpp.html" title="jni/scenes/MainMenu.cpp" alt="" coords="1860,285,2031,312"/>
+<area shape="rect" id="node9" href="$_options_scene_8cpp.html" title="jni/scenes/OptionsScene.cpp" alt="" coords="2055,285,2247,312"/>
+<area shape="rect" id="node10" href="$_score_scene_8cpp.html" title="jni/scenes/ScoreScene.cpp" alt="" coords="2271,285,2452,312"/>
+<area shape="rect" id="node11" href="$_tutorial_scene_8cpp.html" title="jni/scenes/TutorialScene.cpp" alt="" coords="2476,285,2665,312"/>
+<area shape="rect" id="node12" href="$_font_manager_8cpp.html" title="StarEngine/jni/Assets\l/FontManager.cpp" alt="" coords="2690,278,2837,319"/>
+<area shape="rect" id="node13" href="$_base_collider_component_8cpp.html" title="StarEngine/jni/Components\l/Physics/BaseColliderComponent.cpp" alt="" coords="2862,278,3103,319"/>
+<area shape="rect" id="node14" href="$_circle_collider_component_8cpp.html" title="StarEngine/jni/Components\l/Physics/CircleColliderComponent.cpp" alt="" coords="3127,278,3371,319"/>
+<area shape="rect" id="node15" href="$_rectangle_collider_component_8cpp.html" title="StarEngine/jni/Components\l/Physics/RectangleColliderComponent.cpp" alt="" coords="3396,278,3665,319"/>
+<area shape="rect" id="node16" href="$_graphics_manager_8cpp.html" title="StarEngine/jni/Graphics\l/GraphicsManager.cpp" alt="" coords="3690,278,3848,319"/>
+<area shape="rect" id="node17" href="$_sprite_batch_8cpp.html" title="StarEngine/jni/Graphics\l/SpriteBatch.cpp" alt="" coords="3873,278,4031,319"/>
+<area shape="rect" id="node18" href="$_game_data_8cpp.html" title="StarEngine/jni/Helpers\l/GameData.cpp" alt="" coords="4055,278,4205,319"/>
+<area shape="rect" id="node19" href="$_input_manager_8cpp.html" title="StarEngine/jni/Input\l/InputManager.cpp" alt="" coords="589,278,723,319"/>
+<area shape="rect" id="node20" href="$_logger_8cpp.html" title="StarEngine/jni/Logger.cpp" alt="" coords="748,285,919,312"/>
+<area shape="rect" id="node23" href="$_slide_scene_8cpp.html" title="StarEngine/jni/Scenes\l/SlideScene.cpp" alt="" coords="414,278,564,319"/>
+<area shape="rect" id="node24" href="$_star_engine_8cpp.html" title="StarEngine/jni/StarEngine.cpp" alt="" coords="943,285,1139,312"/>
+<area shape="rect" id="node26" href="$_slide_scene_8h.html" title="StarEngine/jni/Scenes\l/SlideScene.h" alt="" coords="313,187,463,229"/>
+<area shape="rect" id="node27" href="$_s_s_m_splash_screen_8h.html" title="jni/scenes/SSMSplashScreen.h" alt="" coords="183,285,389,312"/>
+<area shape="rect" id="node29" href="$_splash_screen_8h.html" title="StarEngine/jni/Scenes\l/SplashScreen.h" alt="" coords="6,278,156,319"/>
+<area shape="rect" id="node28" href="$_s_s_m_splash_screen_8cpp.html" title="jni/scenes/SSMSplashScreen.cpp" alt="" coords="179,376,399,403"/>
+<area shape="rect" id="node30" href="$_splash_screen_8cpp.html" title="StarEngine/jni/Scenes\l/SplashScreen.cpp" alt="" coords="5,369,155,410"/>
+</map>

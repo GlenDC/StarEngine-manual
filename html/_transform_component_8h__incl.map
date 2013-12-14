@@ -1,0 +1,10 @@
+<map id="StarEngine/jni/Components/TransformComponent.h" name="StarEngine/jni/Components/TransformComponent.h">
+<area shape="rect" id="node2" href="$defines_8h.html" title="..\\defines.h" alt="" coords="202,395,288,421"/>
+<area shape="rect" id="node14" href="$_base_component_8h.html" title="BaseComponent.h" alt="" coords="207,96,336,123"/>
+<area shape="rect" id="node3" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="5,469,171,496"/>
+<area shape="rect" id="node4" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="147,544,268,571"/>
+<area shape="rect" id="node11" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="345,469,447,496"/>
+<area shape="rect" id="node15" href="$_entity_8h.html" title="../Entity.h" alt="" coords="233,171,311,197"/>
+<area shape="rect" id="node16" href="$_hash_tag_8h.html" title="Helpers/HashTag.h" alt="" coords="258,245,389,272"/>
+<area shape="rect" id="node17" href="$_logger_8h.html" title="../Logger.h" alt="" coords="309,320,392,347"/>
+</map>

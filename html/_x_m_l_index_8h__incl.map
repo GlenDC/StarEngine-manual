@@ -1,0 +1,17 @@
+<map id="StarEngine/jni/Input/XMLIndex.h" name="StarEngine/jni/Input/XMLIndex.h">
+<area shape="rect" id="node2" href="$_x_m_l_container_8h.html" title="XMLContainer.h" alt="" coords="658,96,771,123"/>
+<area shape="rect" id="node25" href="$_x_m_l_file_parser_8h.html" title="XMLFileParser.h" alt="" coords="881,395,999,421"/>
+<area shape="rect" id="node27" href="$_x_m_l_file_serializer_8h.html" title="XMLFileSerializer.h" alt="" coords="1023,395,1156,421"/>
+<area shape="rect" id="node3" href="$defines_8h.html" title="../defines.h" alt="" coords="542,544,628,571"/>
+<area shape="rect" id="node4" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="195,619,360,645"/>
+<area shape="rect" id="node15" href="$_dictionary_8h.html" title="../Helpers/Dictionary.h" alt="" coords="457,171,607,197"/>
+<area shape="rect" id="node5" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="314,693,435,720"/>
+<area shape="rect" id="node12" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="534,619,636,645"/>
+<area shape="rect" id="node17" href="$_helpers_8h.html" title="Helpers.h" alt="" coords="372,320,449,347"/>
+<area shape="rect" id="node19" href="$_logger_8h.html" title="../Logger.h" alt="" coords="499,469,583,496"/>
+<area shape="rect" id="node23" href="$_dictionary_8inl.html" title="Dictionary.inl" alt="" coords="362,245,459,272"/>
+<area shape="rect" id="node20" href="$_color_8h.html" title="../Graphics/Color.h" alt="" coords="625,395,756,421"/>
+<area shape="rect" id="node22" href="$_helpers_8inl.html" title="Helpers.inl" alt="" coords="265,395,348,421"/>
+<area shape="rect" id="node21" href="$_color_8inl.html" title="Color.inl" alt="" coords="608,469,677,496"/>
+<area shape="rect" id="node26" href="$_filepath_8h.html" title="..\\Helpers\\Filepath.h" alt="" coords="932,469,1071,496"/>
+</map>

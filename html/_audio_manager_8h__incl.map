@@ -1,0 +1,9 @@
+<map id="StarEngine/jni/Sound/AudioManager.h" name="StarEngine/jni/Sound/AudioManager.h">
+<area shape="rect" id="node2" href="$_base_sound_8h.html" title="BaseSound.h" alt="" coords="329,171,428,197"/>
+<area shape="rect" id="node20" href="$_sound_file_8h.html" title="SoundFile.h" alt="" coords="420,96,511,123"/>
+<area shape="rect" id="node22" href="$_sound_effect_8h.html" title="SoundEffect.h" alt="" coords="293,96,395,123"/>
+<area shape="rect" id="node3" href="$defines_8h.html" title="../defines.h" alt="" coords="202,253,288,280"/>
+<area shape="rect" id="node4" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="5,336,171,363"/>
+<area shape="rect" id="node5" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="147,411,268,437"/>
+<area shape="rect" id="node12" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="345,336,447,363"/>
+</map>

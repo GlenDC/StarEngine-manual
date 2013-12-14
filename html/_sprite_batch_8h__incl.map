@@ -1,0 +1,22 @@
+<map id="StarEngine/jni/Graphics/SpriteBatch.h" name="StarEngine/jni/Graphics/SpriteBatch.h">
+<area shape="rect" id="node3" href="$defines_8h.html" title="../defines.h" alt="" coords="1073,659,1159,685"/>
+<area shape="rect" id="node16" href="$_shader_8h.html" title="Shader.h" alt="" coords="324,501,399,528"/>
+<area shape="rect" id="node22" href="$_sprite_component_8h.html" title="../Components/Graphics\l/SpriteComponent.h" alt="" coords="477,262,640,303"/>
+<area shape="rect" id="node30" href="$_text_component_8h.html" title="../Components/Graphics\l/TextComponent.h" alt="" coords="857,97,1020,138"/>
+<area shape="rect" id="node4" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="955,741,1120,768"/>
+<area shape="rect" id="node5" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="917,816,1037,843"/>
+<area shape="rect" id="node12" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="1145,741,1247,768"/>
+<area shape="rect" id="node20" href="$jni_2_assets_2_resource_8h.html" title="../Assets/Resource.h" alt="" coords="246,576,391,603"/>
+<area shape="rect" id="node23" href="$_base_component_8h.html" title="../BaseComponent.h" alt="" coords="595,352,736,379"/>
+<area shape="rect" id="node27" href="$_filepath_8h.html" title="../../Helpers/Filepath.h" alt="" coords="811,352,961,379"/>
+<area shape="rect" id="node28" href="$_color_8h.html" title="../../Graphics/Color.h" alt="" coords="1191,501,1333,528"/>
+<area shape="rect" id="node24" href="$_entity_8h.html" title="../Entity.h" alt="" coords="673,427,751,453"/>
+<area shape="rect" id="node25" href="$_hash_tag_8h.html" title="Helpers/HashTag.h" alt="" coords="909,501,1040,528"/>
+<area shape="rect" id="node26" href="$_logger_8h.html" title="../Logger.h" alt="" coords="1398,576,1481,603"/>
+<area shape="rect" id="node29" href="$_color_8inl.html" title="Color.inl" alt="" coords="1191,576,1260,603"/>
+<area shape="rect" id="node31" href="$_font_manager_8h.html" title="../../Assets/FontManager.h" alt="" coords="1112,187,1291,213"/>
+<area shape="rect" id="node33" href="$_helpers_8h.html" title="../Helpers/Helpers.h" alt="" coords="1750,427,1887,453"/>
+<area shape="rect" id="node36" href="$_font_8h.html" title="Font.h" alt="" coords="1257,269,1316,296"/>
+<area shape="rect" id="node42" href="$_transform_component_8h.html" title="../Components/TransformComponent.h" alt="" coords="715,269,960,296"/>
+<area shape="rect" id="node35" href="$_helpers_8inl.html" title="Helpers.inl" alt="" coords="1657,501,1740,528"/>
+</map>

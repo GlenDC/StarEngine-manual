@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classstar_1_1_base_gesture.html" title="star::BaseGesture" alt="" coords="5,56,133,83"/>
+<area shape="rect" id="node2" href="$classstar_1_1_double_tap_gesture.html" title="star::DoubleTapGesture" alt="" coords="182,5,341,32"/>
+<area shape="rect" id="node3" href="$classstar_1_1_swipe_gesture.html" title="star::SwipeGesture" alt="" coords="195,56,328,83"/>
+<area shape="rect" id="node4" href="$classstar_1_1_tap_gesture.html" title="star::TapGesture" alt="" coords="202,107,321,133"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="StarEngine/jni/Graphics/SpriteAnimationManager.h" name="StarEngine/jni/Graphics/SpriteAnimationManager.h">
+<area shape="rect" id="node2" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,104,104,131"/>
+<area shape="rect" id="node3" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="129,104,311,131"/>
+<area shape="rect" id="node4" href="$_spritesheet_component_8cpp.html" title="StarEngine/jni/Components\l/Graphics/SpritesheetComponent.cpp" alt="" coords="335,97,573,138"/>
+<area shape="rect" id="node5" href="$_sprite_animation_manager_8cpp.html" title="StarEngine/jni/Graphics\l/SpriteAnimationManager.cpp" alt="" coords="598,97,791,138"/>
+<area shape="rect" id="node6" href="$_u_i_animated_button_8cpp.html" title="StarEngine/jni/Graphics\l/UI/UIAnimatedButton.cpp" alt="" coords="815,97,987,138"/>
+<area shape="rect" id="node7" href="$_star_engine_8cpp.html" title="StarEngine/jni/StarEngine.cpp" alt="" coords="1011,104,1207,131"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="StarEngine/jni/Input/Gestures/TapGesture.h" name="StarEngine/jni/Input/Gestures/TapGesture.h">
+<area shape="rect" id="node2" href="$_game_scene_8h.html" title="jni/scenes/GameScene.h" alt="" coords="463,104,631,131"/>
+<area shape="rect" id="node8" href="$_input_2_gestures_2_index_8h.html" title="StarEngine/jni/Input\l/Gestures/Index.h" alt="" coords="847,97,981,138"/>
+<area shape="rect" id="node10" href="$_tap_gesture_8cpp.html" title="StarEngine/jni/Input\l/Gestures/TapGesture.cpp" alt="" coords="1006,97,1180,138"/>
+<area shape="rect" id="node3" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,195,104,221"/>
+<area shape="rect" id="node4" href="$_filling_generator_8cpp.html" title="jni/Objects/FillingGenerator.cpp" alt="" coords="129,195,332,221"/>
+<area shape="rect" id="node5" href="$_order_handler_8cpp.html" title="jni/Objects/OrderHandler.cpp" alt="" coords="357,195,547,221"/>
+<area shape="rect" id="node6" href="$_stats_8cpp.html" title="jni/Objects/Stats.cpp" alt="" coords="571,195,715,221"/>
+<area shape="rect" id="node7" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="739,195,921,221"/>
+<area shape="rect" id="node9" href="$_input_2_index_8h.html" title="StarEngine/jni/Input\l/Index.h" alt="" coords="946,187,1080,229"/>
+</map>

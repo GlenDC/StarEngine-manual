@@ -1,0 +1,6 @@
+<map id="star::TimedAction" name="star::TimedAction">
+<area shape="rect" id="node4" href="$classstar_1_1_timed_fade_action.html" title="{star::TimedFadeAction\n|# m_StartColor\l# m_EndColor\l# m_CurrentSeconds\l# m_pSpriteComponent\l|+ TimedFadeAction()\l+ TimedFadeAction()\l+ ~TimedFadeAction()\l+ Restart()\l# Initialize()\l# Update()\l}" alt="" coords="5,821,163,1016"/>
+<area shape="rect" id="node5" href="$classstar_1_1_timed_move_action.html" title="{star::TimedMoveAction\n|# m_Direction\l# m_Target\l# m_StartPosition\l# m_Speed\l# m_CurrentSeconds\l|+ TimedMoveAction()\l+ TimedMoveAction()\l+ TimedMoveAction()\l+ TimedMoveAction()\l+ ~TimedMoveAction()\l+ SetStartPosition()\l+ Restart()\l# Initialize()\l# Update()\l}" alt="" coords="188,792,343,1045"/>
+<area shape="rect" id="node2" href="$classstar_1_1_action.html" title="{star::Action\n|# m_pParent\l# m_IsPaused\l# m_IsInitialized\l|+ Action()\l+ Action()\l+ ~Action()\l+ Destroy()\l+ Restart()\l+ Pause()\l+ Resume()\l+ BaseUpdate()\l+ BaseInitialize()\l+ SetParent()\l+ GetParent()\l# Initialize()\l# Update()\l}" alt="" coords="115,219,233,501"/>
+<area shape="rect" id="node3" href="$classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="111,5,239,171"/>
+</map>

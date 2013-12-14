@@ -1,0 +1,9 @@
+<map id="StarEngine/jni/Scenes/LoadScreen.h" name="StarEngine/jni/Scenes/LoadScreen.h">
+<area shape="rect" id="node2" href="$defines_8h.html" title="../defines.h" alt="" coords="259,253,345,280"/>
+<area shape="rect" id="node14" href="$_shader_8h.html" title="../Graphics/Shader.h" alt="" coords="511,96,653,123"/>
+<area shape="rect" id="node20" href="$_filepath_8h.html" title="../Helpers/Filepath.h" alt="" coords="279,96,417,123"/>
+<area shape="rect" id="node3" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="380,336,545,363"/>
+<area shape="rect" id="node4" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="349,411,469,437"/>
+<area shape="rect" id="node11" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="103,336,205,363"/>
+<area shape="rect" id="node18" href="$jni_2_assets_2_resource_8h.html" title="../Assets/Resource.h" alt="" coords="399,171,544,197"/>
+</map>

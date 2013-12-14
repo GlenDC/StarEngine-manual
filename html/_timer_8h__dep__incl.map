@@ -1,0 +1,10 @@
+<map id="StarEngine/jni/Helpers/Timer.h" name="StarEngine/jni/Helpers/Timer.h">
+<area shape="rect" id="node2" href="$_game_scene_8h.html" title="jni/scenes/GameScene.h" alt="" coords="368,104,536,131"/>
+<area shape="rect" id="node8" href="$_stopwatch_8cpp.html" title="StarEngine/jni/Helpers\l/Stopwatch.cpp" alt="" coords="561,97,711,138"/>
+<area shape="rect" id="node9" href="$_timer_8cpp.html" title="StarEngine/jni/Helpers\l/Timer.cpp" alt="" coords="735,97,885,138"/>
+<area shape="rect" id="node3" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,187,104,213"/>
+<area shape="rect" id="node4" href="$_filling_generator_8cpp.html" title="jni/Objects/FillingGenerator.cpp" alt="" coords="129,187,332,213"/>
+<area shape="rect" id="node5" href="$_order_handler_8cpp.html" title="jni/Objects/OrderHandler.cpp" alt="" coords="357,187,547,213"/>
+<area shape="rect" id="node6" href="$_stats_8cpp.html" title="jni/Objects/Stats.cpp" alt="" coords="571,187,715,213"/>
+<area shape="rect" id="node7" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="739,187,921,213"/>
+</map>

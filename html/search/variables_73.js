@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['saddlebrown',['SaddleBrown',['../structstar_1_1_color.html#acb4114a5b0ad2ca11b5c8278fa49ccb3',1,'star::Color']]],
+  ['salmon',['Salmon',['../structstar_1_1_color.html#a4233136a215553fe170019d45caff492',1,'star::Color']]],
+  ['sandybrown',['SandyBrown',['../structstar_1_1_color.html#a72a9e2397241e6d9b2231a8558f16375',1,'star::Color']]],
+  ['seagreen',['SeaGreen',['../structstar_1_1_color.html#ae3685d05a3d6fc2d7008afc8ad08654b',1,'star::Color']]],
+  ['seashell',['SeaShell',['../structstar_1_1_color.html#afc39c6c377f05287b5a32a33695af8af',1,'star::Color']]],
+  ['secondmultiplier',['SECONDMULTIPLIER',['../namespacestar.html#a59d027e9cec572ce696278934fb3f24c',1,'star']]],
+  ['ser_5fend_5fof_5fattributes',['SER_END_OF_ATTRIBUTES',['../classstar_1_1_x_m_l_container.html#a5bb6be2dab9a1c95575b440440de43cb',1,'star::XMLContainer']]],
+  ['ser_5fend_5fof_5fchild',['SER_END_OF_CHILD',['../classstar_1_1_x_m_l_container.html#a8c64b641b4b48180a0676d3955526e74',1,'star::XMLContainer']]],
+  ['ser_5fend_5fof_5fchildren',['SER_END_OF_CHILDREN',['../classstar_1_1_x_m_l_container.html#a62d4278f9983dc93b09b2bc306a8be60',1,'star::XMLContainer']]],
+  ['ser_5fend_5fof_5fname_5for_5fvalue',['SER_END_OF_NAME_OR_VALUE',['../classstar_1_1_x_m_l_container.html#a8c16497f0dff313fc5e0c8c8a4e40c3d',1,'star::XMLContainer']]],
+  ['ser_5fstart_5fof_5fattributes',['SER_START_OF_ATTRIBUTES',['../classstar_1_1_x_m_l_container.html#a3630ba8c4066bb3fd97c49be28fe63af',1,'star::XMLContainer']]],
+  ['ser_5fstart_5fof_5fchild',['SER_START_OF_CHILD',['../classstar_1_1_x_m_l_container.html#a3463dd6d7bef144f5c1b27ebd3e6ee0f',1,'star::XMLContainer']]],
+  ['ser_5fstart_5fof_5fchildren',['SER_START_OF_CHILDREN',['../classstar_1_1_x_m_l_container.html#aae6201af8c4b0f4bcfb1359045d5e267',1,'star::XMLContainer']]],
+  ['sienna',['Sienna',['../structstar_1_1_color.html#a407ea947683fb0401bf75ae35bc6b244',1,'star::Color']]],
+  ['silver',['Silver',['../structstar_1_1_color.html#a63adc5edd7acc635f7a4b78a73cefa21',1,'star::Color']]],
+  ['size',['size',['../structstar_1_1_serialized_data.html#a16aa59c33007787f7e8ee0dde5a6e502',1,'star::SerializedData']]],
+  ['skyblue',['SkyBlue',['../structstar_1_1_color.html#a9d3acf0da87edfa3552d5c586a6e733d',1,'star::Color']]],
+  ['slateblue',['SlateBlue',['../structstar_1_1_color.html#a90450d40bb352f0a99c73a88b8e4b2d9',1,'star::Color']]],
+  ['slategray',['SlateGray',['../structstar_1_1_color.html#a37b5a2b54540615cf9a1be0f282acb2d',1,'star::Color']]],
+  ['snow',['Snow',['../structstar_1_1_color.html#aa1b2f998a53949899db7375b797917fc',1,'star::Color']]],
+  ['springgreen',['SpringGreen',['../structstar_1_1_color.html#ad08ddd87748334a8eadd77001c89cc03',1,'star::Color']]],
+  ['steelblue',['SteelBlue',['../structstar_1_1_color.html#a0a7fed337db3852b533006a4d487615e',1,'star::Color']]]
+];

@@ -1,0 +1,5 @@
+<map id="star::BaseGesture" name="star::BaseGesture">
+<area shape="rect" id="node2" href="$classstar_1_1_double_tap_gesture.html" title="{star::DoubleTapGesture\n||+ DoubleTapGesture()\l+ ~DoubleTapGesture()\l+ Update()\l}" alt="" coords="5,271,163,377"/>
+<area shape="rect" id="node3" href="$classstar_1_1_swipe_gesture.html" title="{star::SwipeGesture\n||+ SwipeGesture()\l+ ~SwipeGesture()\l+ Update()\l+ GetSwipeDirection()\l+ GetSwipeSpeed()\l+ GetSwipeLength()\l+ SetAngleCheck()\l+ SetAngleFlex()\l+ SetMinSwipeSpeed()\l+ SetMinSwipeDistane()\l}" alt="" coords="188,219,351,429"/>
+<area shape="rect" id="node4" href="$classstar_1_1_tap_gesture.html" title="{star::TapGesture\n||+ TapGesture()\l+ ~TapGesture()\l+ Update()\l}" alt="" coords="375,271,493,377"/>
+</map>

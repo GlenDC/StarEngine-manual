@@ -1,0 +1,4 @@
+<map id="ThoughtBubble" name="ThoughtBubble">
+<area shape="rect" id="node2" href="$classstar_1_1_object.html" title="{star::Object\n|# m_bIsInitialized\l# m_IsVisible\l# m_IsFrozen\l# m_pParentGameObject\l# m_pPathFindComp\l# m_pScene\l# m_pGarbageContainer\l# m_pComponents\l# m_pChildren\l# m_pActions\l# m_GroupTag\l# m_PhysicsTag\l|+ Object()\l+ Object()\l+ Object()\l+ ~Object()\l+ Destroy()\l+ GetParent()\l+ BaseInitialize()\l+ BaseAfterInitialized()\l+ BaseUpdate()\l+ BaseDraw()\land 45 more...\l# DestroyGarbageElement()\l# Initialize()\l# AfterInitialized()\l# Update()\l# Draw()\l# BaseCheckCulling()\l# CheckCulling()\l}" alt="" coords="5,219,187,707"/>
+<area shape="rect" id="node3" href="$classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="32,5,160,171"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="StarEngine/jni/Actions/TimedFadeAction.h" name="StarEngine/jni/Actions/TimedFadeAction.h">
+<area shape="rect" id="node2" href="$_timed_action_8h.html" title="TimedAction.h" alt="" coords="242,96,347,123"/>
+<area shape="rect" id="node20" href="$_color_8h.html" title="../Graphics/Color.h" alt="" coords="320,320,451,347"/>
+<area shape="rect" id="node3" href="$_action_8h.html" title="Action.h" alt="" coords="167,171,237,197"/>
+<area shape="rect" id="node4" href="$_entity_8h.html" title="../Entity.h" alt="" coords="163,245,241,272"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title="defines.h" alt="" coords="208,469,283,496"/>
+<area shape="rect" id="node17" href="$_hash_tag_8h.html" title="Helpers/HashTag.h" alt="" coords="153,320,284,347"/>
+<area shape="rect" id="node6" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="5,544,171,571"/>
+<area shape="rect" id="node7" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="147,619,268,645"/>
+<area shape="rect" id="node14" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="345,544,447,571"/>
+<area shape="rect" id="node18" href="$_logger_8h.html" title="../Logger.h" alt="" coords="203,395,287,421"/>
+<area shape="rect" id="node21" href="$_color_8inl.html" title="Color.inl" alt="" coords="363,395,432,421"/>
+</map>
