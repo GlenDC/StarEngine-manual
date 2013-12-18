@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -114,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -152,6 +151,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_hi_scores.html#a0fecdee840738f9fa47874bf960e8d3a">HiScores</a>
 , <a class="el" href="class_xml_values.html#aa4ba19357130ceaf442a1df67f0852dc">XmlValues</a>
 </li>
+<li>getAboutMenuData()
+: <a class="el" href="class_xml_values.html#add1f13a30e1b11359de79639708b0da7">XmlValues</a>
+</li>
 <li>GetActiveCamera()
 : <a class="el" href="classstar_1_1_base_scene.html#ac96413e01bdc3345aa96a551fb3052eb">star::BaseScene</a>
 </li>
@@ -162,7 +164,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_scale_system.html#a39581bc79c88168c729bb6b794094500">star::ScaleSystem</a>
 </li>
 <li>GetAssetsPath()
-: <a class="el" href="classstar_1_1_filepath.html#a7ba2f321dd1e3877d2956ab3eef66a3d">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#a37e88f358a33890717323fa5f6e26f35">star::FilePath</a>
 </li>
 <li>GetAttribLocation()
 : <a class="el" href="classstar_1_1_shader.html#ae78dcf7f3dc7b768459f4fc9ea537341">star::Shader</a>
@@ -177,16 +179,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_a_a_rect.html#aa9e94385fbda2f2381ca4457fb646399">star::AARect</a>
 </li>
 <li>getBreadScale()
-: <a class="el" href="class_xml_values.html#af869e3f077c9b4c4425b66fd3a25abbf">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a114de4a73b1800574e3e87e51f60d0f8">XmlValues</a>
 </li>
 <li>getBreadSpeed()
-: <a class="el" href="class_xml_values.html#ad45a1241cc8dc150a55ec9759f4d5f01">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a728aa55dd58f0052c97cc99515afe0ee">XmlValues</a>
 </li>
 <li>getBubbleLifetime()
-: <a class="el" href="class_xml_values.html#aa589ddd1377a6dec3a10de385a03226b">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a217cbbf2a8ed279901e8de3fb6c69302">XmlValues</a>
 </li>
 <li>GetBufferize()
 : <a class="el" href="classstar_1_1_resource.html#a661397bca784b4f1d23a54075a984f84">star::Resource</a>
+</li>
+<li>GetCanDebugDraw()
+: <a class="el" href="classstar_1_1_u_i_object.html#a111a370a60782ec74987fc7781bc2641">star::UIObject</a>
 </li>
 <li>GetCenterPoint()
 : <a class="el" href="classstar_1_1_rectangle_collider_component.html#ac40f3a0776b1da791db619ee12204403">star::RectangleColliderComponent</a>
@@ -205,7 +210,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_font.html#ad961e696b680876bca76e6269538b040">star::Font</a>
 </li>
 <li>GetChild()
-: <a class="el" href="classstar_1_1_object.html#a5f6a6777103d9108ded9a5b8cfb8ab2a">star::Object</a>
+: <a class="el" href="classstar_1_1_object.html#a67674e153dfcd127d2f6a6bd1b65d62e">star::Object</a>
 </li>
 <li>GetChildByName()
 : <a class="el" href="classstar_1_1_object.html#afeee2dae07eb8f22d7f9fc5a0319d262">star::Object</a>
@@ -238,7 +243,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_object.html#af004290d9cc43da27b1151c29dc4ae6d">star::Object</a>
 </li>
 <li>GetCorrectPath()
-: <a class="el" href="classstar_1_1_filepath.html#afb82b3179ce380f1aa48421e7ad6afc0">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#ab3066b16048b7e280535ef6dae23c424">star::FilePath</a>
 </li>
 <li>GetCorrectTileset()
 : <a class="el" href="classstar_1_1_tiled_scene.html#a49e1518719f1f9fe3b2090ea1b8486ec">star::TiledScene</a>
@@ -247,7 +252,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_timer.html#a5757a22873234825e10a6726fceb2a57">star::Timer</a>
 </li>
 <li>GetCurrentAnimation()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#aea9dd05e53a834001449658ba486a7f2">star::SpritesheetComponent</a>
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#ac4133366960db05b34a87fe84db9aafc">star::SpriteSheetComponent</a>
 , <a class="el" href="classstar_1_1_u_i_animated_image.html#a3325a897a4f151b5da19bf1b54557e2d">star::UIAnimatedImage</a>
 </li>
 <li>GetCurrentFingerPosCP()
@@ -257,7 +262,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_star_engine.html#a98fe461c20ed430612948fb5ac765ccf">star::StarEngine</a>
 </li>
 <li>GetCurrentFrame()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#a5f05279a32904e1393d4ce59ed268e9e">star::SpritesheetComponent</a>
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#a334cb69929c7f3fddf5c946e5a9116e1">star::SpriteSheetComponent</a>
 , <a class="el" href="classstar_1_1_u_i_animated_image.html#adcd57cb97e2d3f8bb996e426dd45315d">star::UIAnimatedImage</a>
 , <a class="el" href="classstar_1_1_sprite_animation.html#ad20b96784996265bc383027abed58e97">star::SpriteAnimation</a>
 </li>
@@ -267,9 +272,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetCurrentSeconds()
 : <a class="el" href="classstar_1_1_timer.html#ac209b16eff9fafd33be5aa2743e541af">star::Timer</a>
 </li>
-<li>GetcurrentSpritesheet()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#a85b9f8dec7cfc663e5d656d2f02c5d29">star::SpritesheetComponent</a>
-, <a class="el" href="classstar_1_1_u_i_animated_image.html#af46df930b3ff65dc8b867aba5cdf4ab1">star::UIAnimatedImage</a>
+<li>GetCurrentSpritesheet()
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#ae6fd018ee83c5eb58fda155766b31c43">star::SpriteSheetComponent</a>
+, <a class="el" href="classstar_1_1_u_i_animated_image.html#a8e31e128c8e3f633b0c476a0608c8278">star::UIAnimatedImage</a>
 </li>
 <li>GetCurrentState()
 : <a class="el" href="classstar_1_1_state_manager.html#a4aa34e1161a9cb47e77edce6f8cc68b1">star::StateManager</a>
@@ -287,28 +292,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_sprite_animation.html#a2bfd75fb70706313887fd580dc835e90">star::SpriteAnimation</a>
 </li>
 <li>getCustomerFadetimeComing()
-: <a class="el" href="class_xml_values.html#a42e012dd27bbbc8361efd0ed06e0bb86">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a972c76e49429094b464b0e24cea8b74a">XmlValues</a>
 </li>
 <li>getCustomerFadetimeLeaving()
-: <a class="el" href="class_xml_values.html#a1dd931833ee567529e83cc9c64363e01">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a66b2643e3d7d04ee9e399306b6139d24">XmlValues</a>
 </li>
 <li>getCustomerFrequency()
-: <a class="el" href="class_xml_values.html#a1a6790e8baf758d5868d32335ed73849">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a59e55172a161ab4863ef4056764511c8">XmlValues</a>
 </li>
 <li>getCustomerPatience()
-: <a class="el" href="class_xml_values.html#af0f69f8733080ddb45ea053180fb4a21">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a7f0ae7e5c3938c4814fcbddc097c5d5b">XmlValues</a>
 </li>
 <li>getCustomerPatienceWave()
-: <a class="el" href="class_xml_values.html#a7ff5a57a5899fda9df7df4da29cb09cd">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a17f8a7c02f0ad221752422d9cd3cdae3">XmlValues</a>
 </li>
 <li>getCustomerPatienceWaveMax()
-: <a class="el" href="class_xml_values.html#a441d4a4dfce0c6bca65721511ccc1f50">XmlValues</a>
+: <a class="el" href="class_xml_values.html#aa92a90d2ed6a36a868c5430a202bae1c">XmlValues</a>
 </li>
 <li>GetData()
 : <a class="el" href="classstar_1_1_game_data.html#abe54103e4f53f55b0aeefb2c049f4fcc">star::GameData</a>
 </li>
+<li>GetDebugDrawColor()
+: <a class="el" href="classstar_1_1_u_i_object.html#a2c0b1ad819f198ded9c02bee9336ea5d">star::UIObject</a>
+</li>
+<li>GetDebugDrawStyle()
+: <a class="el" href="classstar_1_1_u_i_object.html#a97576166254261ad5fc0d6f72ad62fe5">star::UIObject</a>
+</li>
 <li>GetDefaultAnimation()
-: <a class="el" href="classstar_1_1_spritesheet.html#a52cbd4b6545f7d6d88e002390d52db98">star::Spritesheet</a>
+: <a class="el" href="classstar_1_1_sprite_sheet.html#a44af2f2ddd67234a62921f080d04b01b">star::SpriteSheet</a>
 </li>
 <li>GetDiagonal()
 : <a class="el" href="classstar_1_1_rect.html#a672872f5060f6b60afd4f8d0795b2885">star::Rect</a>
@@ -332,6 +343,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetDrawSegments()
 : <a class="el" href="classstar_1_1_circle_collider_component.html#acbc0c50b47de219bed5bd889ca06fbb5">star::CircleColliderComponent</a>
 </li>
+<li>getEffectVolume()
+: <a class="el" href="class_hi_scores.html#a0c2982895c2662a708a9f2638b57943a">HiScores</a>
+</li>
 <li>GetEffectVolume()
 : <a class="el" href="classstar_1_1_audio_manager.html#a3f15203b869d76febb4f9f40fc231654">star::AudioManager</a>
 </li>
@@ -342,10 +356,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_base_collider_component.html#ac81806f07c7105189462a69aa35503c0">star::BaseColliderComponent</a>
 </li>
 <li>GetExtension()
-: <a class="el" href="classstar_1_1_filepath.html#abc437e51ced6d72c888f81fef5aa61b8">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#aa0335f44b6cc1cd770b9e1d5859681ca">star::FilePath</a>
 </li>
 <li>GetExternalPath()
-: <a class="el" href="classstar_1_1_filepath.html#ab2c5eccddfe96ff7a13b8c4e96e58150">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#a5ce3ec21bd79af87fb77a488d34dd272">star::FilePath</a>
 </li>
 <li>GetF()
 : <a class="el" href="structstar_1_1_search_cell.html#a89090cdc7a1a789415586a7918735b96">star::SearchCell</a>
@@ -357,7 +371,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_customer.html#ab1807929a6378300ac6ea69a83c183c3">Customer</a>
 </li>
 <li>GetFile()
-: <a class="el" href="classstar_1_1_filepath.html#a5f9f64a95e3ed577bf9a230a250ee851">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#a746c92e858d79c5a77df531fe3934a96">star::FilePath</a>
 </li>
 <li>GetFilePath()
 : <a class="el" href="classstar_1_1_sprite_component.html#a486211e4a98fc5ebdd0551beea4528f3">star::SpriteComponent</a>
@@ -375,14 +389,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_path_find_manager.html#ab808b4743e6a0c423de17ad20db9359f">star::PathFindManager</a>
 </li>
 <li>GetFramesHorizontal()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#aebde15512db67fd35e4d085494a00307">star::SpritesheetComponent</a>
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#a29fa178dbf216294cb222c5ba5232456">star::SpriteSheetComponent</a>
 , <a class="el" href="classstar_1_1_u_i_animated_image.html#a4ccc31c7f5f670a79963b86078284fd1">star::UIAnimatedImage</a>
-, <a class="el" href="classstar_1_1_spritesheet.html#a49dbbd416b47e194fd33a36238e94828">star::Spritesheet</a>
+, <a class="el" href="classstar_1_1_sprite_sheet.html#a8adda0ab6fd8bed00c6036dfb52f4c92">star::SpriteSheet</a>
 </li>
 <li>GetFramesVertical()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#a16e3bb730695fb819ef9c48881091175">star::SpritesheetComponent</a>
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#a2267b0f36fd7a61068aa0c8c3fb02e4e">star::SpriteSheetComponent</a>
 , <a class="el" href="classstar_1_1_u_i_animated_image.html#adb6d95c3ef0c59106ea46ed033778306">star::UIAnimatedImage</a>
-, <a class="el" href="classstar_1_1_spritesheet.html#a5b6eb54256177b1f0c4c3c08fed60650">star::Spritesheet</a>
+, <a class="el" href="classstar_1_1_sprite_sheet.html#a3ea3f4088b7b4b2f9ac43c2dae2c7fdd">star::SpriteSheet</a>
 </li>
 <li>GetGameScene()
 : <a class="el" href="classstar_1_1_base_component.html#ad5b2b8bfd9d5feb24a3a0ccbfdf312cc">star::BaseComponent</a>
@@ -391,11 +405,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_star_engine.html#a370a4b9b3c14b5f1ec41f1ac0c12b0b1">star::StarEngine</a>
 </li>
 <li>GetGesture()
-: <a class="el" href="classstar_1_1_gesture_manager.html#a81e35e116eab05101b31ade72aead377">star::GestureManager</a>
+: <a class="el" href="classstar_1_1_gesture_manager.html#a9eaa9a97ed6d372fcd3842093e5458e7">star::GestureManager</a>
+</li>
+<li>GetGestureByName()
+: <a class="el" href="classstar_1_1_base_scene.html#a8a8138f3c63bb2d9affccf76382ea36b">star::BaseScene</a>
 </li>
 <li>GetGestureManager()
 : <a class="el" href="classstar_1_1_input_manager.html#a4fa7a736eda6f3ddd82a80b177fa7c18">star::InputManager</a>
 , <a class="el" href="classstar_1_1_base_scene.html#a09d519fe5ac2977371f03cf0725f45ad">star::BaseScene</a>
+</li>
+<li>GetGlobalGesture()
+: <a class="el" href="classstar_1_1_input_manager.html#af552c91a5f4a041544f5de205ea15dad">star::InputManager</a>
 </li>
 <li>GetGroup()
 : <a class="el" href="classstar_1_1_base_scene.html#a8cd73587f79ca073eabe46c19edc2080">star::BaseScene</a>
@@ -410,8 +430,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_graphics_manager.html#af5ac055d6551dba7a1327c15ccb28c91">star::GraphicsManager</a>
 </li>
 <li>GetHeight()
-: <a class="el" href="classstar_1_1_texture2_d.html#aabd41498fc8eafc76c5c9f16ec53af4f">star::Texture2D</a>
-, <a class="el" href="classstar_1_1_base_component.html#ac7679b92485b4e4a7f1e8cedf4604f93">star::BaseComponent</a>
+: <a class="el" href="classstar_1_1_base_component.html#ac7679b92485b4e4a7f1e8cedf4604f93">star::BaseComponent</a>
+, <a class="el" href="classstar_1_1_texture2_d.html#aabd41498fc8eafc76c5c9f16ec53af4f">star::Texture2D</a>
 , <a class="el" href="classstar_1_1_u_i_animated_image.html#a2d8245ba61757b335d43b9fae1f2b36a">star::UIAnimatedImage</a>
 , <a class="el" href="classstar_1_1_u_i_text_field.html#a4bb1102ae029f6efe59179ed33c70bd8">star::UITextField</a>
 , <a class="el" href="classstar_1_1_rect.html#a099bafceb69cc6a2e7fe062860a4fb6c">star::Rect</a>
@@ -426,36 +446,37 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_shader.html#a87c77628491282cd7f824b41a077f25e">star::Shader</a>
 </li>
 <li>getIngredientScale()
-: <a class="el" href="class_xml_values.html#a9cf659a7e61ae4c9a2b101a8a0cf79bb">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a57a679b6bafea91702ba52b8363b4533">XmlValues</a>
 </li>
 <li>getIngredientSpeed()
-: <a class="el" href="class_xml_values.html#aab5b34b66177daa44cea390e219d8659">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a56ec67717fab69c2a8ebd3c1b6c43da7">XmlValues</a>
 </li>
 <li>getIngredientSpeedWave()
-: <a class="el" href="class_xml_values.html#a04c99e701fb0e6da88ddd41f2e2d26f3">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a874b74d47890b2e427929e5753bceeb0">XmlValues</a>
 </li>
 <li>getIngredientSpeedWaveMax()
-: <a class="el" href="class_xml_values.html#aa4c4b573e722c24a751abc7df10792e0">XmlValues</a>
+: <a class="el" href="class_xml_values.html#af564b94d86d84d4cfab292b3e3393373">XmlValues</a>
 </li>
 <li>GetInitializedGoal()
 : <a class="el" href="classstar_1_1_path_find_manager.html#a3843edca68b4208de7b7a624afff7925">star::PathFindManager</a>
 </li>
 <li>GetInstance()
-: <a class="el" href="classstar_1_1_scale_system.html#a78730aa210eaf0d2a9c1b10dadbe16da">star::ScaleSystem</a>
+: <a class="el" href="classstar_1_1_path_find_manager.html#a128a267ee0af08abb0214f3ea17a7169">star::PathFindManager</a>
+, <a class="el" href="classstar_1_1_font_manager.html#a290ac0bdc831d92fe18c8cca0ad92417">star::FontManager</a>
+, <a class="el" href="classstar_1_1_graphics_manager.html#a22b87115a3b5e5ea01461bab2759872c">star::GraphicsManager</a>
+, <a class="el" href="classstar_1_1_scale_system.html#a78730aa210eaf0d2a9c1b10dadbe16da">star::ScaleSystem</a>
 , <a class="el" href="classstar_1_1_sprite_animation_manager.html#aaa6ebf47454d340d6ed49e63d838e7e5">star::SpriteAnimationManager</a>
 , <a class="el" href="classstar_1_1_sprite_batch.html#a4cd5443dc62e05cf85f2d3a38518dcef">star::SpriteBatch</a>
+, <a class="el" href="classstar_1_1_texture_manager.html#a41ee90a3ccd7e3d3d3fc78fa1e7ba973">star::TextureManager</a>
+, <a class="el" href="classstar_1_1_debug_draw.html#a149cb5ca64199ebeeb3f38ca0680c1c5">star::DebugDraw</a>
 , <a class="el" href="classstar_1_1_input_manager.html#a4180ffd35c3cfcf37a911a3cb8c32cd0">star::InputManager</a>
 , <a class="el" href="classstar_1_1_logger.html#a58eeb7c412fee50c915a2a5122f691e6">star::Logger</a>
 , <a class="el" href="classstar_1_1_scene_manager.html#a6a45525c452c266bb9e57d9bf18f4ff6">star::SceneManager</a>
 , <a class="el" href="classstar_1_1_audio_manager.html#a9c77b62628b9e1dec3a73304752486e1">star::AudioManager</a>
 , <a class="el" href="classstar_1_1_star_engine.html#aba4fe1d88ebb4d1c56d08ce6dfed3605">star::StarEngine</a>
-, <a class="el" href="classstar_1_1_path_find_manager.html#a128a267ee0af08abb0214f3ea17a7169">star::PathFindManager</a>
-, <a class="el" href="classstar_1_1_font_manager.html#a290ac0bdc831d92fe18c8cca0ad92417">star::FontManager</a>
-, <a class="el" href="classstar_1_1_texture_manager.html#a41ee90a3ccd7e3d3d3fc78fa1e7ba973">star::TextureManager</a>
-, <a class="el" href="classstar_1_1_graphics_manager.html#a22b87115a3b5e5ea01461bab2759872c">star::GraphicsManager</a>
 </li>
 <li>GetInternalPath()
-: <a class="el" href="classstar_1_1_filepath.html#aab7325b21c06b73886a1e44eb24fe2d3">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#a84d22001212d207d3d5b3ace779b7769">star::FilePath</a>
 </li>
 <li>GetLayers()
 : <a class="el" href="classstar_1_1_base_collider_component.html#a1a9e272edc180de52b7b048e77641278">star::BaseColliderComponent</a>
@@ -473,7 +494,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_resource.html#a96f0ead930592e30e2e897e5482aa113">star::Resource</a>
 </li>
 <li>GetLocalPath()
-: <a class="el" href="classstar_1_1_filepath.html#a7a153b3dda7dbc8106aaec46600f5dba">star::Filepath</a>
+: <a class="el" href="classstar_1_1_file_path.html#aa8f93155fb55673c7f24084c77d4ad1c">star::FilePath</a>
 </li>
 <li>GetLocalPosition()
 : <a class="el" href="classstar_1_1_transform_component.html#a81c1ab094384446291471ad1cfc165cc">star::TransformComponent</a>
@@ -486,6 +507,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetLongestLine()
 : <a class="el" href="classstar_1_1_text_component.html#a52f772c5d6d0b9c7e64a39ea282dab61">star::TextComponent</a>
+</li>
+<li>getMainMenuData()
+: <a class="el" href="class_xml_values.html#a692b38f3dcc86378aa94fd011be1f117">XmlValues</a>
 </li>
 <li>GetMaxLetterHeight()
 : <a class="el" href="classstar_1_1_font.html#aaf4432b674566929316c03f77ad4707b">star::Font</a>
@@ -508,25 +532,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetMt19937Engine()
 : <a class="el" href="classstar_1_1_star_engine.html#aa55e58a05639a38675244281dc6c63b2">star::StarEngine</a>
 </li>
+<li>getMusicVolume()
+: <a class="el" href="class_hi_scores.html#a6158c2120c10b119c377cf1e3b5378c6">HiScores</a>
+</li>
 <li>GetMusicVolume()
 : <a class="el" href="classstar_1_1_audio_manager.html#a83c50335e2d39216e9871fcac5d040a5">star::AudioManager</a>
 </li>
 <li>GetName()
-: <a class="el" href="classstar_1_1_spritesheet.html#aa0f1f2297b02b24dce8f5bb0a30bc32b">star::Spritesheet</a>
+: <a class="el" href="classstar_1_1_file_path.html#a97931706e3b56e4b27cca92609f7c696">star::FilePath</a>
 , <a class="el" href="classstar_1_1_sprite_component.html#a0c507620bf0ccc1e904b1e503ac4f821">star::SpriteComponent</a>
 , <a class="el" href="classstar_1_1_entity.html#a5ac835ce1596d3754062e6e6c5fad302">star::Entity</a>
-, <a class="el" href="classstar_1_1_filepath.html#a30a14bf448768dcef0bf2805e25854c8">star::Filepath</a>
 , <a class="el" href="classstar_1_1_sprite_animation.html#a61c6b288de9584e4f53415c9c3700e15">star::SpriteAnimation</a>
+, <a class="el" href="classstar_1_1_sprite_sheet.html#ab5b552a5830094a2f9a57a7d10d904e9">star::SpriteSheet</a>
 , <a class="el" href="classstar_1_1_x_m_l_container.html#ab1b328a7618535a9cc5f3586ff8bb9de">star::XMLContainer</a>
 </li>
 <li>GetObjectByName()
-: <a class="el" href="classstar_1_1_base_scene.html#a749cb2a3c899a101d948a504c2f70238">star::BaseScene</a>
+: <a class="el" href="classstar_1_1_base_scene.html#aa01315c514d6e3f94df0907a06eb3f98">star::BaseScene</a>
 </li>
 <li>GetOldFingerPosCP()
 : <a class="el" href="classstar_1_1_input_manager.html#a896677128c468bb8636f647fbb22160c">star::InputManager</a>
 </li>
 <li>GetOldTouchPosANDR()
 : <a class="el" href="classstar_1_1_input_manager.html#a4cb68d3209c8f86e5044aad0c2fbe6ff">star::InputManager</a>
+</li>
+<li>getOptionsMenuData()
+: <a class="el" href="class_xml_values.html#a3bff8d2b63cd347cad0cc6731836f8b9">XmlValues</a>
 </li>
 <li>getOrder()
 : <a class="el" href="class_order.html#a229e6bd245de8b7a01d3ac48c934a607">Order</a>
@@ -544,9 +574,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classstar_1_1_object.html#a4f405b5b9d81ea80e57d4b2578a2d7ee">star::Object</a>
 </li>
 <li>GetPath()
-: <a class="el" href="classstar_1_1_resource.html#a8dc20e514003eb5f6f62985a0a6dbc9f">star::Resource</a>
-, <a class="el" href="classstar_1_1_texture2_d.html#a135dd9aee2cd6ee85ec02edef840d2e1">star::Texture2D</a>
-, <a class="el" href="classstar_1_1_filepath.html#a2dd0e0c3802b351de04c7bdc5dc6c333">star::Filepath</a>
+: <a class="el" href="classstar_1_1_texture2_d.html#a135dd9aee2cd6ee85ec02edef840d2e1">star::Texture2D</a>
+, <a class="el" href="classstar_1_1_resource.html#a8dc20e514003eb5f6f62985a0a6dbc9f">star::Resource</a>
+, <a class="el" href="classstar_1_1_file_path.html#a051d6729f4ac4d4be8ce385847ab9a8c">star::FilePath</a>
 </li>
 <li>GetPercent()
 : <a class="el" href="classstar_1_1_u_i_slider.html#a7a30c0fb749ae5ff31c56b7d431959ff">star::UISlider</a>
@@ -561,7 +591,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_customer.html#aa7dadfbff2af9d2f1a57cfd9d8cd6998">Customer</a>
 </li>
 <li>GetPosition()
-: <a class="el" href="class_falling_object.html#a2b5aa9ec7904667f98751ca86b8129a7">FallingObject</a>
+: <a class="el" href="classstar_1_1_circle_collider_component.html#a177625a9c6942c739a2f98a8570dbf46">star::CircleColliderComponent</a>
+, <a class="el" href="class_falling_object.html#a2b5aa9ec7904667f98751ca86b8129a7">FallingObject</a>
 , <a class="el" href="classstar_1_1_circle_collider_component.html#acec842bea8df46ee3f555c54c42bfd23">star::CircleColliderComponent</a>
 , <a class="el" href="classstar_1_1_u_i_object.html#a716a01b274b4bead271fc47674b3f302">star::UIObject</a>
 </li>
@@ -569,25 +600,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_stats.html#ab99146487951723e8c8f198961ac97bd">Stats</a>
 </li>
 <li>getPressureDecay()
-: <a class="el" href="class_xml_values.html#ab8bb01a9a9b7f72cceb2c4e2c2e85b2d">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a60a4739a142b918754742bed166324e5">XmlValues</a>
 </li>
 <li>getPressureDecayWave()
-: <a class="el" href="class_xml_values.html#a5e1cf4f408b3133aa0f1342bece69d5a">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a67e4c575470d52c3baabeaee9770abee">XmlValues</a>
 </li>
 <li>getPressureDecayWaveMax()
-: <a class="el" href="class_xml_values.html#a1a3136f8859908ee3ebd337bfb2cf9bf">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a88bbddbdbcdd57610fb2ea7ec8ff3dc4">XmlValues</a>
 </li>
 <li>getPressureFailure()
-: <a class="el" href="class_xml_values.html#ad1c7b89a77e8a01a8b8eb13c1d9dc97a">XmlValues</a>
+: <a class="el" href="class_xml_values.html#ab3bfcf5dec9de602dac0084cc26f0e4a">XmlValues</a>
 </li>
 <li>getPressurePartialFailure()
-: <a class="el" href="class_xml_values.html#ad8d85d9fc7b4a36252dd731bb03fdd3c">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a1044f9adbd00c3e28383b992fcf1a243">XmlValues</a>
 </li>
 <li>getPressurePartialSuccess()
-: <a class="el" href="class_xml_values.html#a3f87824d577bc31b71eb6e2e2c770304">XmlValues</a>
+: <a class="el" href="class_xml_values.html#abbf1f7432ea25a7db15f805258810c54">XmlValues</a>
 </li>
 <li>getPressureSuccess()
-: <a class="el" href="class_xml_values.html#a63ef060990b92b3da2205400f253dd2e">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a5a1e430b26c64a2b1f100fba84d6858f">XmlValues</a>
 </li>
 <li>GetPreviousFPS()
 : <a class="el" href="classstar_1_1_star_engine.html#a72cce2f4513acd7b7a6d523750596c37">star::StarEngine</a>
@@ -635,15 +666,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_scale_system.html#a4331b8668af1bed931537026199fd04d">star::ScaleSystem</a>
 </li>
 <li>GetScene()
-: <a class="el" href="classstar_1_1_scene_manager.html#a130e1def92e8dcdd80f0e9527352b65c">star::SceneManager</a>
+: <a class="el" href="classstar_1_1_scene_manager.html#a2a55abc13d8ca4c4c2c393ef22d0d4e4">star::SceneManager</a>
 , <a class="el" href="classstar_1_1_object.html#a1d348e6fc0780a26ca40e3cb047f10ee">star::Object</a>
-, <a class="el" href="classstar_1_1_scene_manager.html#a2a55abc13d8ca4c4c2c393ef22d0d4e4">star::SceneManager</a>
 </li>
 <li>getScore()
 : <a class="el" href="class_stats.html#ac6aa3456dee32259846590839f441924">Stats</a>
 </li>
+<li>getScoreMenuData()
+: <a class="el" href="class_xml_values.html#ae18bca414a58ef7ac140c6242d7df8e8">XmlValues</a>
+</li>
 <li>getScorePerIngredient()
-: <a class="el" href="class_xml_values.html#ac47f90eece1d95d2f0d8039be595d928">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a32427936892f3fdf187e77e282052855">XmlValues</a>
 </li>
 <li>GetScreenHeight()
 : <a class="el" href="classstar_1_1_graphics_manager.html#ad1b826e78535f95e70cc5d1b3ef650d3">star::GraphicsManager</a>
@@ -661,19 +694,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_time_manager.html#af0efc17c20c70ec55919c15e22474a53">star::TimeManager</a>
 </li>
 <li>getSpawnRateMax()
-: <a class="el" href="class_xml_values.html#a46292dde0579b0895e53f92ca7218a9f">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a12c2c8b4dc57cfd22de7d7d5b641ebcd">XmlValues</a>
 </li>
 <li>getSpawnRateMin()
-: <a class="el" href="class_xml_values.html#addff596502a66157b166ac45c0b92fc8">XmlValues</a>
+: <a class="el" href="class_xml_values.html#aabb1571ac38ef3d187247e7c5842082e">XmlValues</a>
 </li>
 <li>getSpawnRateWave()
-: <a class="el" href="class_xml_values.html#a7ed475613630d2d3fb564c0e18f6ff3d">XmlValues</a>
+: <a class="el" href="class_xml_values.html#aa01fa9a9e414d6e9f05d81e5b6916234">XmlValues</a>
 </li>
 <li>getSpawnRateWaveMax()
-: <a class="el" href="class_xml_values.html#a5dcde77f21a75b43f1bfb9d61481fb53">XmlValues</a>
+: <a class="el" href="class_xml_values.html#abe79560ad35a5c20fac05a4daf2219b3">XmlValues</a>
+</li>
+<li>getSplashScreenMenuData()
+: <a class="el" href="class_xml_values.html#a504db4288dfed430e973daa85a5347e6">XmlValues</a>
 </li>
 <li>GetSpritesheet()
-: <a class="el" href="classstar_1_1_sprite_animation_manager.html#a61fa8e3ce386de1e829edabe279c400a">star::SpriteAnimationManager</a>
+: <a class="el" href="classstar_1_1_sprite_animation_manager.html#a819f0a1e75335efe5b97e0057caf457c">star::SpriteAnimationManager</a>
 </li>
 <li>GetSpritesheetName()
 : <a class="el" href="classstar_1_1_tiled_scene.html#aee1dbe0e53ba87377486ed984b6df2ec">star::TiledScene</a>
@@ -704,12 +740,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_timer.html#a2c521561efb1b86058eb0514640216c8">star::Timer</a>
 </li>
 <li>GetText()
-: <a class="el" href="classstar_1_1_u_i_text_field.html#ad7cf53a14da3126fc863fe0afdef7029">star::UITextField</a>
-, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#aa0e82e085e87ecbf49475b76d51255f8">star::UIAnimatedTextButton</a>
-, <a class="el" href="classstar_1_1_u_i_static_text_button.html#a0e3178075b85f59e5309c3958be0dc5f">star::UIStaticTextButton</a>
-, <a class="el" href="classstar_1_1_text_component.html#adfeb1eb91af75d75374de10d22b979a3">star::TextComponent</a>
+: <a class="el" href="classstar_1_1_text_component.html#adfeb1eb91af75d75374de10d22b979a3">star::TextComponent</a>
 , <a class="el" href="classstar_1_1_u_i_simple_text_button.html#ab24d2b3ebecb92ac6d509de549a56371">star::UISimpleTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_static_text_button.html#a0e3178075b85f59e5309c3958be0dc5f">star::UIStaticTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_text_button.html#af1178abed4211bc90081042c1cc90000">star::UITextButton</a>
+, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#aa0e82e085e87ecbf49475b76d51255f8">star::UIAnimatedTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_text_field.html#ad7cf53a14da3126fc863fe0afdef7029">star::UITextField</a>
 </li>
 <li>GetTextureDimensions()
 : <a class="el" href="classstar_1_1_texture_manager.html#a21d07ecccdb6a6696c82288c7c19817d">star::TextureManager</a>
@@ -746,8 +782,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_input_manager.html#aa728ed2933ba27fbcf8587cddffc4aa1">star::InputManager</a>
 </li>
 <li>GetTransform()
-: <a class="el" href="classstar_1_1_object.html#aa31c1301595ffae34dc199c1b887e804">star::Object</a>
-, <a class="el" href="classstar_1_1_base_component.html#ab44b7d809c276de1523e5903fa756968">star::BaseComponent</a>
+: <a class="el" href="classstar_1_1_base_component.html#ab44b7d809c276de1523e5903fa756968">star::BaseComponent</a>
+, <a class="el" href="classstar_1_1_object.html#aa31c1301595ffae34dc199c1b887e804">star::Object</a>
+</li>
+<li>getTutorialMenuData()
+: <a class="el" href="class_xml_values.html#abb81de733a5b4d5b74ad539cb9c0a0df">XmlValues</a>
 </li>
 <li>GetType()
 : <a class="el" href="class_falling_object.html#ae6d1b4d43e41b497485d583216cef1ec">FallingObject</a>
@@ -792,10 +831,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_graphics_manager.html#ac4eadadad207244e39e1186b5a8dffaa">star::GraphicsManager</a>
 </li>
 <li>GetVolume()
-: <a class="el" href="classstar_1_1_audio_manager.html#abfab50319065094ca46c86679ec69932">star::AudioManager</a>
-, <a class="el" href="classstar_1_1_sound_effect.html#a1d206ab7ad34dc7f5bd76f83da24d644">star::SoundEffect</a>
-, <a class="el" href="classstar_1_1_sound_file.html#aacecf6cc7867331c81d2a76a920eb9bc">star::SoundFile</a>
+: <a class="el" href="classstar_1_1_sound_effect.html#a1d206ab7ad34dc7f5bd76f83da24d644">star::SoundEffect</a>
 , <a class="el" href="classstar_1_1_base_sound.html#aa0d4f7439999a398680c87601c525c97">star::BaseSound</a>
+, <a class="el" href="classstar_1_1_sound_file.html#aacecf6cc7867331c81d2a76a920eb9bc">star::SoundFile</a>
+, <a class="el" href="classstar_1_1_audio_manager.html#abfab50319065094ca46c86679ec69932">star::AudioManager</a>
 </li>
 <li>GetVSync()
 : <a class="el" href="classstar_1_1_graphics_manager.html#a07177f533550e1550b7098f867d85cf8">star::GraphicsManager</a>
@@ -804,14 +843,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_game_scene.html#ac1b89f6ebfe61f08d980ae9af7285f58">GameScene</a>
 </li>
 <li>getWaveTime()
-: <a class="el" href="class_xml_values.html#a9958801dd38d948c5d77130121a008a9">XmlValues</a>
+: <a class="el" href="class_xml_values.html#aca5d821b533fb0aef87ce50aa10c0146">XmlValues</a>
 </li>
 <li>GetWidth()
 : <a class="el" href="classstar_1_1_base_component.html#ac482dd7c67becf46cf5eb8e563f9c5f7">star::BaseComponent</a>
+, <a class="el" href="classstar_1_1_u_i_animated_image.html#a97f0ec1b730d2fb9f88c127adf5e88e6">star::UIAnimatedImage</a>
+, <a class="el" href="classstar_1_1_rect.html#a02f4d7fa0c72324e4f54340a665a3374">star::Rect</a>
 , <a class="el" href="classstar_1_1_texture2_d.html#a8e1760de227e5619c3c5b83d8466ca99">star::Texture2D</a>
 , <a class="el" href="classstar_1_1_u_i_text_field.html#a8cf9291abdc2a7ae8309dd4958420b9d">star::UITextField</a>
-, <a class="el" href="classstar_1_1_rect.html#a02f4d7fa0c72324e4f54340a665a3374">star::Rect</a>
-, <a class="el" href="classstar_1_1_u_i_animated_image.html#a97f0ec1b730d2fb9f88c127adf5e88e6">star::UIAnimatedImage</a>
 </li>
 <li>GetWindowAspectRatio()
 : <a class="el" href="classstar_1_1_graphics_manager.html#ad349ca331e6a42e98caf59b9301e9c06">star::GraphicsManager</a>
@@ -847,26 +886,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_camera_component.html#a47013000a74130b5c6ea950d91c81475">star::CameraComponent</a>
 </li>
 <li>GoDisable()
-: <a class="el" href="classstar_1_1_u_i_animated_button.html#a2cbcae8ec4f183e4e7d7aa69ab448e7f">star::UIAnimatedButton</a>
-, <a class="el" href="classstar_1_1_u_i_text_button.html#ab652f87a612eb603520cc9bd0cb1997b">star::UITextButton</a>
-, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a365e90a1762b1b550365201bc6b4f73d">star::UIAnimatedTextButton</a>
+: <a class="el" href="classstar_1_1_u_i_text_button.html#ab652f87a612eb603520cc9bd0cb1997b">star::UITextButton</a>
+, <a class="el" href="classstar_1_1_u_i_animated_button.html#a2cbcae8ec4f183e4e7d7aa69ab448e7f">star::UIAnimatedButton</a>
 , <a class="el" href="classstar_1_1_u_i_button.html#a96538d623e20307488092896acdc7c28">star::UIButton</a>
 , <a class="el" href="classstar_1_1_u_i_user_element.html#ac921467f57223fdcf12ccc257c68bc53">star::UIUserElement</a>
+, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a365e90a1762b1b550365201bc6b4f73d">star::UIAnimatedTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_simple_text_button.html#adca5e46932a8ffc6b6d2fd5c6b8258bb">star::UISimpleTextButton</a>
 </li>
 <li>GoDown()
-: <a class="el" href="classstar_1_1_u_i_text_button.html#aaaf7049227def2d21341a02bc8ce5106">star::UITextButton</a>
+: <a class="el" href="classstar_1_1_u_i_simple_text_button.html#aa10c86038b098232b55e4564b5a7114f">star::UISimpleTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#ae670df07e1ed629d10e9f5255e29a05d">star::UIAnimatedTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_text_button.html#aaaf7049227def2d21341a02bc8ce5106">star::UITextButton</a>
 , <a class="el" href="classstar_1_1_u_i_animated_button.html#a818a5ec41aef1ce8aac03bcaf42af11b">star::UIAnimatedButton</a>
 , <a class="el" href="classstar_1_1_u_i_user_element.html#afbcaf86936d70fa9a9f34127194f3a85">star::UIUserElement</a>
-, <a class="el" href="classstar_1_1_u_i_simple_text_button.html#aa10c86038b098232b55e4564b5a7114f">star::UISimpleTextButton</a>
-, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#ae670df07e1ed629d10e9f5255e29a05d">star::UIAnimatedTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_button.html#ae2f04cc5cb3539f9537ce743c273c014">star::UIButton</a>
 </li>
 <li>GoIdle()
-: <a class="el" href="classstar_1_1_u_i_simple_text_button.html#a87901c4512a2cecafa369bd9daffca89">star::UISimpleTextButton</a>
+: <a class="el" href="classstar_1_1_u_i_text_button.html#a3ec90e14fecfe1a5a9dfc9b85aa009af">star::UITextButton</a>
 , <a class="el" href="classstar_1_1_u_i_button.html#aedc27b2238ff2e61c8bc07b37c5a4d0d">star::UIButton</a>
 , <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a515b527a2671a0fe7356642e5e1e3f3d">star::UIAnimatedTextButton</a>
-, <a class="el" href="classstar_1_1_u_i_text_button.html#a3ec90e14fecfe1a5a9dfc9b85aa009af">star::UITextButton</a>
+, <a class="el" href="classstar_1_1_u_i_simple_text_button.html#a87901c4512a2cecafa369bd9daffca89">star::UISimpleTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_animated_button.html#aa73702da0d23c1767ba553b2e1c87e38">star::UIAnimatedButton</a>
 , <a class="el" href="classstar_1_1_u_i_user_element.html#af02a8add0e1f0629bcec0a35ca254f38">star::UIUserElement</a>
 </li>
@@ -877,7 +916,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:30 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

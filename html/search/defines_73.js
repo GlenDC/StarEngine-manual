@@ -18,8 +18,6 @@ var searchData=
   ['sstringstream',['sstringstream',['../defines_types_8h.html#a757a096730cd0b5d5c6a28e91206ccdb',1,'definesTypes.h']]],
   ['sstringstream_5f16',['sstringstream_16',['../defines_types_8h.html#aa1263dfc8068b42fcac897422ec5dfb1',1,'definesTypes.h']]],
   ['sstrlen',['sstrlen',['../defines_types_8h.html#a0ccf4a636385de89a0b5ff27e9fbd298',1,'definesTypes.h']]],
-  ['starengine_5flog_5ftag',['STARENGINE_LOG_TAG',['../defines_8h.html#aeddc8505324ddc7b24d0d4d83c45dd56',1,'defines.h']]],
-  ['starengine_5fversion',['STARENGINE_VERSION',['../defines_8h.html#a2915890b2da0a19804f0b5e1393f7d14',1,'defines.h']]],
   ['suchar',['suchar',['../defines_types_8h.html#a8eaf0960a8821aba939589321a42fa2d',1,'definesTypes.h']]],
   ['swchar',['swchar',['../defines_types_8h.html#a089a631e7ef796583cb394337f4ec290',1,'definesTypes.h']]],
   ['swcin',['swcin',['../defines_types_8h.html#a5dbd34684409fe2b4fd7e2ed963a1418',1,'definesTypes.h']]],

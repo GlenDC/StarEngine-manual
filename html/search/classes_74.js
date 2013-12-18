@@ -13,8 +13,10 @@ var searchData=
   ['timedaction',['TimedAction',['../classstar_1_1_timed_action.html',1,'star']]],
   ['timedfadeaction',['TimedFadeAction',['../classstar_1_1_timed_fade_action.html',1,'star']]],
   ['timedmoveaction',['TimedMoveAction',['../classstar_1_1_timed_move_action.html',1,'star']]],
+  ['timedscaleaction',['TimedScaleAction',['../classstar_1_1_timed_scale_action.html',1,'star']]],
   ['timemanager',['TimeManager',['../classstar_1_1_time_manager.html',1,'star']]],
   ['timer',['Timer',['../classstar_1_1_timer.html',1,'star']]],
   ['transformcomponent',['TransformComponent',['../classstar_1_1_transform_component.html',1,'star']]],
+  ['tutorialmenudata',['TutorialMenuData',['../struct_tutorial_menu_data.html',1,'']]],
   ['tutorialscene',['TutorialScene',['../class_tutorial_scene.html',1,'']]]
 ];

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,20 +100,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_action_8h_source.html">Action.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for star::Action:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_action__inherit__graph.png" border="0" usemap="#star_1_1_action_inherit__map" alt="Inheritance graph"/></div>
-<map name="star_1_1_action_inherit__map" id="star_1_1_action_inherit__map">
-<area shape="rect" id="node3" href="classstar_1_1_delayed_action.html" title="{star::DelayedAction\n|# m_Callback\l# m_Seconds\l|+ DelayedAction()\l+ DelayedAction()\l+ ~DelayedAction()\l+ Initialize()\l+ Restart()\l+ Pause()\l+ Resume()\l}" alt="" coords="5,557,141,737"/><area shape="rect" id="node4" href="classstar_1_1_looped_action.html" title="{star::LoopedAction\n|# m_Callback\l# m_Seconds\l|+ LoopedAction()\l+ LoopedAction()\l+ ~LoopedAction()\l+ Initialize()\l+ Restart()\l+ Pause()\l+ Resume()\l}" alt="" coords="165,557,296,737"/><area shape="rect" id="node5" href="classstar_1_1_timed_action.html" title="{star::TimedAction\n|# m_Callback\l# m_Seconds\l|+ TimedAction()\l+ TimedAction()\l+ ~TimedAction()\l+ Initialize()\l+ Restart()\l+ Pause()\l+ Resume()\l+ SetCallback()\l}" alt="" coords="321,549,444,744"/><area shape="rect" id="node2" href="classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="167,5,295,171"/><area shape="rect" id="node6" href="classstar_1_1_timed_fade_action.html" title="{star::TimedFadeAction\n|# m_StartColor\l# m_EndColor\l# m_CurrentSeconds\l# m_pSpriteComponent\l|+ TimedFadeAction()\l+ TimedFadeAction()\l+ ~TimedFadeAction()\l+ Restart()\l# Initialize()\l# Update()\l}" alt="" coords="213,821,371,1016"/><area shape="rect" id="node7" href="classstar_1_1_timed_move_action.html" title="{star::TimedMoveAction\n|# m_Direction\l# m_Target\l# m_StartPosition\l# m_Speed\l# m_CurrentSeconds\l|+ TimedMoveAction()\l+ TimedMoveAction()\l+ TimedMoveAction()\l+ TimedMoveAction()\l+ ~TimedMoveAction()\l+ SetStartPosition()\l+ Restart()\l# Initialize()\l# Update()\l}" alt="" coords="396,792,551,1045"/></map>
-</div>
-<div class="dynheader">
-Collaboration diagram for star::Action:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_action__coll__graph.png" border="0" usemap="#star_1_1_action_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_action_coll__map" id="star_1_1_action_coll__map">
-<area shape="rect" id="node2" href="classstar_1_1_entity.html" title="{star::Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="579,309,707,475"/><area shape="rect" id="node4" href="classstar_1_1_object.html" title="{star::Object\n|# m_bIsInitialized\l# m_IsVisible\l# m_IsFrozen\l# m_pGarbageContainer\l# m_pComponents\l# m_pChildren\l# m_pActions\l|+ Object()\l+ Object()\l+ Object()\l+ ~Object()\l+ Destroy()\l+ GetParent()\l+ BaseInitialize()\l+ BaseAfterInitialized()\l+ BaseUpdate()\l+ BaseDraw()\land 45 more...\l# DestroyGarbageElement()\l# Initialize()\l# AfterInitialized()\l# Update()\l# Draw()\l# BaseCheckCulling()\l# CheckCulling()\l}" alt="" coords="250,526,432,941"/><area shape="rect" id="node6" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="324,1005,479,1288"/><area shape="rect" id="node7" href="classstar_1_1_base_scene.html" title="{star::BaseScene\n|# m_GestureManagerPtr\l# m_CollisionManagerPtr\l# m_Objects\l# m_Garbage\l# m_pStopwatch\l|+ BaseScene()\l+ ~BaseScene()\l+ Destroy()\l+ BaseInitialize()\l+ BaseAfterInitializedObjects()\l+ BaseOnActivate()\l+ BaseOnDeactivate()\l+ BaseUpdate()\l+ BaseDraw()\l+ OnSaveState()\land 29 more...\l+ SetCullingIsEnabled()\l+ IsCullingEnabled()\l# CreateObjects()\l# AfterInitializedObjects()\l# OnActivate()\l# OnDeactivate()\l# Update()\l# Draw()\l# SetOSCursorHidden()\l}" alt="" coords="413,2019,611,2434"/><area shape="rect" id="node3" href="classstar_1_1_hash_tag.html" title="{star::HashTag\n||+ HashTag()\l+ HashTag()\l+ HashTag()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ operator==()\land 6 more...\l+ GenerateHash()\l}" alt="" coords="421,6,547,245"/><area shape="rect" id="node8" href="classstar_1_1_base_camera.html" title="{star::BaseCamera\n||+ BaseCamera()\l+ ~BaseCamera()\l# Initialize()\l}" alt="" coords="378,1835,504,1941"/><area shape="rect" id="node10" href="classstar_1_1_u_i_base_cursor.html" title="{star::UIBaseCursor\n|# m_IsLocked\l# m_State\l|+ UIBaseCursor()\l+ ~UIBaseCursor()\l+ SetLocked()\l+ IsLocked()\l+ IsIdle()\l+ IsHover()\l+ IsClick()\l+ SetState()\l}" alt="" coords="483,1312,615,1507"/><area shape="rect" id="node5" href="classstar_1_1_path_find_node_component.html" title="{star::PathFindNodeComponent\n||+ PathFindNodeComponent()\l+ ~PathFindNodeComponent()\l+ Update()\l+ Draw()\l# InitializeComponent()\l# PathFindNodeComponent()\l# PathFindNodeComponent()\l# operator=()\l# operator=()\l}" alt="" coords="153,1553,353,1748"/><area shape="rect" id="node9" href="classstar_1_1_camera_component.html" title="{star::CameraComponent\n||+ CameraComponent()\l+ ~CameraComponent()\l+ Update()\l+ Draw()\l+ SetFieldOfView()\l+ SetOrthoSize()\l+ SetNearClippingPlane()\l+ SetFarClippingPlane()\l+ SetActive()\l+ IsActive()\land 8 more...\l# InitializeComponent()\l}" alt="" coords="377,1531,545,1770"/></map>
-</div>
+
+<p>Inherits <a class="el" href="classstar_1_1_entity.html">star::Entity</a>.</p>
+
+<p>Inherited by <a class="el" href="classstar_1_1_delayed_action.html">star::DelayedAction</a>, <a class="el" href="classstar_1_1_delayed_frames_action.html">star::DelayedFramesAction</a>, <a class="el" href="classstar_1_1_looped_action.html">star::LoopedAction</a>, and <a class="el" href="classstar_1_1_timed_action.html">star::TimedAction</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -321,7 +310,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classstar_1_1_timed_move_action.html#a74ff9c2f3d23fff948a67c16d8ed5a01">star::TimedMoveAction</a>, <a class="el" href="classstar_1_1_timed_fade_action.html#a5ffaaae4e2e3222b3bd70d7d0333f3bc">star::TimedFadeAction</a>, <a class="el" href="classstar_1_1_timed_action.html#a650e2c6a903bfcfb0581338fb0f52b24">star::TimedAction</a>, <a class="el" href="classstar_1_1_delayed_action.html#a8b25d8b06b0bac3b94853b624979a8ee">star::DelayedAction</a>, and <a class="el" href="classstar_1_1_looped_action.html#a23ddb31f18794fa9d193e8d9edbe271c">star::LoopedAction</a>.</p>
+<p>Implemented in <a class="el" href="classstar_1_1_timed_move_action.html#a74ff9c2f3d23fff948a67c16d8ed5a01">star::TimedMoveAction</a>, <a class="el" href="classstar_1_1_timed_fade_action.html#a5ffaaae4e2e3222b3bd70d7d0333f3bc">star::TimedFadeAction</a>, <a class="el" href="classstar_1_1_timed_action.html#a650e2c6a903bfcfb0581338fb0f52b24">star::TimedAction</a>, <a class="el" href="classstar_1_1_delayed_action.html#a8b25d8b06b0bac3b94853b624979a8ee">star::DelayedAction</a>, <a class="el" href="classstar_1_1_looped_action.html#a23ddb31f18794fa9d193e8d9edbe271c">star::LoopedAction</a>, and <a class="el" href="classstar_1_1_delayed_frames_action.html#a7cd0714f8eb301331d98143c385054b7">star::DelayedFramesAction</a>.</p>
 
 </div>
 </div>
@@ -371,7 +360,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classstar_1_1_timed_move_action.html#a98d38502925aaace0d23cb5da45c89f8">star::TimedMoveAction</a>, <a class="el" href="classstar_1_1_timed_fade_action.html#ae10f3582350bb9c6fdf8b52dad4fc66d">star::TimedFadeAction</a>, <a class="el" href="classstar_1_1_timed_action.html#abbbe31b42edbdfe976d4e5a866841e2f">star::TimedAction</a>, <a class="el" href="classstar_1_1_delayed_action.html#aba408aebc29d48fe161edabb93573183">star::DelayedAction</a>, and <a class="el" href="classstar_1_1_looped_action.html#adff128f18bb31367813b6a5bd561b1e7">star::LoopedAction</a>.</p>
+<p>Reimplemented in <a class="el" href="classstar_1_1_timed_move_action.html#a98d38502925aaace0d23cb5da45c89f8">star::TimedMoveAction</a>, <a class="el" href="classstar_1_1_timed_fade_action.html#ae10f3582350bb9c6fdf8b52dad4fc66d">star::TimedFadeAction</a>, <a class="el" href="classstar_1_1_timed_scale_action.html#a8a9e705f0ac07af602e61607c5d35dd0">star::TimedScaleAction</a>, <a class="el" href="classstar_1_1_timed_action.html#abbbe31b42edbdfe976d4e5a866841e2f">star::TimedAction</a>, <a class="el" href="classstar_1_1_delayed_action.html#aba408aebc29d48fe161edabb93573183">star::DelayedAction</a>, and <a class="el" href="classstar_1_1_looped_action.html#adff128f18bb31367813b6a5bd561b1e7">star::LoopedAction</a>.</p>
 
 </div>
 </div>
@@ -438,7 +427,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classstar_1_1_timed_move_action.html#a37010cb59131f87c22b3cd0b930a9f05">star::TimedMoveAction</a>, and <a class="el" href="classstar_1_1_timed_fade_action.html#a997e9140b29945dbc124caa77f78fa1c">star::TimedFadeAction</a>.</p>
+<p>Implemented in <a class="el" href="classstar_1_1_timed_move_action.html#a37010cb59131f87c22b3cd0b930a9f05">star::TimedMoveAction</a>, <a class="el" href="classstar_1_1_timed_fade_action.html#a997e9140b29945dbc124caa77f78fa1c">star::TimedFadeAction</a>, <a class="el" href="classstar_1_1_timed_scale_action.html#a8477b5e3cba608efdfc863aa2ad58e61">star::TimedScaleAction</a>, and <a class="el" href="classstar_1_1_delayed_frames_action.html#a7bcae9485c381d3c1a1c7f9ec8187e34">star::DelayedFramesAction</a>.</p>
 
 </div>
 </div>
@@ -504,13 +493,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Actions/<a class="el" href="_action_8h_source.html">Action.h</a></li>
-<li>StarEngine/jni/Actions/<a class="el" href="_action_8cpp.html">Action.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Actions/<a class="el" href="_action_8h_source.html">Action.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Actions/<a class="el" href="_action_8cpp.html">Action.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:28 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

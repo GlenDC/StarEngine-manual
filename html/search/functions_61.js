@@ -2,6 +2,7 @@ var searchData=
 [
   ['aabbrectanglerectanglecollision',['AABBRectangleRectangleCollision',['../classstar_1_1_rectangle_collider_component.html#a47df002e836627865912671ff0ed3e97',1,'star::RectangleColliderComponent']]],
   ['aarect',['AARect',['../classstar_1_1_a_a_rect.html#ab94ad81dcea03a1e2e9e48591589a57b',1,'star::AARect::AARect()'],['../classstar_1_1_a_a_rect.html#a49d877c673ade041486350b4c901cc26',1,'star::AARect::AARect(int32 x, int32 y, int32 width, int32 height)'],['../classstar_1_1_a_a_rect.html#a0fb6c57a3fb26414f14dd38c4bd3e823',1,'star::AARect::AARect(const vec2 &amp;location, const vec2 &amp;size)']]],
+  ['aboutmenudata',['AboutMenuData',['../struct_about_menu_data.html#ad1e5f718929a887aee0ad338bbcb30be',1,'AboutMenuData']]],
   ['aboutscene',['AboutScene',['../class_about_scene.html#a177dab3d39139d14ce16c02959349048',1,'AboutScene']]],
   ['action',['Action',['../classstar_1_1_action.html#aad33b44a44d8c5fb0014027d3f0deacb',1,'star::Action::Action()'],['../classstar_1_1_action.html#aa45a5140d210518b6c72ae46882c3e34',1,'star::Action::Action(const tstring &amp;name)']]],
   ['activate',['Activate',['../classstar_1_1_camera_component.html#a963caed3b150944fc92850480df247e0',1,'star::CameraComponent::Activate()'],['../classstar_1_1_state.html#a2938e83b2daf6dec0733b7de430f81b7',1,'star::State::Activate()']]],
@@ -9,7 +10,8 @@ var searchData=
   ['addchild',['AddChild',['../classstar_1_1_u_i_object.html#a68e6dd4bc93698546e40ebf12b2ec850',1,'star::UIObject::AddChild()'],['../classstar_1_1_object.html#a5e426d2ac9bd0d964300e05a9c625883',1,'star::Object::AddChild()']]],
   ['addcomponent',['AddComponent',['../classstar_1_1_object.html#ab6f852582563fd4ab1a89a6fefd25e49',1,'star::Object::AddComponent()'],['../classstar_1_1_collision_manager.html#a9be018cc941d3aaa68e98632fd989b09',1,'star::CollisionManager::AddComponent()']]],
   ['addelement',['AddElement',['../classstar_1_1_u_i_object.html#a8ec084a76b559f439cedfcdc35fe939a',1,'star::UIObject']]],
-  ['addgesture',['AddGesture',['../classstar_1_1_gesture_manager.html#ae391d90a1ceb4ba70a4ac862a44910af',1,'star::GestureManager']]],
+  ['addgesture',['AddGesture',['../classstar_1_1_gesture_manager.html#ae391d90a1ceb4ba70a4ac862a44910af',1,'star::GestureManager::AddGesture()'],['../classstar_1_1_base_scene.html#a1924d9fa8863becf0a9f7ae927da107d',1,'star::BaseScene::AddGesture(BaseGesture *gesture)'],['../classstar_1_1_base_scene.html#a2c80374a4a5ddb39f7e274c086e4cb2c',1,'star::BaseScene::AddGesture(BaseGesture *gesture, const tstring &amp;name)']]],
+  ['addglobalgesture',['AddGlobalGesture',['../classstar_1_1_input_manager.html#a218620460b96e925f91de329498a237b',1,'star::InputManager::AddGlobalGesture(BaseGesture *gesture)'],['../classstar_1_1_input_manager.html#a637b68a6db0f542b48616e413362f7a5',1,'star::InputManager::AddGlobalGesture(BaseGesture *gesture, const tstring &amp;name)']]],
   ['addhiscore',['addHiScore',['../class_hi_scores.html#a6138bd5d30f4d360be67d9d43580dd54',1,'HiScores']]],
   ['addobject',['AddObject',['../classstar_1_1_path_find_manager.html#a10e6b90dec8c9759330071c5c1324137',1,'star::PathFindManager::AddObject()'],['../classstar_1_1_base_scene.html#a1c5ca6d4c65cc332b746ec35ede14d53',1,'star::BaseScene::AddObject(Object *object)'],['../classstar_1_1_base_scene.html#aa6bf451f6bdbec7fd4111272f4235f56',1,'star::BaseScene::AddObject(Object *object, const tstring &amp;name)']]],
   ['addobstacle',['AddObstacle',['../classstar_1_1_path_find_manager.html#a4c61ea10d1d1929c8f2b86bfa98f9a07',1,'star::PathFindManager']]],
@@ -28,6 +30,6 @@ var searchData=
   ['aligntextright',['AlignTextRight',['../classstar_1_1_text_component.html#a26b39cc395ce45b981ab560109d8296f',1,'star::TextComponent']]],
   ['appendbinaryfile',['AppendBinaryFile',['../namespacestar.html#a6d2ee0f25d35fc41ae365ab432c6cf64',1,'star']]],
   ['appendtextfile',['AppendTextFile',['../namespacestar.html#ac9ae04973b1a7eb76714c9cef4a22595',1,'star']]],
-  ['at',['at',['../classstar_1_1_dictionary.html#a1ff78ba54acabfa684551dbd01f2efdf',1,'star::Dictionary::at(const TKey &amp;key)'],['../classstar_1_1_dictionary.html#a56699af0f488dd548225e9af77700a9a',1,'star::Dictionary::at(dki_pair &amp;ki_pair)'],['../classstar_1_1_dictionary.html#a734739a6ba7ba9b8d2ead2e56d86d70a',1,'star::Dictionary::at(const TKey &amp;key, size_type index)']]],
-  ['attributes',['attributes',['../namespacepugi.html#a3742b144d87f70841216fed750a416c4',1,'pugi']]]
+  ['arrow',['Arrow',['../struct_arrow.html#a34acd71904bf918ca11ebe9208739a4c',1,'Arrow']]],
+  ['at',['at',['../classstar_1_1_dictionary.html#a1ff78ba54acabfa684551dbd01f2efdf',1,'star::Dictionary::at(const TKey &amp;key)'],['../classstar_1_1_dictionary.html#a56699af0f488dd548225e9af77700a9a',1,'star::Dictionary::at(dki_pair &amp;ki_pair)'],['../classstar_1_1_dictionary.html#a734739a6ba7ba9b8d2ead2e56d86d70a',1,'star::Dictionary::at(const TKey &amp;key, size_type index)']]]
 ];

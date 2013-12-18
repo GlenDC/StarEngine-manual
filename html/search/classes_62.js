@@ -7,5 +7,6 @@ var searchData=
   ['basegesture',['BaseGesture',['../classstar_1_1_base_gesture.html',1,'star']]],
   ['basescene',['BaseScene',['../classstar_1_1_base_scene.html',1,'star']]],
   ['basesound',['BaseSound',['../classstar_1_1_base_sound.html',1,'star']]],
-  ['bread',['Bread',['../class_bread.html',1,'']]]
+  ['bread',['Bread',['../class_bread.html',1,'']]],
+  ['button',['Button',['../struct_button.html',1,'']]]
 ];

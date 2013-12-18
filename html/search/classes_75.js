@@ -15,6 +15,7 @@ var searchData=
   ['uislider',['UISlider',['../classstar_1_1_u_i_slider.html',1,'star']]],
   ['uistaticbutton',['UIStaticButton',['../classstar_1_1_u_i_static_button.html',1,'star']]],
   ['uistatictextbutton',['UIStaticTextButton',['../classstar_1_1_u_i_static_text_button.html',1,'star']]],
+  ['uitext',['UIText',['../struct_u_i_text.html',1,'']]],
   ['uitextbutton',['UITextButton',['../classstar_1_1_u_i_text_button.html',1,'star']]],
   ['uitextfield',['UITextField',['../classstar_1_1_u_i_text_field.html',1,'star']]],
   ['uiuserelement',['UIUserElement',['../classstar_1_1_u_i_user_element.html',1,'star']]]

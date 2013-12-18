@@ -1,9 +1,0 @@
-<map id="StarEngine/jni/Graphics/UI/Index.h" name="StarEngine/jni/Graphics/UI/Index.h">
-<area shape="rect" id="node2" href="$_slide_scene_8h.html" title="StarEngine/jni/Scenes\l/SlideScene.h" alt="" coords="282,97,432,138"/>
-<area shape="rect" id="node3" href="$_s_s_m_splash_screen_8h.html" title="jni/scenes/SSMSplashScreen.h" alt="" coords="51,195,257,221"/>
-<area shape="rect" id="node6" href="$_slide_scene_8cpp.html" title="StarEngine/jni/Scenes\l/SlideScene.cpp" alt="" coords="282,187,432,229"/>
-<area shape="rect" id="node7" href="$_splash_screen_8h.html" title="StarEngine/jni/Scenes\l/SplashScreen.h" alt="" coords="457,187,607,229"/>
-<area shape="rect" id="node4" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,285,104,312"/>
-<area shape="rect" id="node5" href="$_s_s_m_splash_screen_8cpp.html" title="jni/scenes/SSMSplashScreen.cpp" alt="" coords="129,285,348,312"/>
-<area shape="rect" id="node8" href="$_splash_screen_8cpp.html" title="StarEngine/jni/Scenes\l/SplashScreen.cpp" alt="" coords="457,278,607,319"/>
-</map>

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,59 +99,68 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Graphics component used to draw text.  
+ <a href="classstar_1_1_text_component.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_text_component_8h_source.html">TextComponent.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for star::TextComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_text_component__inherit__graph.png" border="0" usemap="#star_1_1_text_component_inherit__map" alt="Inheritance graph"/></div>
-<map name="star_1_1_text_component_inherit__map" id="star_1_1_text_component_inherit__map">
-<area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_pParentObject\l# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="48,219,203,517"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="61,5,189,171"/></map>
-</div>
-<div class="dynheader">
-Collaboration diagram for star::TextComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_text_component__coll__graph.png" border="0" usemap="#star_1_1_text_component_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_text_component_coll__map" id="star_1_1_text_component_coll__map">
-<area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="411,525,565,808"/><area shape="rect" id="node6" href="classstar_1_1_path_find_node_component.html" title="{star::PathFindNodeComponent\n||+ PathFindNodeComponent()\l+ ~PathFindNodeComponent()\l+ Update()\l+ Draw()\l# InitializeComponent()\l# PathFindNodeComponent()\l# PathFindNodeComponent()\l# operator=()\l# operator=()\l}" alt="" coords="240,932,440,1127"/><area shape="rect" id="node9" href="classstar_1_1_camera_component.html" title="{star::CameraComponent\n||+ CameraComponent()\l+ ~CameraComponent()\l+ Update()\l+ Draw()\l+ SetFieldOfView()\l+ SetOrthoSize()\l+ SetNearClippingPlane()\l+ SetFarClippingPlane()\l+ SetActive()\l+ IsActive()\land 8 more...\l# InitializeComponent()\l}" alt="" coords="756,1225,924,1463"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="113,309,241,475"/><area shape="rect" id="node5" href="classstar_1_1_object.html" title="{star::Object\n|# m_bIsInitialized\l# m_IsVisible\l# m_IsFrozen\l# m_pGarbageContainer\l# m_pComponents\l# m_pChildren\l# m_pActions\l|+ Object()\l+ Object()\l+ Object()\l+ ~Object()\l+ Destroy()\l+ GetParent()\l+ BaseInitialize()\l+ BaseAfterInitialized()\l+ BaseUpdate()\l+ BaseDraw()\land 45 more...\l# DestroyGarbageElement()\l# Initialize()\l# AfterInitialized()\l# Update()\l# Draw()\l# BaseCheckCulling()\l# CheckCulling()\l}" alt="" coords="249,1489,431,1903"/><area shape="rect" id="node7" href="classstar_1_1_base_scene.html" title="{star::BaseScene\n|# m_GestureManagerPtr\l# m_CollisionManagerPtr\l# m_Objects\l# m_Garbage\l# m_pStopwatch\l|+ BaseScene()\l+ ~BaseScene()\l+ Destroy()\l+ BaseInitialize()\l+ BaseAfterInitializedObjects()\l+ BaseOnActivate()\l+ BaseOnDeactivate()\l+ BaseUpdate()\l+ BaseDraw()\l+ OnSaveState()\land 29 more...\l+ SetCullingIsEnabled()\l+ IsCullingEnabled()\l# CreateObjects()\l# AfterInitializedObjects()\l# OnActivate()\l# OnDeactivate()\l# Update()\l# Draw()\l# SetOSCursorHidden()\l}" alt="" coords="166,2227,364,2642"/><area shape="rect" id="node4" href="classstar_1_1_hash_tag.html" title="{star::HashTag\n||+ HashTag()\l+ HashTag()\l+ HashTag()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ operator==()\land 6 more...\l+ GenerateHash()\l}" alt="" coords="5,6,131,245"/><area shape="rect" id="node8" href="classstar_1_1_base_camera.html" title="{star::BaseCamera\n||+ BaseCamera()\l+ ~BaseCamera()\l# Initialize()\l}" alt="" coords="467,1999,593,2105"/><area shape="rect" id="node10" href="classstar_1_1_u_i_base_cursor.html" title="{star::UIBaseCursor\n|# m_IsLocked\l# m_State\l|+ UIBaseCursor()\l+ ~UIBaseCursor()\l+ SetLocked()\l+ IsLocked()\l+ IsIdle()\l+ IsHover()\l+ IsClick()\l+ SetState()\l}" alt="" coords="311,1955,443,2149"/></map>
-</div>
+
+<p>Inherits <a class="el" href="classstar_1_1_base_component.html">star::BaseComponent</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7cb9a8ace4290d57b604db18e0c4d8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#ae7cb9a8ace4290d57b604db18e0c4d8f">TextComponent</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;fontName)</td></tr>
+<tr class="memdesc:ae7cb9a8ace4290d57b604db18e0c4d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class. Use this Constructor if you have already loaded a font with this fontName Through the <a class="el" href="classstar_1_1_font_manager.html">FontManager</a>  <a href="#ae7cb9a8ace4290d57b604db18e0c4d8f">More...</a><br/></td></tr>
 <tr class="separator:ae7cb9a8ace4290d57b604db18e0c4d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a778528ffc5b9aabc3c22e76a1c1a004c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a778528ffc5b9aabc3c22e76a1c1a004c">TextComponent</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;fontPath, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;fontName, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> fontSize)</td></tr>
+<tr class="memdesc:a778528ffc5b9aabc3c22e76a1c1a004c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class. Use this Constructor if you have not loaded the font with this fontName yet.  <a href="#a778528ffc5b9aabc3c22e76a1c1a004c">More...</a><br/></td></tr>
 <tr class="separator:a778528ffc5b9aabc3c22e76a1c1a004c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62ba2ae2900dfdc3447dc3ecf2d848b4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a62ba2ae2900dfdc3447dc3ecf2d848b4">~TextComponent</a> ()</td></tr>
+<tr class="memdesc:a62ba2ae2900dfdc3447dc3ecf2d848b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes an instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class.  <a href="#a62ba2ae2900dfdc3447dc3ecf2d848b4">More...</a><br/></td></tr>
 <tr class="separator:a62ba2ae2900dfdc3447dc3ecf2d848b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80c0930f27c39d32dc7e2fb55451d846"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a80c0930f27c39d32dc7e2fb55451d846">Draw</a> ()</td></tr>
+<tr class="memdesc:a80c0930f27c39d32dc7e2fb55451d846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws this instance.  <a href="#a80c0930f27c39d32dc7e2fb55451d846">More...</a><br/></td></tr>
 <tr class="separator:a80c0930f27c39d32dc7e2fb55451d846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64c529fe9be523c739bf9a05f32742d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a64c529fe9be523c739bf9a05f32742d6">Update</a> (const <a class="el" href="structstar_1_1_context.html">Context</a> &amp;context)</td></tr>
+<tr class="memdesc:a64c529fe9be523c739bf9a05f32742d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this instance.  <a href="#a64c529fe9be523c739bf9a05f32742d6">More...</a><br/></td></tr>
 <tr class="separator:a64c529fe9be523c739bf9a05f32742d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e40bee18ef74e86c5a351deb9e99e82"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a0e40bee18ef74e86c5a351deb9e99e82">CheckCulling</a> (float left, float right, float top, float bottom) const </td></tr>
-<tr class="separator:a0e40bee18ef74e86c5a351deb9e99e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35efc248bc964e67b21d68d7adfff0fe"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a35efc248bc964e67b21d68d7adfff0fe">CheckCulling</a> (<a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> left, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> right, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> top, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> bottom) const </td></tr>
+<tr class="memdesc:a35efc248bc964e67b21d68d7adfff0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Culling check. The object will not be drawn if it is out of screen.  <a href="#a35efc248bc964e67b21d68d7adfff0fe">More...</a><br/></td></tr>
+<tr class="separator:a35efc248bc964e67b21d68d7adfff0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc19934c7dbf89923d2aa82f256934cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#abc19934c7dbf89923d2aa82f256934cc">SetText</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;text)</td></tr>
+<tr class="memdesc:abc19934c7dbf89923d2aa82f256934cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the text.  <a href="#abc19934c7dbf89923d2aa82f256934cc">More...</a><br/></td></tr>
 <tr class="separator:abc19934c7dbf89923d2aa82f256934cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfeb1eb91af75d75374de10d22b979a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#adfeb1eb91af75d75374de10d22b979a3">GetText</a> () const </td></tr>
+<tr class="memdesc:adfeb1eb91af75d75374de10d22b979a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text.  <a href="#adfeb1eb91af75d75374de10d22b979a3">More...</a><br/></td></tr>
 <tr class="separator:adfeb1eb91af75d75374de10d22b979a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9f89708d92eeb1c6a669d613d16f45d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#aa9f89708d92eeb1c6a669d613d16f45d">SetColor</a> (const <a class="el" href="structstar_1_1_color.html">Color</a> &amp;color)</td></tr>
+<tr class="memdesc:aa9f89708d92eeb1c6a669d613d16f45d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color.  <a href="#aa9f89708d92eeb1c6a669d613d16f45d">More...</a><br/></td></tr>
 <tr class="separator:aa9f89708d92eeb1c6a669d613d16f45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6466a7caeafb18b83d2b373560b4e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structstar_1_1_color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#aae6466a7caeafb18b83d2b373560b4e5">GetColor</a> () const </td></tr>
+<tr class="memdesc:aae6466a7caeafb18b83d2b373560b4e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color.  <a href="#aae6466a7caeafb18b83d2b373560b4e5">More...</a><br/></td></tr>
 <tr class="separator:aae6466a7caeafb18b83d2b373560b4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a834954ebf96390a7b37f00b9ea39cd14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a834954ebf96390a7b37f00b9ea39cd14">SetWrapWidth</a> (<a class="el" href="defines_types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a> width)</td></tr>
+<tr class="memdesc:a834954ebf96390a7b37f00b9ea39cd14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets and toggles the wrap width. Default set to -1, Set width to -1 to disable wrapping  <a href="#a834954ebf96390a7b37f00b9ea39cd14">More...</a><br/></td></tr>
 <tr class="separator:a834954ebf96390a7b37f00b9ea39cd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c529c5f2911de58d102297ac104dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a25c529c5f2911de58d102297ac104dd3">GetWrapWidth</a> () const </td></tr>
+<tr class="memdesc:a25c529c5f2911de58d102297ac104dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the wrap width.  <a href="#a25c529c5f2911de58d102297ac104dd3">More...</a><br/></td></tr>
 <tr class="separator:a25c529c5f2911de58d102297ac104dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8524f4ec074260f2453eb5c59d75d1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#ae8524f4ec074260f2453eb5c59d75d1c">SetVerticalSpacing</a> (<a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> spacing)</td></tr>
+<tr class="memdesc:ae8524f4ec074260f2453eb5c59d75d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the space between 2 lines.  <a href="#ae8524f4ec074260f2453eb5c59d75d1c">More...</a><br/></td></tr>
 <tr class="separator:ae8524f4ec074260f2453eb5c59d75d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fef37f354531da7ffabdaa2f6d18de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a80fef37f354531da7ffabdaa2f6d18de">SetHUDOptionEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:a80fef37f354531da7ffabdaa2f6d18de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this <a class="el" href="class_text.html">Text</a> as a HUD element  <a href="#a80fef37f354531da7ffabdaa2f6d18de">More...</a><br/></td></tr>
 <tr class="separator:a80fef37f354531da7ffabdaa2f6d18de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50997f1c0f68aac2949ca97b2a548dc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a50997f1c0f68aac2949ca97b2a548dc0">IsHUDOptionEnabled</a> () const </td></tr>
+<tr class="memdesc:a50997f1c0f68aac2949ca97b2a548dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="class_text.html">Text</a> is a HUD element.  <a href="#a50997f1c0f68aac2949ca97b2a548dc0">More...</a><br/></td></tr>
 <tr class="separator:a50997f1c0f68aac2949ca97b2a548dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a7072f64c34cbc92f1dcd960892e6eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a4a7072f64c34cbc92f1dcd960892e6eb">AlignTextLeft</a> ()</td></tr>
+<tr class="memdesc:a4a7072f64c34cbc92f1dcd960892e6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns the text as left.  <a href="#a4a7072f64c34cbc92f1dcd960892e6eb">More...</a><br/></td></tr>
 <tr class="separator:a4a7072f64c34cbc92f1dcd960892e6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb9b13d36006a5e5d67624c5af41894c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#adb9b13d36006a5e5d67624c5af41894c">AlignTextCenter</a> ()</td></tr>
+<tr class="memdesc:adb9b13d36006a5e5d67624c5af41894c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns the text as center.  <a href="#adb9b13d36006a5e5d67624c5af41894c">More...</a><br/></td></tr>
 <tr class="separator:adb9b13d36006a5e5d67624c5af41894c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b39cc395ce45b981ab560109d8296f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a26b39cc395ce45b981ab560109d8296f">AlignTextRight</a> ()</td></tr>
+<tr class="memdesc:a26b39cc395ce45b981ab560109d8296f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns the text as right.  <a href="#a26b39cc395ce45b981ab560109d8296f">More...</a><br/></td></tr>
 <tr class="separator:a26b39cc395ce45b981ab560109d8296f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classstar_1_1_base_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classstar_1_1_base_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classstar_1_1_base_component.html">star::BaseComponent</a></td></tr>
 <tr class="memitem:a038dd3c8ddf56ab621f403946e4b3cb8 inherit pub_methods_classstar_1_1_base_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_component.html#a038dd3c8ddf56ab621f403946e4b3cb8">BaseComponent</a> ()</td></tr>
@@ -218,20 +226,28 @@ Protected Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac629cd1fead66a6798b65187143a31e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#ac629cd1fead66a6798b65187143a31e6">InitializeComponent</a> ()</td></tr>
+<tr class="memdesc:ac629cd1fead66a6798b65187143a31e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the component.  <a href="#ac629cd1fead66a6798b65187143a31e6">More...</a><br/></td></tr>
 <tr class="separator:ac629cd1fead66a6798b65187143a31e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9843ac59212386bb590b30d814a81ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#ac9843ac59212386bb590b30d814a81ce">CalculateTextDimensions</a> ()</td></tr>
+<tr class="memdesc:ac9843ac59212386bb590b30d814a81ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the text dimensions.  <a href="#ac9843ac59212386bb590b30d814a81ce">More...</a><br/></td></tr>
 <tr class="separator:ac9843ac59212386bb590b30d814a81ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a741d327ecac60541f7b114df35f22478"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a741d327ecac60541f7b114df35f22478">CalculateWrappedTextDimensions</a> (<a class="el" href="defines_types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> lines)</td></tr>
+<tr class="memdesc:a741d327ecac60541f7b114df35f22478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the wrapped text dimensions.  <a href="#a741d327ecac60541f7b114df35f22478">More...</a><br/></td></tr>
 <tr class="separator:a741d327ecac60541f7b114df35f22478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef191b9b7a13ffe524638fdce2b7cf88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#aef191b9b7a13ffe524638fdce2b7cf88">CalculateTextHeight</a> ()</td></tr>
+<tr class="memdesc:aef191b9b7a13ffe524638fdce2b7cf88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the height of the text.  <a href="#aef191b9b7a13ffe524638fdce2b7cf88">More...</a><br/></td></tr>
 <tr class="separator:aef191b9b7a13ffe524638fdce2b7cf88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae6753470f115bbb131f8679a498208a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#aae6753470f115bbb131f8679a498208a">CleanTextUp</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;str)</td></tr>
-<tr class="separator:aae6753470f115bbb131f8679a498208a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5292031071245dd147cf65a28009f0d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a5292031071245dd147cf65a28009f0d6">CleanUpText</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;str)</td></tr>
+<tr class="memdesc:a5292031071245dd147cf65a28009f0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up the text. Converts all \t characters to a set amount of spaces defined in TAB. Also calls <a class="el" href="classstar_1_1_text_component.html#a8f33cd564e92a5f9cdeadab43464e606" title="Calculates the horizontal text offset. ">CalculateHorizontalTextOffset()</a>  <a href="#a5292031071245dd147cf65a28009f0d6">More...</a><br/></td></tr>
+<tr class="separator:a5292031071245dd147cf65a28009f0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f33cd564e92a5f9cdeadab43464e606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a8f33cd564e92a5f9cdeadab43464e606">CalculateHorizontalTextOffset</a> ()</td></tr>
+<tr class="memdesc:a8f33cd564e92a5f9cdeadab43464e606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the horizontal text offset.  <a href="#a8f33cd564e92a5f9cdeadab43464e606">More...</a><br/></td></tr>
 <tr class="separator:a8f33cd564e92a5f9cdeadab43464e606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52f772c5d6d0b9c7e64a39ea282dab61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#a52f772c5d6d0b9c7e64a39ea282dab61">GetLongestLine</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;str)</td></tr>
+<tr class="memdesc:a52f772c5d6d0b9c7e64a39ea282dab61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the longest line.  <a href="#a52f772c5d6d0b9c7e64a39ea282dab61">More...</a><br/></td></tr>
 <tr class="separator:a52f772c5d6d0b9c7e64a39ea282dab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabee941ce8dd233c894003d0c5b72d66"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_text_component.html#aabee941ce8dd233c894003d0c5b72d66">FillTextInfo</a> ()</td></tr>
+<tr class="memdesc:aabee941ce8dd233c894003d0c5b72d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the text information struct, to send to the <a class="el" href="classstar_1_1_sprite_batch.html">SpriteBatch</a>  <a href="#aabee941ce8dd233c894003d0c5b72d66">More...</a><br/></td></tr>
 <tr class="separator:aabee941ce8dd233c894003d0c5b72d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -251,7 +267,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6bebd40682c6810b6f7f9308131d24d8 inherit pro_attribs_classstar_1_1_entity"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstar_1_1_hash_tag.html">HashTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_entity.html#a6bebd40682c6810b6f7f9308131d24d8">m_Name</a></td></tr>
 <tr class="separator:a6bebd40682c6810b6f7f9308131d24d8 inherit pro_attribs_classstar_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Graphics component used to draw text. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a861294de8b9c818bc46e2ee4f0ff810b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -295,6 +313,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class. Use this Constructor if you have already loaded a font with this fontName Through the <a class="el" href="classstar_1_1_font_manager.html">FontManager</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fontName</td><td>Name of the font.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a778528ffc5b9aabc3c22e76a1c1a004c"></a>
@@ -327,6 +353,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class. Use this Constructor if you have not loaded the font with this fontName yet. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fontPath</td><td>Path to the font, starting from the path defined in <a class="el" href="defines_8h.html#a25593ba1f174da07eabeb7e4ea2416efa32bb636196f91ed59d7a49190e26b42c" title="This is the default Assets folder on Android. On windows this directory is defined in the Win32Manife...">DirectoryMode::assets</a>. </td></tr>
+    <tr><td class="paramname">fontName</td><td>Name of the font.</td></tr>
+    <tr><td class="paramname">fontSize</td><td>Size of the font.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a62ba2ae2900dfdc3447dc3ecf2d848b4"></a>
@@ -350,6 +386,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Finalizes an instance of the <a class="el" href="classstar_1_1_text_component.html" title="Graphics component used to draw text. ">TextComponent</a> class. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -366,6 +404,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Aligns the text as center. </p>
+
 </div>
 </div>
 <a class="anchor" id="a4a7072f64c34cbc92f1dcd960892e6eb"></a>
@@ -381,6 +421,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Aligns the text as left. </p>
+
 </div>
 </div>
 <a class="anchor" id="a26b39cc395ce45b981ab560109d8296f"></a>
@@ -395,6 +437,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Aligns the text as right. </p>
 
 </div>
 </div>
@@ -419,6 +463,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Calculates the horizontal text offset. </p>
+
 </div>
 </div>
 <a class="anchor" id="ac9843ac59212386bb590b30d814a81ce"></a>
@@ -442,6 +488,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Calculates the text dimensions. </p>
+
 </div>
 </div>
 <a class="anchor" id="aef191b9b7a13ffe524638fdce2b7cf88"></a>
@@ -464,6 +512,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Calculates the height of the text. </p>
 
 </div>
 </div>
@@ -489,9 +539,17 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Calculates the wrapped text dimensions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lines</td><td>number of lines.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a0e40bee18ef74e86c5a351deb9e99e82"></a>
+<a class="anchor" id="a35efc248bc964e67b21d68d7adfff0fe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -501,25 +559,25 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool star::TextComponent::CheckCulling </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>right</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>top</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>bottom</em>&#160;</td>
         </tr>
         <tr>
@@ -535,11 +593,23 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Culling check. The object will not be drawn if it is out of screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>Left of the screen</td></tr>
+    <tr><td class="paramname">right</td><td>Right of the screen</td></tr>
+    <tr><td class="paramname">top</td><td>Top of the screen</td></tr>
+    <tr><td class="paramname">bottom</td><td>Bottom of the screen</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the object should be culled</dd></dl>
+
 <p>Reimplemented from <a class="el" href="classstar_1_1_base_component.html#a3935d02fdf68e2167e2fbde23f04ed89">star::BaseComponent</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aae6753470f115bbb131f8679a498208a"></a>
+<a class="anchor" id="a5292031071245dd147cf65a28009f0d6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -547,7 +617,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void star::TextComponent::CleanTextUp </td>
+          <td class="memname">void star::TextComponent::CleanUpText </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -560,6 +630,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Cleans up the text. Converts all \t characters to a set amount of spaces defined in TAB. Also calls <a class="el" href="classstar_1_1_text_component.html#a8f33cd564e92a5f9cdeadab43464e606" title="Calculates the horizontal text offset. ">CalculateHorizontalTextOffset()</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -583,6 +661,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draws this instance. </p>
 
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#a3dad5b5f8b09a62f459101a41f1992e4">star::BaseComponent</a>.</p>
 
@@ -609,6 +689,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Fills the text information struct, to send to the <a class="el" href="classstar_1_1_sprite_batch.html">SpriteBatch</a> </p>
+
 </div>
 </div>
 <a class="anchor" id="aae6466a7caeafb18b83d2b373560b4e5"></a>
@@ -623,6 +705,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the color. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color.</dd></dl>
 
 </div>
 </div>
@@ -648,6 +733,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Gets the longest line. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The text.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="adfeb1eb91af75d75374de10d22b979a3"></a>
@@ -663,6 +757,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the text. </p>
+<dl class="section return"><dt>Returns</dt><dd>The text.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a25c529c5f2911de58d102297ac104dd3"></a>
@@ -677,6 +774,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the wrap width. </p>
+<dl class="section return"><dt>Returns</dt><dd>The wrap width. If width is -1, wrapping is disabled.</dd></dl>
 
 </div>
 </div>
@@ -701,6 +801,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Initializes the component. </p>
+
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#aca75fda5d4ee9325b113374a87cb00f6">star::BaseComponent</a>.</p>
 
 </div>
@@ -718,6 +820,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether this <a class="el" href="class_text.html">Text</a> is a HUD element. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if HUD element</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="aa9f89708d92eeb1c6a669d613d16f45d"></a>
@@ -733,6 +838,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structstar_1_1_color.html">Color</a></dd></dl>
 
 </div>
 </div>
@@ -750,6 +864,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets this <a class="el" href="class_text.html">Text</a> as a HUD element </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>True to set this as HUD element</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="abc19934c7dbf89923d2aa82f256934cc"></a>
@@ -765,6 +887,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -782,6 +912,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the space between 2 lines. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacing</td><td>The spacing.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a834954ebf96390a7b37f00b9ea39cd14"></a>
@@ -797,6 +935,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets and toggles the wrap width. Default set to -1, Set width to -1 to disable wrapping </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The width. Set to -1 to disable wrapping</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -822,18 +968,26 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Updates this instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td><a class="el" href="structstar_1_1_context.html" title="Struct that is used to pass around information between all the update functions in the engine classes...">Context</a> containing usefull information.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#afe7830a05341130dfc784670baed68e6">star::BaseComponent</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Components/Graphics/<a class="el" href="_text_component_8h_source.html">TextComponent.h</a></li>
-<li>StarEngine/jni/Components/Graphics/<a class="el" href="_text_component_8cpp.html">TextComponent.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Graphics/<a class="el" href="_text_component_8h_source.html">TextComponent.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Graphics/<a class="el" href="_text_component_8cpp.html">TextComponent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:28 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

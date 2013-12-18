@@ -22,5 +22,6 @@ var searchData=
   ['deepskyblue',['DeepSkyBlue',['../structstar_1_1_color.html#ad51162700cc5346c0061033216d81802',1,'star::Color']]],
   ['default_5flayer_5fname',['DEFAULT_LAYER_NAME',['../classstar_1_1_base_collider_component.html#ab65044706093a1b8918f3c590ce484c3',1,'star::BaseColliderComponent']]],
   ['dimgray',['DimGray',['../structstar_1_1_color.html#a44fc10d75fda9709e66244f27726073b',1,'star::Color']]],
+  ['displaytime',['DisplayTime',['../struct_slide.html#a43b08a3ce42a161a89bfb681535f820a',1,'Slide']]],
   ['dodgetblue',['DodgetBlue',['../structstar_1_1_color.html#a626f194a01cb2d5a19d16a96c8f4dfff',1,'star::Color']]]
 ];

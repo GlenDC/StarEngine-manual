@@ -20,6 +20,8 @@ var searchData=
   ['timedfadeaction_2eh',['TimedFadeAction.h',['../_timed_fade_action_8h.html',1,'']]],
   ['timedmoveaction_2ecpp',['TimedMoveAction.cpp',['../_timed_move_action_8cpp.html',1,'']]],
   ['timedmoveaction_2eh',['TimedMoveAction.h',['../_timed_move_action_8h.html',1,'']]],
+  ['timedscaleaction_2ecpp',['TimedScaleAction.cpp',['../_timed_scale_action_8cpp.html',1,'']]],
+  ['timedscaleaction_2eh',['TimedScaleAction.h',['../_timed_scale_action_8h.html',1,'']]],
   ['timemanager_2ecpp',['TimeManager.cpp',['../_time_manager_8cpp.html',1,'']]],
   ['timemanager_2eh',['TimeManager.h',['../_time_manager_8h.html',1,'']]],
   ['timer_2ecpp',['Timer.cpp',['../_timer_8cpp.html',1,'']]],

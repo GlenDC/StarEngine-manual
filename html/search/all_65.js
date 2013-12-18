@@ -1,11 +1,11 @@
 var searchData=
 [
   ['effectinfo',['EffectInfo',['../structstar_1_1_u_i_user_element_1_1_effect_info.html',1,'star::UIUserElement']]],
+  ['effectslider',['EffectSlider',['../struct_options_menu_data.html#abc641159ff3f5252d53a27d496f818d6',1,'OptionsMenuData']]],
   ['element',['Element',['../structstar_1_1_object_1_1_garbage_info.html#aa481cd44d9331c512d7b3e5cf96dba45',1,'star::Object::GarbageInfo']]],
   ['elements',['elements',['../struct_pointer_array.html#ab74a3446373d68cd3dcb2c77631b42b8',1,'PointerArray']]],
   ['elementstates',['ElementStates',['../classstar_1_1_u_i_user_element.html#a5e4fa10207907014e1c6dbb906cca48d',1,'star::UIUserElement']]],
   ['empty',['empty',['../classstar_1_1_dictionary.html#aa9135d16bc54e48f07337893c29acc6e',1,'star::Dictionary']]],
-  ['empty_5fstring',['EMPTY_STRING',['../defines_8h.html#a4cc630b5a4ac206fbcb8794c4fcd8529',1,'defines.h']]],
   ['enablecontiniousanimation',['EnableContiniousAnimation',['../classstar_1_1_u_i_animated_button.html#abefc4dbd19f4b84ff2130403f387f187',1,'star::UIAnimatedButton']]],
   ['enabledrawing',['EnableDrawing',['../classstar_1_1_base_collider_component.html#a053afbba3aa5d98029a44c22269a9511',1,'star::BaseColliderComponent']]],
   ['encryptbinaryfile',['EncryptBinaryFile',['../namespacestar.html#a7161dc9507f2ae443822a97e0123231f',1,'star']]],
@@ -13,8 +13,8 @@ var searchData=
   ['encryptdataarray',['EncryptDataArray',['../namespacestar.html#a42b2433bd97438204ab26a627f880c7a',1,'star']]],
   ['end',['end',['../classstar_1_1_dictionary.html#a800e263c91889cac058e197b19b54432',1,'star::Dictionary::end()'],['../class_game.html#a0c319b3fb6ce6ef52871e9e613ca3d68',1,'Game::End()'],['../classstar_1_1_base_game.html#a09616e6873eaaaa2ab1e70508349a8d4',1,'star::BaseGame::End()'],['../classstar_1_1_star_engine.html#a53eb5832b501bfd5d8498d422fa60123',1,'star::StarEngine::End()']]],
   ['endupdate',['EndUpdate',['../classstar_1_1_base_gesture.html#a7bd6eb56661394160f4ad4622b6c0cc8',1,'star::BaseGesture::EndUpdate()'],['../classstar_1_1_gesture_manager.html#a27cd7d9e5076e26a1eebcfe9f9b5aaf0',1,'star::GestureManager::EndUpdate()'],['../classstar_1_1_input_manager.html#aa18e43c6122f08b802ef0c24dc0a73d3',1,'star::InputManager::EndUpdate()']]],
-  ['entity',['Entity',['../classstar_1_1_entity.html',1,'star']]],
   ['entity',['Entity',['../classstar_1_1_entity.html#a7b9d1db7c04ce28dc12a45bd51d458f1',1,'star::Entity::Entity()'],['../classstar_1_1_entity.html#a1a472400c35868acf62ad8f0c442b180',1,'star::Entity::Entity(const tstring &amp;name)']]],
+  ['entity',['Entity',['../classstar_1_1_entity.html',1,'star']]],
   ['entity_2ecpp',['Entity.cpp',['../_entity_8cpp.html',1,'']]],
   ['entity_2eh',['Entity.h',['../_entity_8h.html',1,'']]],
   ['epsilon',['EPSILON',['../defines_math_8h.html#a6ff5c75688247873196f195a90fa1e26',1,'definesMath.h']]],
@@ -26,5 +26,7 @@ var searchData=
   ['error',['Error',['../namespacestar.html#a46dea658dca91d1e9af76714731b9d4eaaf64e982231dbd03d8f1aeafb6c1092e',1,'star']]],
   ['eventloop_2ecpp',['EventLoop.cpp',['../_event_loop_8cpp.html',1,'']]],
   ['eventloop_2eh',['EventLoop.h',['../_event_loop_8h.html',1,'']]],
+  ['extendtile',['ExtendTile',['../classstar_1_1_tiled_scene.html#a4b14af50c4da8f7ee11a590da2fbcb14',1,'star::TiledScene']]],
+  ['extendtiles',['ExtendTiles',['../classstar_1_1_tiled_scene.html#ad23d1edd6bbba81f962d0a2fdc1c5a5d',1,'star::TiledScene']]],
   ['external',['external',['../defines_8h.html#a25593ba1f174da07eabeb7e4ea2416efa6a21b6995a068148bbb65c8f949b3fb2',1,'defines.h']]]
 ];

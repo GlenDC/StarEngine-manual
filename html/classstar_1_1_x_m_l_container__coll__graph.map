@@ -1,4 +1,0 @@
-<map id="star::XMLContainer" name="star::XMLContainer">
-<area shape="rect" id="node2" href="$classstar_1_1_dictionary.html" title="{star::Dictionary\&lt; tstring,\l std::shared_ptr\&lt; XMLContainer \&gt; \&gt;\n|# m_MultiMap\l|+ Dictionary()\l+ Dictionary()\l+ Dictionary()\l+ Dictionary()\l+ ~Dictionary()\l+ operator=()\l+ operator=()\l+ operator[]()\l+ operator[]()\l+ at()\land 24 more...\l}" alt="" coords="5,6,235,245"/>
-<area shape="rect" id="node3" href="$classstar_1_1_dictionary.html" title="{star::Dictionary\&lt; tstring,\l tstring \&gt;\n|# m_MultiMap\l|+ Dictionary()\l+ Dictionary()\l+ Dictionary()\l+ Dictionary()\l+ ~Dictionary()\l+ operator=()\l+ operator=()\l+ operator[]()\l+ operator[]()\l+ at()\land 24 more...\l}" alt="" coords="259,6,421,245"/>
-</map>

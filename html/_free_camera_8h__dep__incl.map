@@ -1,8 +1,0 @@
-<map id="StarEngine/jni/Objects/FreeCamera.h" name="StarEngine/jni/Objects/FreeCamera.h">
-<area shape="rect" id="node2" href="$_font_manager_8cpp.html" title="StarEngine/jni/Assets\l/FontManager.cpp" alt="" coords="5,97,152,138"/>
-<area shape="rect" id="node3" href="$_text_component_8cpp.html" title="StarEngine/jni/Components\l/Graphics/TextComponent.cpp" alt="" coords="177,97,375,138"/>
-<area shape="rect" id="node4" href="$_sprite_batch_8cpp.html" title="StarEngine/jni/Graphics\l/SpriteBatch.cpp" alt="" coords="399,97,557,138"/>
-<area shape="rect" id="node5" href="$_free_camera_8cpp.html" title="StarEngine/jni/Objects\l/FreeCamera.cpp" alt="" coords="583,97,735,138"/>
-<area shape="rect" id="node6" href="$_load_screen_8cpp.html" title="StarEngine/jni/Scenes\l/LoadScreen.cpp" alt="" coords="759,97,909,138"/>
-<area shape="rect" id="node7" href="$_tiled_scene_8cpp.html" title="StarEngine/jni/Scenes\l/TiledScene.cpp" alt="" coords="934,97,1084,138"/>
-</map>

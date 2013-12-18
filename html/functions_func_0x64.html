@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -114,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -148,17 +147,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classstar_1_1_audio_manager.html#a4d640a9efc8accd45355d709dcd77ab1">star::AudioManager</a>
 </li>
 <li>DefineSpecialObject()
-: <a class="el" href="classstar_1_1_tiled_scene.html#aa724be75bd7f3c63200db5ce219c4776">star::TiledScene</a>
+: <a class="el" href="classstar_1_1_tiled_scene.html#aa9c95c8622a002816a3e38c8d1b87b26">star::TiledScene</a>
 </li>
 <li>DelayedAction()
 : <a class="el" href="classstar_1_1_delayed_action.html#af0d3be199eb5d332225c3ec104d96089">star::DelayedAction</a>
+</li>
+<li>DelayedFramesAction()
+: <a class="el" href="classstar_1_1_delayed_frames_action.html#a181dfe54bbfbb5c12b6c44cc5d014c38">star::DelayedFramesAction</a>
 </li>
 <li>DeleteAllSounds()
 : <a class="el" href="classstar_1_1_audio_manager.html#aba94629ba545801882ae2adc5c6dc766">star::AudioManager</a>
 </li>
 <li>DeleteFont()
-: <a class="el" href="classstar_1_1_font.html#a52be78299b216426c3dd4f679811f49f">star::Font</a>
-, <a class="el" href="classstar_1_1_font_manager.html#abac3adf1242774816a035ff0a23b5a83">star::FontManager</a>
+: <a class="el" href="classstar_1_1_font_manager.html#abac3adf1242774816a035ff0a23b5a83">star::FontManager</a>
+, <a class="el" href="classstar_1_1_font.html#a52be78299b216426c3dd4f679811f49f">star::Font</a>
 </li>
 <li>DeleteTexture()
 : <a class="el" href="classstar_1_1_texture_manager.html#af82ab9a1cb58d3bdd230d43b0a1f0f1f">star::TextureManager</a>
@@ -174,6 +176,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>DeserializeChildren()
 : <a class="el" href="classstar_1_1_x_m_l_container.html#a8d13e5e3ec2e729dddee57d49f99cba8">star::XMLContainer</a>
+</li>
+<li>DeserializeSafe()
+: <a class="el" href="classstar_1_1_x_m_l_container.html#a44e7a4b6ef317aa4a5ccc8ba39ff9c4c">star::XMLContainer</a>
 </li>
 <li>DeserializeString()
 : <a class="el" href="classstar_1_1_x_m_l_container.html#ae3e13113c5aa27eb604fe3f039ed5735">star::XMLContainer</a>
@@ -193,58 +198,88 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_object.html#aff252da3cc369b3f0265fda9c4390a5b">star::Object</a>
 </li>
 <li>Dictionary()
-: <a class="el" href="classstar_1_1_dictionary.html#a1e3e26fc02746085afc12cc595dca843">star::Dictionary&lt; TKey, TValue &gt;</a>
+: <a class="el" href="classstar_1_1_dictionary.html#aa3d3bb2eda8fdb9a9fcae2f6fd831373">star::Dictionary&lt; TKey, TValue &gt;</a>
 </li>
 <li>DoubleTapGesture()
 : <a class="el" href="classstar_1_1_double_tap_gesture.html#aefb50dee00c806a0b33f387200235371">star::DoubleTapGesture</a>
 </li>
 <li>Draw()
-: <a class="el" href="class_order_handler.html#ab9416d4b8fba9e82a0e5898a7d9e0354">OrderHandler</a>
-, <a class="el" href="class_filling_generator.html#a7a565427e53caa5bf4e1c1e4c3583622">FillingGenerator</a>
-, <a class="el" href="class_falling_object.html#aee80d53e0a109c256b55e92bef0939b3">FallingObject</a>
-, <a class="el" href="class_customer.html#a2e1421b9c1367ba22297b6100190501d">Customer</a>
-, <a class="el" href="class_bread.html#a352447854cdf2d512ee7e2ae66c0c0d4">Bread</a>
-, <a class="el" href="class_game.html#aad2c20e2c5529244095c50c238911e30">Game</a>
-, <a class="el" href="classstar_1_1_state_manager.html#a1f91b1f16e2acc5c688feab9ae3611c7">star::StateManager</a>
-, <a class="el" href="class_stats.html#a567aecd373ebc11078bd01fd07de1edf">Stats</a>
-, <a class="el" href="class_main_menu.html#a808caf92965200bef11d1b3743990d50">MainMenu</a>
-, <a class="el" href="classstar_1_1_u_i_object.html#a97828004e4b81a87bc89ee53838b4770">star::UIObject</a>
-, <a class="el" href="classstar_1_1_transform_component.html#a25a35f2ad478d9bc7fe302f5516da217">star::TransformComponent</a>
-, <a class="el" href="classstar_1_1_scene_manager.html#af0491a5236955d5145cbc3d1ef2d33d5">star::SceneManager</a>
-, <a class="el" href="class_tutorial_scene.html#abdcf99e8c652932f89b5cc4ade7a2b86">TutorialScene</a>
-, <a class="el" href="classstar_1_1_base_scene.html#acbd53fa498d0093f9e0da63deada0023">star::BaseScene</a>
-, <a class="el" href="classstar_1_1_state.html#abeb4668b68df5e2fc3aeb8e4a1fac176">star::State</a>
-, <a class="el" href="classstar_1_1_star_engine.html#a22210b21d94e637c6127044ed19a8d8d">star::StarEngine</a>
-, <a class="el" href="classstar_1_1_camera_component.html#afb6e0f032ba8db61cb02f80b157f81e3">star::CameraComponent</a>
-, <a class="el" href="class_game_scene.html#af9f3d8b2f75a7a85e487e105856e2326">GameScene</a>
-, <a class="el" href="classstar_1_1_object.html#afa8b22e3b7defddd18c5f177012d6fc6">star::Object</a>
-, <a class="el" href="classstar_1_1_tiled_scene.html#a508a20c0870f1c088a95418abdfc60c1">star::TiledScene</a>
-, <a class="el" href="classstar_1_1_circle_collider_component.html#a1443ce29e9b3d0cf5f948b2118d03181">star::CircleColliderComponent</a>
-, <a class="el" href="classstar_1_1_slide_scene.html#a940deadf4f1e119ced23355972680f7a">star::SlideScene</a>
-, <a class="el" href="classstar_1_1_load_screen.html#af13d20e66357a5e7bcbb2c6ab7101b2f">star::LoadScreen</a>
+: <a class="el" href="class_score_scene.html#ab701ee531afc58b51261ad7268523f67">ScoreScene</a>
 , <a class="el" href="classstar_1_1_base_game.html#a5261fd983f8129f41dcff94c8066f6c9">star::BaseGame</a>
-, <a class="el" href="class_game_over_scene.html#a928416bf8884f5b78281395ba27b4bc3">GameOverScene</a>
-, <a class="el" href="class_menu_scene.html#aec1fd4d94d913b243340b078c9226723">MenuScene</a>
-, <a class="el" href="class_score_scene.html#ab701ee531afc58b51261ad7268523f67">ScoreScene</a>
-, <a class="el" href="classstar_1_1_rectangle_collider_component.html#a492bcd283de685472094a941f93aa007">star::RectangleColliderComponent</a>
 , <a class="el" href="classstar_1_1_base_component.html#a3dad5b5f8b09a62f459101a41f1992e4">star::BaseComponent</a>
-, <a class="el" href="classstar_1_1_sprite_component.html#a910e06ec0e135cfe8ebdc211539f0af1">star::SpriteComponent</a>
-, <a class="el" href="classstar_1_1_base_collider_component.html#a5315a52e16500b2341361fb2bf45616f">star::BaseColliderComponent</a>
-, <a class="el" href="classstar_1_1_text_component.html#a80c0930f27c39d32dc7e2fb55451d846">star::TextComponent</a>
+, <a class="el" href="classstar_1_1_scene_manager.html#af0491a5236955d5145cbc3d1ef2d33d5">star::SceneManager</a>
+, <a class="el" href="class_game_scene.html#af9f3d8b2f75a7a85e487e105856e2326">GameScene</a>
+, <a class="el" href="classstar_1_1_state.html#abeb4668b68df5e2fc3aeb8e4a1fac176">star::State</a>
 , <a class="el" href="class_about_scene.html#a56afb3908bfe60cf12780b6f522603c0">AboutScene</a>
-, <a class="el" href="class_options_scene.html#abd65c8a10d98d892f543cfbb79d81e89">OptionsScene</a>
+, <a class="el" href="classstar_1_1_object.html#afa8b22e3b7defddd18c5f177012d6fc6">star::Object</a>
+, <a class="el" href="class_stats.html#a567aecd373ebc11078bd01fd07de1edf">Stats</a>
+, <a class="el" href="classstar_1_1_base_scene.html#acbd53fa498d0093f9e0da63deada0023">star::BaseScene</a>
+, <a class="el" href="classstar_1_1_state_manager.html#a1f91b1f16e2acc5c688feab9ae3611c7">star::StateManager</a>
+, <a class="el" href="classstar_1_1_slide_scene.html#a940deadf4f1e119ced23355972680f7a">star::SlideScene</a>
+, <a class="el" href="class_customer.html#a2e1421b9c1367ba22297b6100190501d">Customer</a>
+, <a class="el" href="classstar_1_1_tiled_scene.html#a508a20c0870f1c088a95418abdfc60c1">star::TiledScene</a>
+, <a class="el" href="class_game.html#aad2c20e2c5529244095c50c238911e30">Game</a>
+, <a class="el" href="classstar_1_1_star_engine.html#a22210b21d94e637c6127044ed19a8d8d">star::StarEngine</a>
+, <a class="el" href="class_bread.html#a352447854cdf2d512ee7e2ae66c0c0d4">Bread</a>
+, <a class="el" href="classstar_1_1_load_screen.html#af13d20e66357a5e7bcbb2c6ab7101b2f">star::LoadScreen</a>
+, <a class="el" href="class_falling_object.html#aee80d53e0a109c256b55e92bef0939b3">FallingObject</a>
+, <a class="el" href="class_filling_generator.html#a7a565427e53caa5bf4e1c1e4c3583622">FillingGenerator</a>
+, <a class="el" href="class_order_handler.html#ab9416d4b8fba9e82a0e5898a7d9e0354">OrderHandler</a>
+, <a class="el" href="classstar_1_1_circle_collider_component.html#a1443ce29e9b3d0cf5f948b2118d03181">star::CircleColliderComponent</a>
+, <a class="el" href="classstar_1_1_text_component.html#a80c0930f27c39d32dc7e2fb55451d846">star::TextComponent</a>
+, <a class="el" href="classstar_1_1_sprite_component.html#a910e06ec0e135cfe8ebdc211539f0af1">star::SpriteComponent</a>
 , <a class="el" href="classstar_1_1_path_find_node_component.html#a57804dd30353a88f4602993d26c7e43b">star::PathFindNodeComponent</a>
+, <a class="el" href="class_tutorial_scene.html#abdcf99e8c652932f89b5cc4ade7a2b86">TutorialScene</a>
+, <a class="el" href="class_options_scene.html#abd65c8a10d98d892f543cfbb79d81e89">OptionsScene</a>
 , <a class="el" href="classstar_1_1_quad_col.html#aa1172278f75ada4858a74deca6781bf3">star::QuadCol</a>
 , <a class="el" href="class_ui.html#a6d6e3aab3152b590fe831262e1060e8a">Ui</a>
+, <a class="el" href="class_game_over_scene.html#a928416bf8884f5b78281395ba27b4bc3">GameOverScene</a>
+, <a class="el" href="classstar_1_1_transform_component.html#a25a35f2ad478d9bc7fe302f5516da217">star::TransformComponent</a>
+, <a class="el" href="class_main_menu.html#a808caf92965200bef11d1b3743990d50">MainMenu</a>
+, <a class="el" href="class_menu_scene.html#aec1fd4d94d913b243340b078c9226723">MenuScene</a>
+, <a class="el" href="classstar_1_1_u_i_object.html#a97828004e4b81a87bc89ee53838b4770">star::UIObject</a>
+, <a class="el" href="classstar_1_1_rectangle_collider_component.html#a492bcd283de685472094a941f93aa007">star::RectangleColliderComponent</a>
+, <a class="el" href="classstar_1_1_camera_component.html#afb6e0f032ba8db61cb02f80b157f81e3">star::CameraComponent</a>
+, <a class="el" href="classstar_1_1_base_collider_component.html#a5315a52e16500b2341361fb2bf45616f">star::BaseColliderComponent</a>
+</li>
+<li>DrawCircle()
+: <a class="el" href="classstar_1_1_debug_draw.html#ac68ec20eed85689e3e4f5cc2c66b53b9">star::DebugDraw</a>
 </li>
 <li>DrawDefaultCursor()
 : <a class="el" href="classstar_1_1_scene_manager.html#aa7aa2e2c76d3c39c2f19568cf6021fd2">star::SceneManager</a>
+</li>
+<li>DrawLine()
+: <a class="el" href="classstar_1_1_debug_draw.html#a44aefb10f69cd9ee63dc8e0ab9cb82ae">star::DebugDraw</a>
+</li>
+<li>DrawPoint()
+: <a class="el" href="classstar_1_1_debug_draw.html#a8bed3f92a0220b65552668e0f35d970f">star::DebugDraw</a>
+</li>
+<li>DrawPolygon()
+: <a class="el" href="classstar_1_1_debug_draw.html#adea0911f24102d9c3ddc7b300eb552b2">star::DebugDraw</a>
+</li>
+<li>DrawRect()
+: <a class="el" href="classstar_1_1_debug_draw.html#a04b99ba14704f65e54759a1663d51d13">star::DebugDraw</a>
+</li>
+<li>DrawSegment()
+: <a class="el" href="classstar_1_1_debug_draw.html#ae4f54e15a280d981d58fbc07cc06b67f">star::DebugDraw</a>
+</li>
+<li>DrawSolidCircle()
+: <a class="el" href="classstar_1_1_debug_draw.html#a52f0a00b9d5bdc56d9a3fe638a3ab52c">star::DebugDraw</a>
+</li>
+<li>DrawSolidPolygon()
+: <a class="el" href="classstar_1_1_debug_draw.html#a098d219ce4ed49c2121349797db59070">star::DebugDraw</a>
+</li>
+<li>DrawSolidRect()
+: <a class="el" href="classstar_1_1_debug_draw.html#a9b37635c186167f5d475c1e98e983cb4">star::DebugDraw</a>
+</li>
+<li>DrawString()
+: <a class="el" href="classstar_1_1_debug_draw.html#a12b5c9a77656c40dfda3624272b0c1c7">star::DebugDraw</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:30 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

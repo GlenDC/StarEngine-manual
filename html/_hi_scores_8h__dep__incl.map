@@ -1,7 +1,0 @@
-<map id="jni/Objects/HiScores.h" name="jni/Objects/HiScores.h">
-<area shape="rect" id="node2" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,80,104,107"/>
-<area shape="rect" id="node3" href="$_hi_scores_8cpp.html" title="jni/Objects/HiScores.cpp" alt="" coords="129,80,295,107"/>
-<area shape="rect" id="node4" href="$_game_over_scene_8cpp.html" title="jni/scenes/GameOverScene.cpp" alt="" coords="320,80,528,107"/>
-<area shape="rect" id="node5" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="553,80,735,107"/>
-<area shape="rect" id="node6" href="$_score_scene_8cpp.html" title="jni/scenes/ScoreScene.cpp" alt="" coords="760,80,941,107"/>
-</map>

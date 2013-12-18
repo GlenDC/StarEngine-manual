@@ -1,4 +1,0 @@
-<map id="star::LoadScreen" name="star::LoadScreen">
-<area shape="rect" id="node2" href="$classstar_1_1_filepath.html" title="A class that is mostly used internally in the engine. It allows you to get the full static path..." alt="" coords="5,6,144,303"/>
-<area shape="rect" id="node3" href="$classstar_1_1_shader.html" title="{star::Shader\n||+ Shader()\l+ Shader()\l+ Shader()\l+ ~Shader()\l+ Init()\l+ Init()\l+ Bind()\l+ Unbind()\l+ GetID()\l+ GetUniformLocation()\l+ GetAttribLocation()\l+ PrintActiveAttribs()\l+ PrintActiveUniforms()\l}" alt="" coords="169,28,324,281"/>
-</map>

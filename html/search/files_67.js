@@ -11,6 +11,7 @@ var searchData=
   ['gamescene_2eh',['GameScene.h',['../_game_scene_8h.html',1,'']]],
   ['gesturemanager_2ecpp',['GestureManager.cpp',['../_gesture_manager_8cpp.html',1,'']]],
   ['gesturemanager_2eh',['GestureManager.h',['../_gesture_manager_8h.html',1,'']]],
+  ['gesturemanager_2einl',['GestureManager.inl',['../_gesture_manager_8inl.html',1,'']]],
   ['graphicsmanager_2ecpp',['GraphicsManager.cpp',['../_graphics_manager_8cpp.html',1,'']]],
   ['graphicsmanager_2eh',['GraphicsManager.h',['../_graphics_manager_8h.html',1,'']]]
 ];

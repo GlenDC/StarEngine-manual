@@ -1,3 +1,0 @@
-<map id="star::SoundEffect" name="star::SoundEffect">
-<area shape="rect" id="node2" href="$classstar_1_1_base_sound.html" title="{star::BaseSound\n|# mIsMuted\l# mVolume\l# mbIsLooping\l# mNoChannelAssigned\l# mChannel\l|+ ~BaseSound()\l+ Play()\l+ Stop()\l+ Pause()\l+ Resume()\l+ IsStopped()\l+ IsPlaying()\l+ IsPaused()\l+ IsLooping()\l+ SetCompleteVolume()\land 11 more...\l# SetVolume()\l# GetVolume()\l# BaseSound()\l# SetSoundVolume()\l# SetSoundMuted()\l}" alt="" coords="5,6,165,362"/>
-</map>

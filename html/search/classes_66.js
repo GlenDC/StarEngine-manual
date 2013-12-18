@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fallingobject',['FallingObject',['../class_falling_object.html',1,'']]],
-  ['filepath',['Filepath',['../classstar_1_1_filepath.html',1,'star']]],
+  ['filepath',['FilePath',['../classstar_1_1_file_path.html',1,'star']]],
   ['fillinggenerator',['FillingGenerator',['../class_filling_generator.html',1,'']]],
   ['fingerpointerandr',['FingerPointerANDR',['../structstar_1_1_finger_pointer_a_n_d_r.html',1,'star']]],
   ['font',['Font',['../classstar_1_1_font.html',1,'star']]],

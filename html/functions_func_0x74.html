@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -114,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -160,6 +159,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>TimedMoveAction()
 : <a class="el" href="classstar_1_1_timed_move_action.html#a431003cd7e511867630c6eef30212f45">star::TimedMoveAction</a>
 </li>
+<li>TimedScaleAction()
+: <a class="el" href="classstar_1_1_timed_scale_action.html#a4c0d2666bc45adc6c8b7046eaeb7c205">star::TimedScaleAction</a>
+</li>
 <li>TimeManager()
 : <a class="el" href="classstar_1_1_time_manager.html#a27431c96b0d1ee5a4c6037a964376dbe">star::TimeManager</a>
 </li>
@@ -179,21 +181,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_transform_component.html#ac4caa442a9fb3fa16ae954efa567a3b0">star::TransformComponent</a>
 </li>
 <li>Translate()
-: <a class="el" href="classstar_1_1_u_i_object.html#a5affbb3dd391f8f2ca412bdc6ab8ee23">star::UIObject</a>
-, <a class="el" href="classstar_1_1_quad_col.html#aa1f26aeee88898d7a014f82c23faa54d">star::QuadCol</a>
-, <a class="el" href="classstar_1_1_transform_component.html#a2d92e05a557e94dde4588b3a9201c685">star::TransformComponent</a>
+: <a class="el" href="classstar_1_1_transform_component.html#a676b447a50a0c7643ad161d08eaca7a1">star::TransformComponent</a>
 , <a class="el" href="classstar_1_1_u_i_object.html#aa0d8716513005532d72ca2e8b5a10afd">star::UIObject</a>
+, <a class="el" href="classstar_1_1_base_camera.html#ab8d97ad8d714e7754447861bb2a46d48">star::BaseCamera</a>
+, <a class="el" href="classstar_1_1_quad_col.html#aa1f26aeee88898d7a014f82c23faa54d">star::QuadCol</a>
+, <a class="el" href="classstar_1_1_camera_component.html#a91d108eb333fde357ad29dc2bda0d2d1">star::CameraComponent</a>
+, <a class="el" href="classstar_1_1_transform_component.html#a2d92e05a557e94dde4588b3a9201c685">star::TransformComponent</a>
 </li>
 <li>TranslateL()
 : <a class="el" href="classstar_1_1_u_i_object.html#a3568f8d32f285f3976aec1af7f93d6ac">star::UIObject</a>
 </li>
 <li>TranslateText()
-: <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a1cdd280ba7e3da2f7f5abb33a8bb67f7">star::UIAnimatedTextButton</a>
+: <a class="el" href="classstar_1_1_u_i_static_text_button.html#a8f02b390ecf3d5eac8a6072e92ae4004">star::UIStaticTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a67182c99dcfbd73fc0321923414cba22">star::UIAnimatedTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_simple_text_button.html#ae56cacb0956e3334ec2d1dbed2a71e5c">star::UISimpleTextButton</a>
-, <a class="el" href="classstar_1_1_u_i_text_button.html#a217dfafe03e2a9e9df42ca84b7829d80">star::UITextButton</a>
 , <a class="el" href="classstar_1_1_u_i_static_text_button.html#aa1cf4b490e6cd3a82555c1e65ab6cee2">star::UIStaticTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_text_button.html#a7d2eb23fff6007db3fb342cb18c5207b">star::UITextButton</a>
-, <a class="el" href="classstar_1_1_u_i_simple_text_button.html#aa3058dfc5b5f0af16c7b10c7bf61d13b">star::UISimpleTextButton</a>
 </li>
 <li>TranslateTextX()
 : <a class="el" href="classstar_1_1_u_i_text_button.html#ab495028f84910e5491dcdeb4af6baf0b">star::UITextButton</a>
@@ -203,13 +206,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>TranslateTextY()
 : <a class="el" href="classstar_1_1_u_i_text_button.html#a7408c1f935d3095eb5c4386343c71c06">star::UITextButton</a>
-, <a class="el" href="classstar_1_1_u_i_static_text_button.html#a587f4572d6eb7ecc20681b77e63e621b">star::UIStaticTextButton</a>
-, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a205f55ddd7630bceae7a5097d38b6f45">star::UIAnimatedTextButton</a>
 , <a class="el" href="classstar_1_1_u_i_simple_text_button.html#aa5555601ca243efe85e7fdc8b05d77b5">star::UISimpleTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_animated_text_button.html#a205f55ddd7630bceae7a5097d38b6f45">star::UIAnimatedTextButton</a>
+, <a class="el" href="classstar_1_1_u_i_static_text_button.html#a587f4572d6eb7ecc20681b77e63e621b">star::UIStaticTextButton</a>
 </li>
 <li>TranslateX()
-: <a class="el" href="classstar_1_1_u_i_object.html#a4ea4e63307d3a6e525523822aeed8d59">star::UIObject</a>
+: <a class="el" href="classstar_1_1_camera_component.html#acba631d03802e10ed2e0d644d2ebbd60">star::CameraComponent</a>
 , <a class="el" href="classstar_1_1_transform_component.html#ab6c1a47d024b7f60ef184eabcdb7f404">star::TransformComponent</a>
+, <a class="el" href="classstar_1_1_base_camera.html#a7c128545ae4e99ac6aaa6ca544069dfb">star::BaseCamera</a>
+, <a class="el" href="classstar_1_1_u_i_object.html#a4ea4e63307d3a6e525523822aeed8d59">star::UIObject</a>
 </li>
 <li>TranslateXY()
 : <a class="el" href="classstar_1_1_transform_component.html#a389b48d4b0113d6531f45b4de60d65ca">star::TransformComponent</a>
@@ -218,8 +223,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_transform_component.html#a5ec8a5c217e026f02057bc5ee1fe7241">star::TransformComponent</a>
 </li>
 <li>TranslateY()
-: <a class="el" href="classstar_1_1_transform_component.html#a1c66fe5f8f78fc0dcd9db56e534eb9b0">star::TransformComponent</a>
-, <a class="el" href="classstar_1_1_u_i_object.html#acbcc3edfdb4727a749ec027fdc2e4047">star::UIObject</a>
+: <a class="el" href="classstar_1_1_u_i_object.html#acbcc3edfdb4727a749ec027fdc2e4047">star::UIObject</a>
+, <a class="el" href="classstar_1_1_base_camera.html#aa79978a35211aa9a8d0e5086661692b2">star::BaseCamera</a>
+, <a class="el" href="classstar_1_1_transform_component.html#a1c66fe5f8f78fc0dcd9db56e534eb9b0">star::TransformComponent</a>
+, <a class="el" href="classstar_1_1_camera_component.html#aec29a68a16a6d236b6989f8b7cb6cef3">star::CameraComponent</a>
 </li>
 <li>TranslateYZ()
 : <a class="el" href="classstar_1_1_transform_component.html#ac32cc28a4f86ee3711266cefb1f9ea8b">star::TransformComponent</a>
@@ -236,6 +243,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>TriggerOnStay()
 : <a class="el" href="classstar_1_1_base_collider_component.html#af81d50c583ca03f7cd8986d6a4ecbcd4">star::BaseColliderComponent</a>
 </li>
+<li>TutorialMenuData()
+: <a class="el" href="struct_tutorial_menu_data.html#a96e1f529fc94d6c39456f6cedb6a291f">TutorialMenuData</a>
+</li>
 <li>TutorialScene()
 : <a class="el" href="class_tutorial_scene.html#a24499e28055b3c2c4fa900b84da2ea21">TutorialScene</a>
 </li>
@@ -243,7 +253,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:30 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

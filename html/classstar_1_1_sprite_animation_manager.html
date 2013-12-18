@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,13 +99,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_sprite_animation_manager_8h_source.html">SpriteAnimationManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for star::SpriteAnimationManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_sprite_animation_manager__coll__graph.png" border="0" usemap="#star_1_1_sprite_animation_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_sprite_animation_manager_coll__map" id="star_1_1_sprite_animation_manager_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -116,8 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa129afcdf912c0a53962fb30f8a3fc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a698a4fa5dbff35b06a7625f3ae8197d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_animation_manager.html#a698a4fa5dbff35b06a7625f3ae8197d9">AddSpritesheet</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;file, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;binary_file, <a class="el" href="defines_8h.html#a25593ba1f174da07eabeb7e4ea2416ef">DirectoryMode</a> mode=DEFAULT_DIRECTORY_MODE)</td></tr>
 <tr class="separator:a698a4fa5dbff35b06a7625f3ae8197d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61fa8e3ce386de1e829edabe279c400a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classstar_1_1_spritesheet.html">Spritesheet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_animation_manager.html#a61fa8e3ce386de1e829edabe279c400a">GetSpritesheet</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;name) const </td></tr>
-<tr class="separator:a61fa8e3ce386de1e829edabe279c400a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819f0a1e75335efe5b97e0057caf457c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classstar_1_1_sprite_sheet.html">SpriteSheet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_animation_manager.html#a819f0a1e75335efe5b97e0057caf457c">GetSpritesheet</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;name) const </td></tr>
+<tr class="separator:a819f0a1e75335efe5b97e0057caf457c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9200abda2c980d47862d1d615d69d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_animation_manager.html#a8e9200abda2c980d47862d1d615d69d5">Clear</a> ()</td></tr>
 <tr class="separator:a8e9200abda2c980d47862d1d615d69d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -239,12 +231,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a61fa8e3ce386de1e829edabe279c400a"></a>
+<a class="anchor" id="a819f0a1e75335efe5b97e0057caf457c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classstar_1_1_spritesheet.html">Spritesheet</a> &amp; star::SpriteAnimationManager::GetSpritesheet </td>
+          <td class="memname">const <a class="el" href="classstar_1_1_sprite_sheet.html">SpriteSheet</a> &amp; star::SpriteAnimationManager::GetSpritesheet </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -256,13 +248,13 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Graphics/<a class="el" href="_sprite_animation_manager_8h_source.html">SpriteAnimationManager.h</a></li>
-<li>StarEngine/jni/Graphics/<a class="el" href="_sprite_animation_manager_8cpp.html">SpriteAnimationManager.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Graphics/<a class="el" href="_sprite_animation_manager_8h_source.html">SpriteAnimationManager.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Graphics/<a class="el" href="_sprite_animation_manager_8cpp.html">SpriteAnimationManager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:29 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

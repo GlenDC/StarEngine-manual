@@ -13,5 +13,7 @@ var searchData=
   ['equals',['Equals',['../classstar_1_1_a_a_rect.html#a04670d6549ca9e07f74c6e95b4afb244',1,'star::AARect']]],
   ['erase',['erase',['../classstar_1_1_dictionary.html#a2443b312fba20b841e2310b2af4f6872',1,'star::Dictionary::erase(const_interator position)'],['../classstar_1_1_dictionary.html#ac63baf1ef880e465078ab83914fb88bd',1,'star::Dictionary::erase(const key_type &amp;key)'],['../classstar_1_1_dictionary.html#a30c899f713ad4d7708eb271da63a36d8',1,'star::Dictionary::erase(const_interator first, const_interator last)']]],
   ['erasealltextures',['EraseAllTextures',['../classstar_1_1_texture_manager.html#a4a61c713d8d353e6fdcab65a13c0ee21',1,'star::TextureManager']]],
-  ['erasefonts',['EraseFonts',['../classstar_1_1_font_manager.html#a6d6f30f0f6de54fce208b39c540bcebc',1,'star::FontManager']]]
+  ['erasefonts',['EraseFonts',['../classstar_1_1_font_manager.html#a6d6f30f0f6de54fce208b39c540bcebc',1,'star::FontManager']]],
+  ['extendtile',['ExtendTile',['../classstar_1_1_tiled_scene.html#a4b14af50c4da8f7ee11a590da2fbcb14',1,'star::TiledScene']]],
+  ['extendtiles',['ExtendTiles',['../classstar_1_1_tiled_scene.html#ad23d1edd6bbba81f962d0a2fdc1c5a5d',1,'star::TiledScene']]]
 ];

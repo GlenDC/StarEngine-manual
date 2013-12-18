@@ -1,3 +1,0 @@
-<map id="star::Context" name="star::Context">
-<area shape="rect" id="node2" href="$classstar_1_1_time_manager.html" title="{star::TimeManager\n||+ TimeManager()\l+ ~TimeManager()\l+ StartMonitoring()\l+ StopMonitoring()\l+ GetSeconds()\l+ GetMilliSeconds()\l+ GetMicroSeconds()\l+ GetSecondsSinceStart()\l+ GetMilliSecondsSinceStart()\l+ GetTimeStamp()\l}" alt="" coords="5,6,203,215"/>
-</map>

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,47 +99,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Graphics component used to draw a texture or part of a texture.  
+ <a href="classstar_1_1_sprite_component.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_sprite_component_8h_source.html">SpriteComponent.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for star::SpriteComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_sprite_component__inherit__graph.png" border="0" usemap="#star_1_1_sprite_component_inherit__map" alt="Inheritance graph"/></div>
-<map name="star_1_1_sprite_component_inherit__map" id="star_1_1_sprite_component_inherit__map">
-<area shape="rect" id="node4" href="classstar_1_1_spritesheet_component.html" title="{star::SpritesheetComponent\n|# m_SpritesheetName\l# m_Spritesheet\l# m_Animations\l|+ SpritesheetComponent()\l+ ~SpritesheetComponent()\l+ Update()\l+ Play()\l+ Restart()\l+ Pause()\l+ Stop()\l+ PushAnimation()\l+ PlayAnimation()\l+ PlayAnimation()\land 14 more...\l# InitializeComponent()\l}" alt="" coords="5,955,189,1223"/><area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_pParentObject\l# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="20,219,175,517"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="33,5,161,171"/></map>
-</div>
-<div class="dynheader">
-Collaboration diagram for star::SpriteComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_sprite_component__coll__graph.png" border="0" usemap="#star_1_1_sprite_component_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_sprite_component_coll__map" id="star_1_1_sprite_component_coll__map">
-<area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="411,525,565,808"/><area shape="rect" id="node6" href="classstar_1_1_path_find_node_component.html" title="{star::PathFindNodeComponent\n||+ PathFindNodeComponent()\l+ ~PathFindNodeComponent()\l+ Update()\l+ Draw()\l# InitializeComponent()\l# PathFindNodeComponent()\l# PathFindNodeComponent()\l# operator=()\l# operator=()\l}" alt="" coords="240,932,440,1127"/><area shape="rect" id="node9" href="classstar_1_1_camera_component.html" title="{star::CameraComponent\n||+ CameraComponent()\l+ ~CameraComponent()\l+ Update()\l+ Draw()\l+ SetFieldOfView()\l+ SetOrthoSize()\l+ SetNearClippingPlane()\l+ SetFarClippingPlane()\l+ SetActive()\l+ IsActive()\land 8 more...\l# InitializeComponent()\l}" alt="" coords="713,1225,881,1463"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="113,309,241,475"/><area shape="rect" id="node5" href="classstar_1_1_object.html" title="{star::Object\n|# m_bIsInitialized\l# m_IsVisible\l# m_IsFrozen\l# m_pGarbageContainer\l# m_pComponents\l# m_pChildren\l# m_pActions\l|+ Object()\l+ Object()\l+ Object()\l+ ~Object()\l+ Destroy()\l+ GetParent()\l+ BaseInitialize()\l+ BaseAfterInitialized()\l+ BaseUpdate()\l+ BaseDraw()\land 45 more...\l# DestroyGarbageElement()\l# Initialize()\l# AfterInitialized()\l# Update()\l# Draw()\l# BaseCheckCulling()\l# CheckCulling()\l}" alt="" coords="249,1489,431,1903"/><area shape="rect" id="node7" href="classstar_1_1_base_scene.html" title="{star::BaseScene\n|# m_GestureManagerPtr\l# m_CollisionManagerPtr\l# m_Objects\l# m_Garbage\l# m_pStopwatch\l|+ BaseScene()\l+ ~BaseScene()\l+ Destroy()\l+ BaseInitialize()\l+ BaseAfterInitializedObjects()\l+ BaseOnActivate()\l+ BaseOnDeactivate()\l+ BaseUpdate()\l+ BaseDraw()\l+ OnSaveState()\land 29 more...\l+ SetCullingIsEnabled()\l+ IsCullingEnabled()\l# CreateObjects()\l# AfterInitializedObjects()\l# OnActivate()\l# OnDeactivate()\l# Update()\l# Draw()\l# SetOSCursorHidden()\l}" alt="" coords="166,2227,364,2642"/><area shape="rect" id="node4" href="classstar_1_1_hash_tag.html" title="{star::HashTag\n||+ HashTag()\l+ HashTag()\l+ HashTag()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ operator==()\land 6 more...\l+ GenerateHash()\l}" alt="" coords="5,6,131,245"/><area shape="rect" id="node8" href="classstar_1_1_base_camera.html" title="{star::BaseCamera\n||+ BaseCamera()\l+ ~BaseCamera()\l# Initialize()\l}" alt="" coords="467,1999,593,2105"/><area shape="rect" id="node10" href="classstar_1_1_u_i_base_cursor.html" title="{star::UIBaseCursor\n|# m_IsLocked\l# m_State\l|+ UIBaseCursor()\l+ ~UIBaseCursor()\l+ SetLocked()\l+ IsLocked()\l+ IsIdle()\l+ IsHover()\l+ IsClick()\l+ SetState()\l}" alt="" coords="311,1955,443,2149"/></map>
-</div>
+
+<p>Inherits <a class="el" href="classstar_1_1_base_component.html">star::BaseComponent</a>.</p>
+
+<p>Inherited by <a class="el" href="classstar_1_1_sprite_sheet_component.html">star::SpriteSheetComponent</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1f0ac5c7011e5302d6ca3e51b1339cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#aa1f0ac5c7011e5302d6ca3e51b1339cb">SpriteComponent</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;filepath, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;spriteName, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> widthSegments=1, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> heightSegments=1)</td></tr>
+<tr class="memdesc:aa1f0ac5c7011e5302d6ca3e51b1339cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="classstar_1_1_sprite_component.html" title="Graphics component used to draw a texture or part of a texture. ">SpriteComponent</a> class.  <a href="#aa1f0ac5c7011e5302d6ca3e51b1339cb">More...</a><br/></td></tr>
 <tr class="separator:aa1f0ac5c7011e5302d6ca3e51b1339cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319400c5fb874a7ab60702fb44e63494"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a319400c5fb874a7ab60702fb44e63494">~SpriteComponent</a> ()</td></tr>
+<tr class="memdesc:a319400c5fb874a7ab60702fb44e63494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes an instance of the <a class="el" href="classstar_1_1_sprite_component.html" title="Graphics component used to draw a texture or part of a texture. ">SpriteComponent</a> class.  <a href="#a319400c5fb874a7ab60702fb44e63494">More...</a><br/></td></tr>
 <tr class="separator:a319400c5fb874a7ab60702fb44e63494"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a910e06ec0e135cfe8ebdc211539f0af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a910e06ec0e135cfe8ebdc211539f0af1">Draw</a> ()</td></tr>
+<tr class="memdesc:a910e06ec0e135cfe8ebdc211539f0af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws this instance.  <a href="#a910e06ec0e135cfe8ebdc211539f0af1">More...</a><br/></td></tr>
 <tr class="separator:a910e06ec0e135cfe8ebdc211539f0af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fad2570ceff87a9d55425903a9dbe92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a3fad2570ceff87a9d55425903a9dbe92">Update</a> (const <a class="el" href="structstar_1_1_context.html">Context</a> &amp;context)</td></tr>
+<tr class="memdesc:a3fad2570ceff87a9d55425903a9dbe92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this instance.  <a href="#a3fad2570ceff87a9d55425903a9dbe92">More...</a><br/></td></tr>
 <tr class="separator:a3fad2570ceff87a9d55425903a9dbe92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a244fcf8b80cc5252c0074ed4e42b8ed2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a244fcf8b80cc5252c0074ed4e42b8ed2">CheckCulling</a> (float left, float right, float top, float bottom) const </td></tr>
-<tr class="separator:a244fcf8b80cc5252c0074ed4e42b8ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81bce3e5e862c44699cac7209ce8bbc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#ad81bce3e5e862c44699cac7209ce8bbc">CheckCulling</a> (<a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> left, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> right, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> top, <a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> bottom) const </td></tr>
+<tr class="memdesc:ad81bce3e5e862c44699cac7209ce8bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Culling check. The object will not be drawn if it is out of screen.  <a href="#ad81bce3e5e862c44699cac7209ce8bbc">More...</a><br/></td></tr>
+<tr class="separator:ad81bce3e5e862c44699cac7209ce8bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a486211e4a98fc5ebdd0551beea4528f3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a486211e4a98fc5ebdd0551beea4528f3">GetFilePath</a> () const </td></tr>
+<tr class="memdesc:a486211e4a98fc5ebdd0551beea4528f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the file path of the texture.  <a href="#a486211e4a98fc5ebdd0551beea4528f3">More...</a><br/></td></tr>
 <tr class="separator:a486211e4a98fc5ebdd0551beea4528f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c507620bf0ccc1e904b1e503ac4f821"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a0c507620bf0ccc1e904b1e503ac4f821">GetName</a> () const </td></tr>
+<tr class="memdesc:a0c507620bf0ccc1e904b1e503ac4f821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the sprite.  <a href="#a0c507620bf0ccc1e904b1e503ac4f821">More...</a><br/></td></tr>
 <tr class="separator:a0c507620bf0ccc1e904b1e503ac4f821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9f9e72f246a5d9c519d34ae3b2fab68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#ac9f9e72f246a5d9c519d34ae3b2fab68">SetCurrentSegment</a> (<a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> widthSegment, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> heightSegment)</td></tr>
+<tr class="memdesc:ac9f9e72f246a5d9c519d34ae3b2fab68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current segment to draw.  <a href="#ac9f9e72f246a5d9c519d34ae3b2fab68">More...</a><br/></td></tr>
 <tr class="separator:ac9f9e72f246a5d9c519d34ae3b2fab68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069c04bbc2d090cf3de560cb6c325d02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a069c04bbc2d090cf3de560cb6c325d02">SetColorMultiplier</a> (const <a class="el" href="structstar_1_1_color.html">Color</a> &amp;color)</td></tr>
+<tr class="memdesc:a069c04bbc2d090cf3de560cb6c325d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color multiplier for this sprite.  <a href="#a069c04bbc2d090cf3de560cb6c325d02">More...</a><br/></td></tr>
 <tr class="separator:a069c04bbc2d090cf3de560cb6c325d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa755b489688741f3bdb892af5b291dc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#aa755b489688741f3bdb892af5b291dc1">SetHUDOptionEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:aa755b489688741f3bdb892af5b291dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this Sprite as a HUD element  <a href="#aa755b489688741f3bdb892af5b291dc1">More...</a><br/></td></tr>
 <tr class="separator:aa755b489688741f3bdb892af5b291dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4c07b261938c792037984966e114ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#aec4c07b261938c792037984966e114ff">IsHUDOptionEnabled</a> () const </td></tr>
+<tr class="memdesc:aec4c07b261938c792037984966e114ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this Sprite is a HUD element.  <a href="#aec4c07b261938c792037984966e114ff">More...</a><br/></td></tr>
 <tr class="separator:aec4c07b261938c792037984966e114ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512a481efdcfcebbd7a90f34b467e8c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a512a481efdcfcebbd7a90f34b467e8c0">SetTexture</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;filepath, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;spriteName, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> widthSegments=1, <a class="el" href="defines_types_8h.html#acbd4acd0d29e2d6c43104827f77d9cd2">uint32</a> heightSegments=1)</td></tr>
+<tr class="memdesc:a512a481efdcfcebbd7a90f34b467e8c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the texture of this sprite. Usefull if you want to change the texture at runtime.  <a href="#a512a481efdcfcebbd7a90f34b467e8c0">More...</a><br/></td></tr>
 <tr class="separator:a512a481efdcfcebbd7a90f34b467e8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classstar_1_1_base_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classstar_1_1_base_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classstar_1_1_base_component.html">star::BaseComponent</a></td></tr>
 <tr class="memitem:a038dd3c8ddf56ab621f403946e4b3cb8 inherit pub_methods_classstar_1_1_base_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_component.html#a038dd3c8ddf56ab621f403946e4b3cb8">BaseComponent</a> ()</td></tr>
@@ -198,12 +202,16 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a41ee4ee9302a182fc25c9150624ae4ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a41ee4ee9302a182fc25c9150624ae4ad">InitializeComponent</a> ()</td></tr>
+<tr class="memdesc:a41ee4ee9302a182fc25c9150624ae4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the component.  <a href="#a41ee4ee9302a182fc25c9150624ae4ad">More...</a><br/></td></tr>
 <tr class="separator:a41ee4ee9302a182fc25c9150624ae4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aa8753626fb1ba9cb1ea6cf7608f358"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a4aa8753626fb1ba9cb1ea6cf7608f358">CreateUVCoords</a> ()</td></tr>
+<tr class="memdesc:a4aa8753626fb1ba9cb1ea6cf7608f358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the uv coordinates.  <a href="#a4aa8753626fb1ba9cb1ea6cf7608f358">More...</a><br/></td></tr>
 <tr class="separator:a4aa8753626fb1ba9cb1ea6cf7608f358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec93602c1c868078c169f27a0eee0697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#aec93602c1c868078c169f27a0eee0697">SetUVCoords</a> (const <a class="el" href="defines_math_8h.html#a8db5ee6c51b204d177463eaf15a55449">vec4</a> &amp;coords)</td></tr>
+<tr class="memdesc:aec93602c1c868078c169f27a0eee0697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the uv coordinates.  <a href="#aec93602c1c868078c169f27a0eee0697">More...</a><br/></td></tr>
 <tr class="separator:aec93602c1c868078c169f27a0eee0697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bd90b08201f5029864870f35f97f844"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_sprite_component.html#a3bd90b08201f5029864870f35f97f844">FillSpriteInfo</a> ()</td></tr>
+<tr class="memdesc:a3bd90b08201f5029864870f35f97f844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the sprite information struct, to send to the <a class="el" href="classstar_1_1_sprite_batch.html">SpriteBatch</a>  <a href="#a3bd90b08201f5029864870f35f97f844">More...</a><br/></td></tr>
 <tr class="separator:a3bd90b08201f5029864870f35f97f844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -231,7 +239,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6bebd40682c6810b6f7f9308131d24d8 inherit pro_attribs_classstar_1_1_entity"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstar_1_1_hash_tag.html">HashTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_entity.html#a6bebd40682c6810b6f7f9308131d24d8">m_Name</a></td></tr>
 <tr class="separator:a6bebd40682c6810b6f7f9308131d24d8 inherit pro_attribs_classstar_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Graphics component used to draw a texture or part of a texture. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa1f0ac5c7011e5302d6ca3e51b1339cb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -268,6 +278,17 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="classstar_1_1_sprite_component.html" title="Graphics component used to draw a texture or part of a texture. ">SpriteComponent</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>Path to the asset, starting from the path defined in <a class="el" href="defines_8h.html#a25593ba1f174da07eabeb7e4ea2416efa32bb636196f91ed59d7a49190e26b42c" title="This is the default Assets folder on Android. On windows this directory is defined in the Win32Manife...">DirectoryMode::assets</a>. </td></tr>
+    <tr><td class="paramname">spriteName</td><td>Name of the sprite.</td></tr>
+    <tr><td class="paramname">widthSegments</td><td>Amount of width segments. Default set to 1</td></tr>
+    <tr><td class="paramname">heightSegments</td><td>Amount of height segments. Default set to 1</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a319400c5fb874a7ab60702fb44e63494"></a>
@@ -291,10 +312,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Finalizes an instance of the <a class="el" href="classstar_1_1_sprite_component.html" title="Graphics component used to draw a texture or part of a texture. ">SpriteComponent</a> class. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a244fcf8b80cc5252c0074ed4e42b8ed2"></a>
+<a class="anchor" id="ad81bce3e5e862c44699cac7209ce8bbc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -304,25 +327,25 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool star::SpriteComponent::CheckCulling </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>right</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>top</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td>
           <td class="paramname"><em>bottom</em>&#160;</td>
         </tr>
         <tr>
@@ -337,6 +360,18 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Culling check. The object will not be drawn if it is out of screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>Left of the screen</td></tr>
+    <tr><td class="paramname">right</td><td>Right of the screen</td></tr>
+    <tr><td class="paramname">top</td><td>Top of the screen</td></tr>
+    <tr><td class="paramname">bottom</td><td>Bottom of the screen</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the object should be culled</dd></dl>
 
 <p>Reimplemented from <a class="el" href="classstar_1_1_base_component.html#a3935d02fdf68e2167e2fbde23f04ed89">star::BaseComponent</a>.</p>
 
@@ -363,6 +398,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Creates the uv coordinates. </p>
+
 </div>
 </div>
 <a class="anchor" id="a910e06ec0e135cfe8ebdc211539f0af1"></a>
@@ -385,6 +422,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draws this instance. </p>
 
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#a3dad5b5f8b09a62f459101a41f1992e4">star::BaseComponent</a>.</p>
 
@@ -411,6 +450,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Fills the sprite information struct, to send to the <a class="el" href="classstar_1_1_sprite_batch.html">SpriteBatch</a> </p>
+
 </div>
 </div>
 <a class="anchor" id="a486211e4a98fc5ebdd0551beea4528f3"></a>
@@ -426,6 +467,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the file path of the texture. </p>
+<dl class="section return"><dt>Returns</dt><dd>the file path.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a0c507620bf0ccc1e904b1e503ac4f821"></a>
@@ -440,6 +484,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the name of the sprite. </p>
+<dl class="section return"><dt>Returns</dt><dd>name of the sprite</dd></dl>
 
 </div>
 </div>
@@ -464,9 +511,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Initializes the component. </p>
+
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#aca75fda5d4ee9325b113374a87cb00f6">star::BaseComponent</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classstar_1_1_spritesheet_component.html#a42db9bd57c1b14f544eb3d8f4f73170e">star::SpritesheetComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classstar_1_1_sprite_sheet_component.html#a6891462d7a96a162c8dd2d7fa09606bd">star::SpriteSheetComponent</a>.</p>
 
 </div>
 </div>
@@ -483,6 +532,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Determines whether this Sprite is a HUD element. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a069c04bbc2d090cf3de560cb6c325d02"></a>
@@ -498,6 +550,14 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the color multiplier for this sprite. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -525,6 +585,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the current segment to draw. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widthSegment</td><td>The width segment.</td></tr>
+    <tr><td class="paramname">heightSegment</td><td>The height segment.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aa755b489688741f3bdb892af5b291dc1"></a>
@@ -540,6 +609,14 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets this Sprite as a HUD element </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>True to become a HUD element.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -579,6 +656,17 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the texture of this sprite. Usefull if you want to change the texture at runtime. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>Path to the asset, starting from the path defined in <a class="el" href="defines_8h.html#a25593ba1f174da07eabeb7e4ea2416efa32bb636196f91ed59d7a49190e26b42c" title="This is the default Assets folder on Android. On windows this directory is defined in the Win32Manife...">DirectoryMode::assets</a>.</td></tr>
+    <tr><td class="paramname">spriteName</td><td>Name of the sprite.</td></tr>
+    <tr><td class="paramname">widthSegments</td><td>Amount of width segments. Default set to 1.</td></tr>
+    <tr><td class="paramname">heightSegments</td><td>Amount of height segments. Default set to 1.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aec93602c1c868078c169f27a0eee0697"></a>
@@ -602,6 +690,14 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets the uv coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coords</td><td>The uv coordinatess.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -627,9 +723,17 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Updates this instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td><a class="el" href="structstar_1_1_context.html" title="Struct that is used to pass around information between all the update functions in the engine classes...">Context</a> containing usefull information.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#afe7830a05341130dfc784670baed68e6">star::BaseComponent</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classstar_1_1_spritesheet_component.html#abbe304d587ffc584cbb74f68e442a40e">star::SpritesheetComponent</a>.</p>
+<p>Reimplemented in <a class="el" href="classstar_1_1_sprite_sheet_component.html#aaa46807096d6b62dda23032be3509f7e">star::SpriteSheetComponent</a>.</p>
 
 </div>
 </div>
@@ -715,13 +819,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Components/Graphics/<a class="el" href="_sprite_component_8h_source.html">SpriteComponent.h</a></li>
-<li>StarEngine/jni/Components/Graphics/<a class="el" href="_sprite_component_8cpp.html">SpriteComponent.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Graphics/<a class="el" href="_sprite_component_8h_source.html">SpriteComponent.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Graphics/<a class="el" href="_sprite_component_8cpp.html">SpriteComponent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:28 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

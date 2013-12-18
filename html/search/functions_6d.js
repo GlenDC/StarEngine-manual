@@ -2,6 +2,7 @@ var searchData=
 [
   ['mag',['Mag',['../namespacestar.html#a59e21d43c420c6d237a2bdd4a040f1ef',1,'star::Mag(const fvec2 &amp;vec)'],['../namespacestar.html#a9c8050820e2d34f1f554ea3a27d3506d',1,'star::Mag(const fvec3 &amp;vec)'],['../namespacestar.html#aef23cb77b2812e4e641be34aca5bce51',1,'star::Mag(const fvec4 &amp;vec)'],['../namespacestar.html#aca20009887d7b1e0b229bb450cda80d8',1,'star::Mag(const dvec2 &amp;vec)'],['../namespacestar.html#af370d0edb70db7eeee59a4e4a2b1c965',1,'star::Mag(const dvec3 &amp;vec)'],['../namespacestar.html#a4173b5b1a0030bde9ed5715098d583da',1,'star::Mag(const dvec4 &amp;vec)']]],
   ['mainmenu',['MainMenu',['../class_main_menu.html#a53eecf9d5ffd094f54ac4193e7e57eaf',1,'MainMenu']]],
+  ['mainmenudata',['MainMenuData',['../struct_main_menu_data.html#a28c2f6b685e0a5232ca6e6fa6014f39a',1,'MainMenuData']]],
   ['manhattandistance',['ManhattanDistance',['../structstar_1_1_search_cell.html#a7f9ce2780796ffccea7d37f4ac37f99f',1,'star::SearchCell']]],
   ['max_5fsize',['max_size',['../classstar_1_1_dictionary.html#aa69dc3082056fb9292e65ddd60915354',1,'star::Dictionary']]],
   ['menuscene',['MenuScene',['../class_menu_scene.html#ac789694e56cbf25d1088b0febd35cbc9',1,'MenuScene']]],

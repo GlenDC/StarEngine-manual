@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,13 +99,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_logger_8h_source.html">Logger.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for star::Logger:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_logger__coll__graph.png" border="0" usemap="#star_1_1_logger_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_logger_coll__map" id="star_1_1_logger_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -116,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6f914ff9b098310cc053194440b89541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e6001945a9fc4711860547b6bc494a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#a3e6001945a9fc4711860547b6bc494a6">Update</a> (const <a class="el" href="structstar_1_1_context.html">Context</a> &amp;context)</td></tr>
 <tr class="separator:a3e6001945a9fc4711860547b6bc494a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47be975ecc6fac5fa01493153cde35ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#a47be975ecc6fac5fa01493153cde35ca">Log</a> (<a class="el" href="namespacestar.html#a46dea658dca91d1e9af76714731b9d4e">LogLevel</a> level, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;pMessage, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag=<a class="el" href="defines_8h.html#a3f72f1d2f104c451b0eaf8402c9060a7">GAME_LOG_TAG</a>)</td></tr>
+<tr class="memitem:a47be975ecc6fac5fa01493153cde35ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#a47be975ecc6fac5fa01493153cde35ca">Log</a> (<a class="el" href="namespacestar.html#a46dea658dca91d1e9af76714731b9d4e">LogLevel</a> level, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;pMessage, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag=GAME_LOG_TAG)</td></tr>
 <tr class="separator:a47be975ecc6fac5fa01493153cde35ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f03d06a16ed8e2fd2e6ccfc19c796b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#a9f03d06a16ed8e2fd2e6ccfc19c796b0">Log</a> (bool assert, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;pMessage, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag=<a class="el" href="defines_8h.html#a3f72f1d2f104c451b0eaf8402c9060a7">GAME_LOG_TAG</a>)</td></tr>
+<tr class="memitem:a9f03d06a16ed8e2fd2e6ccfc19c796b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#a9f03d06a16ed8e2fd2e6ccfc19c796b0">Log</a> (bool assert, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;pMessage, const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag=GAME_LOG_TAG)</td></tr>
 <tr class="separator:a9f03d06a16ed8e2fd2e6ccfc19c796b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafa1ffc2f5ef426ba636149a65138c5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_logger.html#aafa1ffc2f5ef426ba636149a65138c5c">_CheckGlError</a> (const <a class="el" href="defines_types_8h.html#af2cbb84f982ea77dfbb738af3a027591">schar</a> *file, <a class="el" href="defines_types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a> line)</td></tr>
 <tr class="separator:aafa1ffc2f5ef426ba636149a65138c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,7 +224,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="defines_8h.html#a3f72f1d2f104c451b0eaf8402c9060a7">GAME_LOG_TAG</a></code>&#160;</td>
+          <td class="paramname"><em>tag</em> = <code>GAME_LOG_TAG</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -264,7 +256,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="defines_8h.html#a3f72f1d2f104c451b0eaf8402c9060a7">GAME_LOG_TAG</a></code>&#160;</td>
+          <td class="paramname"><em>tag</em> = <code>GAME_LOG_TAG</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -309,13 +301,13 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/<a class="el" href="_logger_8h_source.html">Logger.h</a></li>
-<li>StarEngine/jni/<a class="el" href="_logger_8cpp.html">Logger.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/<a class="el" href="_logger_8h_source.html">Logger.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/<a class="el" href="_logger_8cpp.html">Logger.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:29 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

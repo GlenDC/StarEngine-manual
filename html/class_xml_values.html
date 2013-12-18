@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -91,75 +90,80 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_xml_values-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">XmlValues Class Reference</div>  </div>
+<div class="title">XmlValues Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_xml_values_8h_source.html">XmlValues.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for XmlValues:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_xml_values__coll__graph.png" border="0" usemap="#_xml_values_coll__map" alt="Collaboration graph"/></div>
-<map name="_xml_values_coll__map" id="_xml_values_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9958801dd38d948c5d77130121a008a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a9958801dd38d948c5d77130121a008a9">getWaveTime</a> ()</td></tr>
-<tr class="separator:a9958801dd38d948c5d77130121a008a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad45a1241cc8dc150a55ec9759f4d5f01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ad45a1241cc8dc150a55ec9759f4d5f01">getBreadSpeed</a> ()</td></tr>
-<tr class="separator:ad45a1241cc8dc150a55ec9759f4d5f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af869e3f077c9b4c4425b66fd3a25abbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#af869e3f077c9b4c4425b66fd3a25abbf">getBreadScale</a> ()</td></tr>
-<tr class="separator:af869e3f077c9b4c4425b66fd3a25abbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addff596502a66157b166ac45c0b92fc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#addff596502a66157b166ac45c0b92fc8">getSpawnRateMin</a> ()</td></tr>
-<tr class="separator:addff596502a66157b166ac45c0b92fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46292dde0579b0895e53f92ca7218a9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a46292dde0579b0895e53f92ca7218a9f">getSpawnRateMax</a> ()</td></tr>
-<tr class="separator:a46292dde0579b0895e53f92ca7218a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed475613630d2d3fb564c0e18f6ff3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a7ed475613630d2d3fb564c0e18f6ff3d">getSpawnRateWave</a> ()</td></tr>
-<tr class="separator:a7ed475613630d2d3fb564c0e18f6ff3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dcde77f21a75b43f1bfb9d61481fb53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a5dcde77f21a75b43f1bfb9d61481fb53">getSpawnRateWaveMax</a> ()</td></tr>
-<tr class="separator:a5dcde77f21a75b43f1bfb9d61481fb53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab5b34b66177daa44cea390e219d8659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aab5b34b66177daa44cea390e219d8659">getIngredientSpeed</a> ()</td></tr>
-<tr class="separator:aab5b34b66177daa44cea390e219d8659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c99e701fb0e6da88ddd41f2e2d26f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a04c99e701fb0e6da88ddd41f2e2d26f3">getIngredientSpeedWave</a> ()</td></tr>
-<tr class="separator:a04c99e701fb0e6da88ddd41f2e2d26f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4c4b573e722c24a751abc7df10792e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aa4c4b573e722c24a751abc7df10792e0">getIngredientSpeedWaveMax</a> ()</td></tr>
-<tr class="separator:aa4c4b573e722c24a751abc7df10792e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cf659a7e61ae4c9a2b101a8a0cf79bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a9cf659a7e61ae4c9a2b101a8a0cf79bb">getIngredientScale</a> ()</td></tr>
-<tr class="separator:a9cf659a7e61ae4c9a2b101a8a0cf79bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e012dd27bbbc8361efd0ed06e0bb86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a42e012dd27bbbc8361efd0ed06e0bb86">getCustomerFadetimeComing</a> ()</td></tr>
-<tr class="separator:a42e012dd27bbbc8361efd0ed06e0bb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd931833ee567529e83cc9c64363e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a1dd931833ee567529e83cc9c64363e01">getCustomerFadetimeLeaving</a> ()</td></tr>
-<tr class="separator:a1dd931833ee567529e83cc9c64363e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a6790e8baf758d5868d32335ed73849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a1a6790e8baf758d5868d32335ed73849">getCustomerFrequency</a> ()</td></tr>
-<tr class="separator:a1a6790e8baf758d5868d32335ed73849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0f69f8733080ddb45ea053180fb4a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#af0f69f8733080ddb45ea053180fb4a21">getCustomerPatience</a> ()</td></tr>
-<tr class="separator:af0f69f8733080ddb45ea053180fb4a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff5a57a5899fda9df7df4da29cb09cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a7ff5a57a5899fda9df7df4da29cb09cd">getCustomerPatienceWave</a> ()</td></tr>
-<tr class="separator:a7ff5a57a5899fda9df7df4da29cb09cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a441d4a4dfce0c6bca65721511ccc1f50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a441d4a4dfce0c6bca65721511ccc1f50">getCustomerPatienceWaveMax</a> ()</td></tr>
-<tr class="separator:a441d4a4dfce0c6bca65721511ccc1f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac47f90eece1d95d2f0d8039be595d928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ac47f90eece1d95d2f0d8039be595d928">getScorePerIngredient</a> ()</td></tr>
-<tr class="separator:ac47f90eece1d95d2f0d8039be595d928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8bb01a9a9b7f72cceb2c4e2c2e85b2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ab8bb01a9a9b7f72cceb2c4e2c2e85b2d">getPressureDecay</a> ()</td></tr>
-<tr class="separator:ab8bb01a9a9b7f72cceb2c4e2c2e85b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1cf4f408b3133aa0f1342bece69d5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a5e1cf4f408b3133aa0f1342bece69d5a">getPressureDecayWave</a> ()</td></tr>
-<tr class="separator:a5e1cf4f408b3133aa0f1342bece69d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3136f8859908ee3ebd337bfb2cf9bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a1a3136f8859908ee3ebd337bfb2cf9bf">getPressureDecayWaveMax</a> ()</td></tr>
-<tr class="separator:a1a3136f8859908ee3ebd337bfb2cf9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63ef060990b92b3da2205400f253dd2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a63ef060990b92b3da2205400f253dd2e">getPressureSuccess</a> ()</td></tr>
-<tr class="separator:a63ef060990b92b3da2205400f253dd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f87824d577bc31b71eb6e2e2c770304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a3f87824d577bc31b71eb6e2e2c770304">getPressurePartialSuccess</a> ()</td></tr>
-<tr class="separator:a3f87824d577bc31b71eb6e2e2c770304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d85d9fc7b4a36252dd731bb03fdd3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ad8d85d9fc7b4a36252dd731bb03fdd3c">getPressurePartialFailure</a> ()</td></tr>
-<tr class="separator:ad8d85d9fc7b4a36252dd731bb03fdd3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c7b89a77e8a01a8b8eb13c1d9dc97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ad1c7b89a77e8a01a8b8eb13c1d9dc97a">getPressureFailure</a> ()</td></tr>
-<tr class="separator:ad1c7b89a77e8a01a8b8eb13c1d9dc97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa589ddd1377a6dec3a10de385a03226b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aa589ddd1377a6dec3a10de385a03226b">getBubbleLifetime</a> ()</td></tr>
-<tr class="separator:aa589ddd1377a6dec3a10de385a03226b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd6610ba53e95e10b99399f77c74f94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a4fd6610ba53e95e10b99399f77c74f94">~XmlValues</a> (void)</td></tr>
-<tr class="separator:a4fd6610ba53e95e10b99399f77c74f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5d821b533fb0aef87ce50aa10c0146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aca5d821b533fb0aef87ce50aa10c0146">getWaveTime</a> () const </td></tr>
+<tr class="separator:aca5d821b533fb0aef87ce50aa10c0146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728aa55dd58f0052c97cc99515afe0ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a728aa55dd58f0052c97cc99515afe0ee">getBreadSpeed</a> () const </td></tr>
+<tr class="separator:a728aa55dd58f0052c97cc99515afe0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114de4a73b1800574e3e87e51f60d0f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a114de4a73b1800574e3e87e51f60d0f8">getBreadScale</a> () const </td></tr>
+<tr class="separator:a114de4a73b1800574e3e87e51f60d0f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb1571ac38ef3d187247e7c5842082e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aabb1571ac38ef3d187247e7c5842082e">getSpawnRateMin</a> () const </td></tr>
+<tr class="separator:aabb1571ac38ef3d187247e7c5842082e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c2c8b4dc57cfd22de7d7d5b641ebcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a12c2c8b4dc57cfd22de7d7d5b641ebcd">getSpawnRateMax</a> () const </td></tr>
+<tr class="separator:a12c2c8b4dc57cfd22de7d7d5b641ebcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01fa9a9e414d6e9f05d81e5b6916234"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aa01fa9a9e414d6e9f05d81e5b6916234">getSpawnRateWave</a> () const </td></tr>
+<tr class="separator:aa01fa9a9e414d6e9f05d81e5b6916234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe79560ad35a5c20fac05a4daf2219b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#abe79560ad35a5c20fac05a4daf2219b3">getSpawnRateWaveMax</a> () const </td></tr>
+<tr class="separator:abe79560ad35a5c20fac05a4daf2219b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ec67717fab69c2a8ebd3c1b6c43da7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a56ec67717fab69c2a8ebd3c1b6c43da7">getIngredientSpeed</a> () const </td></tr>
+<tr class="separator:a56ec67717fab69c2a8ebd3c1b6c43da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874b74d47890b2e427929e5753bceeb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a874b74d47890b2e427929e5753bceeb0">getIngredientSpeedWave</a> () const </td></tr>
+<tr class="separator:a874b74d47890b2e427929e5753bceeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af564b94d86d84d4cfab292b3e3393373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#af564b94d86d84d4cfab292b3e3393373">getIngredientSpeedWaveMax</a> () const </td></tr>
+<tr class="separator:af564b94d86d84d4cfab292b3e3393373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a679b6bafea91702ba52b8363b4533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a57a679b6bafea91702ba52b8363b4533">getIngredientScale</a> () const </td></tr>
+<tr class="separator:a57a679b6bafea91702ba52b8363b4533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972c76e49429094b464b0e24cea8b74a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a972c76e49429094b464b0e24cea8b74a">getCustomerFadetimeComing</a> () const </td></tr>
+<tr class="separator:a972c76e49429094b464b0e24cea8b74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b2643e3d7d04ee9e399306b6139d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a66b2643e3d7d04ee9e399306b6139d24">getCustomerFadetimeLeaving</a> () const </td></tr>
+<tr class="separator:a66b2643e3d7d04ee9e399306b6139d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e55172a161ab4863ef4056764511c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a59e55172a161ab4863ef4056764511c8">getCustomerFrequency</a> () const </td></tr>
+<tr class="separator:a59e55172a161ab4863ef4056764511c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f0ae7e5c3938c4814fcbddc097c5d5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a7f0ae7e5c3938c4814fcbddc097c5d5b">getCustomerPatience</a> () const </td></tr>
+<tr class="separator:a7f0ae7e5c3938c4814fcbddc097c5d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f8a7c02f0ad221752422d9cd3cdae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a17f8a7c02f0ad221752422d9cd3cdae3">getCustomerPatienceWave</a> () const </td></tr>
+<tr class="separator:a17f8a7c02f0ad221752422d9cd3cdae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92a90d2ed6a36a868c5430a202bae1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#aa92a90d2ed6a36a868c5430a202bae1c">getCustomerPatienceWaveMax</a> () const </td></tr>
+<tr class="separator:aa92a90d2ed6a36a868c5430a202bae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32427936892f3fdf187e77e282052855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a32427936892f3fdf187e77e282052855">getScorePerIngredient</a> () const </td></tr>
+<tr class="separator:a32427936892f3fdf187e77e282052855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a4739a142b918754742bed166324e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a60a4739a142b918754742bed166324e5">getPressureDecay</a> () const </td></tr>
+<tr class="separator:a60a4739a142b918754742bed166324e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e4c575470d52c3baabeaee9770abee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a67e4c575470d52c3baabeaee9770abee">getPressureDecayWave</a> () const </td></tr>
+<tr class="separator:a67e4c575470d52c3baabeaee9770abee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bbddbdbcdd57610fb2ea7ec8ff3dc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a88bbddbdbcdd57610fb2ea7ec8ff3dc4">getPressureDecayWaveMax</a> () const </td></tr>
+<tr class="separator:a88bbddbdbcdd57610fb2ea7ec8ff3dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a1e430b26c64a2b1f100fba84d6858f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a5a1e430b26c64a2b1f100fba84d6858f">getPressureSuccess</a> () const </td></tr>
+<tr class="separator:a5a1e430b26c64a2b1f100fba84d6858f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbf1f7432ea25a7db15f805258810c54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#abbf1f7432ea25a7db15f805258810c54">getPressurePartialSuccess</a> () const </td></tr>
+<tr class="separator:abbf1f7432ea25a7db15f805258810c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1044f9adbd00c3e28383b992fcf1a243"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a1044f9adbd00c3e28383b992fcf1a243">getPressurePartialFailure</a> () const </td></tr>
+<tr class="separator:a1044f9adbd00c3e28383b992fcf1a243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bfcf5dec9de602dac0084cc26f0e4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ab3bfcf5dec9de602dac0084cc26f0e4a">getPressureFailure</a> () const </td></tr>
+<tr class="separator:ab3bfcf5dec9de602dac0084cc26f0e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217cbbf2a8ed279901e8de3fb6c69302"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a217cbbf2a8ed279901e8de3fb6c69302">getBubbleLifetime</a> () const </td></tr>
+<tr class="separator:a217cbbf2a8ed279901e8de3fb6c69302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692b38f3dcc86378aa94fd011be1f117"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_main_menu_data.html">MainMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a692b38f3dcc86378aa94fd011be1f117">getMainMenuData</a> () const </td></tr>
+<tr class="separator:a692b38f3dcc86378aa94fd011be1f117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bff8d2b63cd347cad0cc6731836f8b9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_options_menu_data.html">OptionsMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a3bff8d2b63cd347cad0cc6731836f8b9">getOptionsMenuData</a> () const </td></tr>
+<tr class="separator:a3bff8d2b63cd347cad0cc6731836f8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb81de733a5b4d5b74ad539cb9c0a0df"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_tutorial_menu_data.html">TutorialMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#abb81de733a5b4d5b74ad539cb9c0a0df">getTutorialMenuData</a> () const </td></tr>
+<tr class="separator:abb81de733a5b4d5b74ad539cb9c0a0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18bca414a58ef7ac140c6242d7df8e8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_score_menu_data.html">ScoreMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#ae18bca414a58ef7ac140c6242d7df8e8">getScoreMenuData</a> () const </td></tr>
+<tr class="separator:ae18bca414a58ef7ac140c6242d7df8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504db4288dfed430e973daa85a5347e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_splash_screen_menu_data.html">SplashScreenMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a504db4288dfed430e973daa85a5347e6">getSplashScreenMenuData</a> () const </td></tr>
+<tr class="separator:a504db4288dfed430e973daa85a5347e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1f13a30e1b11359de79639708b0da7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_about_menu_data.html">AboutMenuData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#add1f13a30e1b11359de79639708b0da7">getAboutMenuData</a> () const </td></tr>
+<tr class="separator:add1f13a30e1b11359de79639708b0da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb4ffe87171399ca52cf2e468b853aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xml_values.html#a8cb4ffe87171399ca52cf2e468b853aa">~XmlValues</a> ()</td></tr>
+<tr class="separator:a8cb4ffe87171399ca52cf2e468b853aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -167,14 +171,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa4ba19357130ceaf442a1df67f0852dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4fd6610ba53e95e10b99399f77c74f94"></a>
+<a class="anchor" id="a8cb4ffe87171399ca52cf2e468b853aa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">XmlValues::~XmlValues </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -207,7 +210,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af869e3f077c9b4c4425b66fd3a25abbf"></a>
+<a class="anchor" id="add1f13a30e1b11359de79639708b0da7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_about_menu_data.html">AboutMenuData</a> &amp; XmlValues::getAboutMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a114de4a73b1800574e3e87e51f60d0f8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -215,14 +233,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getBreadScale </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ad45a1241cc8dc150a55ec9759f4d5f01"></a>
+<a class="anchor" id="a728aa55dd58f0052c97cc99515afe0ee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -230,14 +248,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getBreadSpeed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aa589ddd1377a6dec3a10de385a03226b"></a>
+<a class="anchor" id="a217cbbf2a8ed279901e8de3fb6c69302"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -245,14 +263,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getBubbleLifetime </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a42e012dd27bbbc8361efd0ed06e0bb86"></a>
+<a class="anchor" id="a972c76e49429094b464b0e24cea8b74a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -260,14 +278,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerFadetimeComing </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a1dd931833ee567529e83cc9c64363e01"></a>
+<a class="anchor" id="a66b2643e3d7d04ee9e399306b6139d24"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -275,14 +293,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerFadetimeLeaving </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a1a6790e8baf758d5868d32335ed73849"></a>
+<a class="anchor" id="a59e55172a161ab4863ef4056764511c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -290,14 +308,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerFrequency </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="af0f69f8733080ddb45ea053180fb4a21"></a>
+<a class="anchor" id="a7f0ae7e5c3938c4814fcbddc097c5d5b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -305,14 +323,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerPatience </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a7ff5a57a5899fda9df7df4da29cb09cd"></a>
+<a class="anchor" id="a17f8a7c02f0ad221752422d9cd3cdae3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -320,14 +338,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerPatienceWave </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a441d4a4dfce0c6bca65721511ccc1f50"></a>
+<a class="anchor" id="aa92a90d2ed6a36a868c5430a202bae1c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -335,14 +353,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getCustomerPatienceWaveMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a9cf659a7e61ae4c9a2b101a8a0cf79bb"></a>
+<a class="anchor" id="a57a679b6bafea91702ba52b8363b4533"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -350,14 +368,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getIngredientScale </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aab5b34b66177daa44cea390e219d8659"></a>
+<a class="anchor" id="a56ec67717fab69c2a8ebd3c1b6c43da7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -365,14 +383,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getIngredientSpeed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a04c99e701fb0e6da88ddd41f2e2d26f3"></a>
+<a class="anchor" id="a874b74d47890b2e427929e5753bceeb0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -380,14 +398,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getIngredientSpeedWave </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aa4c4b573e722c24a751abc7df10792e0"></a>
+<a class="anchor" id="af564b94d86d84d4cfab292b3e3393373"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -395,14 +413,44 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getIngredientSpeedWaveMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ab8bb01a9a9b7f72cceb2c4e2c2e85b2d"></a>
+<a class="anchor" id="a692b38f3dcc86378aa94fd011be1f117"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_main_menu_data.html">MainMenuData</a> &amp; XmlValues::getMainMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3bff8d2b63cd347cad0cc6731836f8b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_options_menu_data.html">OptionsMenuData</a> &amp; XmlValues::getOptionsMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60a4739a142b918754742bed166324e5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -410,14 +458,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressureDecay </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a5e1cf4f408b3133aa0f1342bece69d5a"></a>
+<a class="anchor" id="a67e4c575470d52c3baabeaee9770abee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -425,14 +473,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressureDecayWave </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a1a3136f8859908ee3ebd337bfb2cf9bf"></a>
+<a class="anchor" id="a88bbddbdbcdd57610fb2ea7ec8ff3dc4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -440,14 +488,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressureDecayWaveMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ad1c7b89a77e8a01a8b8eb13c1d9dc97a"></a>
+<a class="anchor" id="ab3bfcf5dec9de602dac0084cc26f0e4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -455,14 +503,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressureFailure </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ad8d85d9fc7b4a36252dd731bb03fdd3c"></a>
+<a class="anchor" id="a1044f9adbd00c3e28383b992fcf1a243"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -470,14 +518,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressurePartialFailure </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a3f87824d577bc31b71eb6e2e2c770304"></a>
+<a class="anchor" id="abbf1f7432ea25a7db15f805258810c54"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -485,14 +533,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressurePartialSuccess </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a63ef060990b92b3da2205400f253dd2e"></a>
+<a class="anchor" id="a5a1e430b26c64a2b1f100fba84d6858f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -500,14 +548,29 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getPressureSuccess </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ac47f90eece1d95d2f0d8039be595d928"></a>
+<a class="anchor" id="ae18bca414a58ef7ac140c6242d7df8e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_score_menu_data.html">ScoreMenuData</a> &amp; XmlValues::getScoreMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32427936892f3fdf187e77e282052855"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -515,14 +578,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getScorePerIngredient </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a46292dde0579b0895e53f92ca7218a9f"></a>
+<a class="anchor" id="a12c2c8b4dc57cfd22de7d7d5b641ebcd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -530,14 +593,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getSpawnRateMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="addff596502a66157b166ac45c0b92fc8"></a>
+<a class="anchor" id="aabb1571ac38ef3d187247e7c5842082e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -545,14 +608,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getSpawnRateMin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a7ed475613630d2d3fb564c0e18f6ff3d"></a>
+<a class="anchor" id="aa01fa9a9e414d6e9f05d81e5b6916234"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -560,14 +623,14 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getSpawnRateWave </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a5dcde77f21a75b43f1bfb9d61481fb53"></a>
+<a class="anchor" id="abe79560ad35a5c20fac05a4daf2219b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -575,14 +638,44 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getSpawnRateWaveMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a9958801dd38d948c5d77130121a008a9"></a>
+<a class="anchor" id="a504db4288dfed430e973daa85a5347e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_splash_screen_menu_data.html">SplashScreenMenuData</a> &amp; XmlValues::getSplashScreenMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb81de733a5b4d5b74ad539cb9c0a0df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_tutorial_menu_data.html">TutorialMenuData</a> &amp; XmlValues::getTutorialMenuData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca5d821b533fb0aef87ce50aa10c0146"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -590,7 +683,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="defines_types_8h.html#aacdc525d6f7bddb3ae95d5c311bd06a1">float32</a> XmlValues::getWaveTime </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -598,13 +691,13 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>jni/Objects/<a class="el" href="_xml_values_8h_source.html">XmlValues.h</a></li>
-<li>jni/Objects/<a class="el" href="_xml_values_8cpp.html">XmlValues.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/jni/Objects/<a class="el" href="_xml_values_8h_source.html">XmlValues.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/jni/Objects/<a class="el" href="_xml_values_8cpp.html">XmlValues.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:28 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -99,13 +98,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_gesture_manager_8h_source.html">GestureManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for star::GestureManager:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_gesture_manager__coll__graph.png" border="0" usemap="#star_1_1_gesture_manager_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_gesture_manager_coll__map" id="star_1_1_gesture_manager_coll__map">
-</map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -123,8 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af3338c341f7accf42d4b006740e61d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5245a1d74cf56d42c98ed01df4ae934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_gesture_manager.html#ae5245a1d74cf56d42c98ed01df4ae934">RemoveGesture</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag)</td></tr>
 <tr class="separator:ae5245a1d74cf56d42c98ed01df4ae934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81e35e116eab05101b31ade72aead377"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classstar_1_1_base_gesture.html">BaseGesture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_gesture_manager.html#a81e35e116eab05101b31ade72aead377">GetGesture</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;tag)</td></tr>
-<tr class="separator:a81e35e116eab05101b31ade72aead377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eaa9a97ed6d372fcd3842093e5458e7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9eaa9a97ed6d372fcd3842093e5458e7"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classstar_1_1_gesture_manager.html#a9eaa9a97ed6d372fcd3842093e5458e7">GetGesture</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;name) const </td></tr>
+<tr class="separator:a9eaa9a97ed6d372fcd3842093e5458e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdae7944d0855eaa3ca226cd79b85e47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_gesture_manager.html#afdae7944d0855eaa3ca226cd79b85e47">OnTouchEvent</a> (AInputEvent *pEvent)</td></tr>
 <tr class="separator:afdae7944d0855eaa3ca226cd79b85e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -201,16 +194,18 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a81e35e116eab05101b31ade72aead377"></a>
+<a class="anchor" id="a9eaa9a97ed6d372fcd3842093e5458e7"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classstar_1_1_base_gesture.html">BaseGesture</a>* star::GestureManager::GetGesture </td>
+          <td class="memname">T * star::GestureManager::GetGesture </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &amp;&#160;</td>
-          <td class="paramname"><em>tag</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -282,13 +277,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Input/Gestures/<a class="el" href="_gesture_manager_8h_source.html">GestureManager.h</a></li>
-<li>StarEngine/jni/Input/Gestures/<a class="el" href="_gesture_manager_8cpp.html">GestureManager.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Input/Gestures/<a class="el" href="_gesture_manager_8h_source.html">GestureManager.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Input/Gestures/<a class="el" href="_gesture_manager_8cpp.html">GestureManager.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Input/Gestures/<a class="el" href="_gesture_manager_8inl.html">GestureManager.inl</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:29 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

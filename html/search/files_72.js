@@ -6,6 +6,7 @@ var searchData=
   ['rectanglecollidercomponent_2ecpp',['RectangleColliderComponent.cpp',['../_rectangle_collider_component_8cpp.html',1,'']]],
   ['rectanglecollidercomponent_2eh',['RectangleColliderComponent.h',['../_rectangle_collider_component_8h.html',1,'']]],
   ['resource_2ecpp',['Resource.cpp',['../_resource_8cpp.html',1,'']]],
-  ['resource_2eh',['Resource.h',['../jni_2_assets_2_resource_8h.html',1,'']]],
-  ['resource_2eh',['resource.h',['../_resource_8h.html',1,'']]]
+  ['resource_2eh',['resource.h',['../_star_engine_2resource_8h.html',1,'']]],
+  ['resource_2eh',['Resource.h',['../_star_engine_2jni_2_graphics_2resource_8h.html',1,'']]],
+  ['resource_2eh',['resource.h',['../resource_8h.html',1,'']]]
 ];

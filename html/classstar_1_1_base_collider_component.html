@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,67 +100,82 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Base class for other collider components  
+ <a href="classstar_1_1_base_collider_component.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_base_collider_component_8h_source.html">BaseColliderComponent.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for star::BaseColliderComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_base_collider_component__inherit__graph.png" border="0" usemap="#star_1_1_base_collider_component_inherit__map" alt="Inheritance graph"/></div>
-<map name="star_1_1_base_collider_component_inherit__map" id="star_1_1_base_collider_component_inherit__map">
-<area shape="rect" id="node4" href="classstar_1_1_circle_collider_component.html" title="{star::CircleColliderComponent\n|# m_Radius\l# m_Offset\l# m_bDefaultInitialized\l# m_DrawSegments\l|+ CircleColliderComponent()\l+ CircleColliderComponent()\l+ CircleColliderComponent()\l+ CircleColliderComponent()\l+ CircleColliderComponent()\l+ CircleColliderComponent()\l+ ~CircleColliderComponent()\l+ CollidesWithPoint()\l+ CollidesWithLine()\l+ CollidesWith()\land 7 more...\l# InitializeColliderComponent()\l# Draw()\l# CircleCircleCollision()\l}" alt="" coords="5,979,203,1291"/><area shape="rect" id="node5" href="classstar_1_1_rectangle_collider_component.html" title="{star::RectangleColliderComponent\n|# m_CollisionRect\l|+ RectangleColliderComponent()\l+ RectangleColliderComponent()\l+ RectangleColliderComponent()\l+ RectangleColliderComponent()\l+ RectangleColliderComponent()\l+ RectangleColliderComponent()\l+ ~RectangleColliderComponent()\l+ CollidesWithPoint()\l+ CollidesWithLine()\l+ CollidesWith()\land 9 more...\l# InitializeColliderComponent()\l# Draw()\l# OOBBRectangleRectangleCollision()\l# AABBRectangleRectangleCollision()\l# CalculateAxisSpecificCollision()\l# CalculateAxisSpecificCollision()\l# CalculateAxisSpecificCollision()\l}" alt="" coords="227,971,471,1298"/><area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_pParentObject\l# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="149,219,304,517"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n|# m_Name\l|+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="163,5,291,171"/></map>
-</div>
-<div class="dynheader">
-Collaboration diagram for star::BaseColliderComponent:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_base_collider_component__coll__graph.png" border="0" usemap="#star_1_1_base_collider_component_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_base_collider_component_coll__map" id="star_1_1_base_collider_component_coll__map">
-<area shape="rect" id="node2" href="classstar_1_1_base_component.html" title="{star::BaseComponent\n|# m_bInitialized\l# m_bIsEnabled\l# m_bIsVisible\l# m_Dimensions\l|+ BaseComponent()\l+ BaseComponent()\l+ ~BaseComponent()\l+ Destroy()\l+ Initialize()\l+ BaseUpdate()\l+ BaseDraw()\l+ Update()\l+ Draw()\l+ IsInitialized()\land 12 more...\l# InitializeComponent()\l}" alt="" coords="588,599,743,881"/><area shape="rect" id="node6" href="classstar_1_1_path_find_node_component.html" title="{star::PathFindNodeComponent\n||+ PathFindNodeComponent()\l+ ~PathFindNodeComponent()\l+ Update()\l+ Draw()\l# InitializeComponent()\l# PathFindNodeComponent()\l# PathFindNodeComponent()\l# operator=()\l# operator=()\l}" alt="" coords="565,1085,765,1280"/><area shape="rect" id="node9" href="classstar_1_1_camera_component.html" title="{star::CameraComponent\n||+ CameraComponent()\l+ ~CameraComponent()\l+ Update()\l+ Draw()\l+ SetFieldOfView()\l+ SetOrthoSize()\l+ SetNearClippingPlane()\l+ SetFarClippingPlane()\l+ SetActive()\l+ IsActive()\land 8 more...\l# InitializeComponent()\l}" alt="" coords="441,1371,609,1610"/><area shape="rect" id="node3" href="classstar_1_1_entity.html" title="{star::Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="912,309,1040,475"/><area shape="rect" id="node5" href="classstar_1_1_object.html" title="{star::Object\n|# m_bIsInitialized\l# m_IsVisible\l# m_IsFrozen\l# m_pGarbageContainer\l# m_pComponents\l# m_pChildren\l# m_pActions\l|+ Object()\l+ Object()\l+ Object()\l+ ~Object()\l+ Destroy()\l+ GetParent()\l+ BaseInitialize()\l+ BaseAfterInitialized()\l+ BaseUpdate()\l+ BaseDraw()\land 45 more...\l# DestroyGarbageElement()\l# Initialize()\l# AfterInitialized()\l# Update()\l# Draw()\l# BaseCheckCulling()\l# CheckCulling()\l}" alt="" coords="630,1635,812,2050"/><area shape="rect" id="node7" href="classstar_1_1_base_scene.html" title="{star::BaseScene\n|# m_GestureManagerPtr\l# m_CollisionManagerPtr\l# m_Objects\l# m_Garbage\l# m_pStopwatch\l|+ BaseScene()\l+ ~BaseScene()\l+ Destroy()\l+ BaseInitialize()\l+ BaseAfterInitializedObjects()\l+ BaseOnActivate()\l+ BaseOnDeactivate()\l+ BaseUpdate()\l+ BaseDraw()\l+ OnSaveState()\land 29 more...\l+ SetCullingIsEnabled()\l+ IsCullingEnabled()\l# CreateObjects()\l# AfterInitializedObjects()\l# OnActivate()\l# OnDeactivate()\l# Update()\l# Draw()\l# SetOSCursorHidden()\l}" alt="" coords="683,2374,881,2789"/><area shape="rect" id="node4" href="classstar_1_1_hash_tag.html" title="{star::HashTag\n||+ HashTag()\l+ HashTag()\l+ HashTag()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ operator==()\land 6 more...\l+ GenerateHash()\l}" alt="" coords="973,6,1099,245"/><area shape="rect" id="node8" href="classstar_1_1_base_camera.html" title="{star::BaseCamera\n||+ BaseCamera()\l+ ~BaseCamera()\l# Initialize()\l}" alt="" coords="505,2145,631,2252"/><area shape="rect" id="node10" href="classstar_1_1_u_i_base_cursor.html" title="{star::UIBaseCursor\n|# m_IsLocked\l# m_State\l|+ UIBaseCursor()\l+ ~UIBaseCursor()\l+ SetLocked()\l+ IsLocked()\l+ IsIdle()\l+ IsHover()\l+ IsClick()\l+ SetState()\l}" alt="" coords="655,2101,787,2296"/><area shape="rect" id="node11" href="structstar_1_1_color.html" title="{star::Color\n|+ r\l+ g\l+ b\l+ a\l+ AliceBlue\l+ AntiqueWhite\l+ Aqua\l+ Aquamarine\l+ Azure\l+ Beige\l+ Black\l+ BlanchedAlmond\l+ Blue\l+ BlueViolet\land 121 more...\l|+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\l+ Color()\land 46 more...\l}" alt="" coords="5,525,136,955"/><area shape="rect" id="node12" href="struct_pointer_array.html" title="{PointerArray\&lt; tstring \&gt;\n|+ amount\l+ elements\l|}" alt="" coords="319,694,473,786"/></map>
-</div>
+
+<p>Inherits <a class="el" href="classstar_1_1_base_component.html">star::BaseComponent</a>.</p>
+
+<p>Inherited by <a class="el" href="classstar_1_1_circle_collider_component.html">star::CircleColliderComponent</a>, and <a class="el" href="classstar_1_1_rectangle_collider_component.html">star::RectangleColliderComponent</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a30325b0aa1a7f3258c34e97c82a36ff1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a30325b0aa1a7f3258c34e97c82a36ff1">BaseColliderComponent</a> ()</td></tr>
+<tr class="memdesc:a30325b0aa1a7f3258c34e97c82a36ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class. Using collision layers is strongly advised, so use this default constructor with care. The collider will be added to the default collision group.  <a href="#a30325b0aa1a7f3258c34e97c82a36ff1">More...</a><br/></td></tr>
 <tr class="separator:a30325b0aa1a7f3258c34e97c82a36ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a278e07093f8746fbb5dedbbe0badee23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a278e07093f8746fbb5dedbbe0badee23">BaseColliderComponent</a> (const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> *layers, <a class="el" href="defines_types_8h.html#a33a5e996e7a90acefb8b1c0bea47e365">uint8</a> n=1)</td></tr>
+<tr class="memdesc:a278e07093f8746fbb5dedbbe0badee23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class. The collider will be added to the collision groups you specify as arguments.  <a href="#a278e07093f8746fbb5dedbbe0badee23">More...</a><br/></td></tr>
 <tr class="separator:a278e07093f8746fbb5dedbbe0badee23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ea8c791f7c8cd5302fdfe9172b77d05"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a6ea8c791f7c8cd5302fdfe9172b77d05">~BaseColliderComponent</a> ()</td></tr>
+<tr class="memdesc:a6ea8c791f7c8cd5302fdfe9172b77d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes an instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class.  <a href="#a6ea8c791f7c8cd5302fdfe9172b77d05">More...</a><br/></td></tr>
 <tr class="separator:a6ea8c791f7c8cd5302fdfe9172b77d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d11f75bfc888a41ea9ed328ff684989"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a1d11f75bfc888a41ea9ed328ff684989">Update</a> (const <a class="el" href="structstar_1_1_context.html">Context</a> &amp;context)</td></tr>
+<tr class="memdesc:a1d11f75bfc888a41ea9ed328ff684989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this instance.  <a href="#a1d11f75bfc888a41ea9ed328ff684989">More...</a><br/></td></tr>
 <tr class="separator:a1d11f75bfc888a41ea9ed328ff684989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c7b46da179881a5d6a8f0dabed2c361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a9c7b46da179881a5d6a8f0dabed2c361">SetOnEnterCallback</a> (Callback onEnter)</td></tr>
-<tr class="separator:a9c7b46da179881a5d6a8f0dabed2c361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7336c48a8839ecf4be6ac304446b186e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a7336c48a8839ecf4be6ac304446b186e">SetOnStayCallback</a> (Callback onStay)</td></tr>
-<tr class="separator:a7336c48a8839ecf4be6ac304446b186e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd8dc90e939448a9786469c32301e06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#afd8dc90e939448a9786469c32301e06e">SetOnExitCallback</a> (Callback onExit)</td></tr>
-<tr class="separator:afd8dc90e939448a9786469c32301e06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b38b91afa51515b0e25cef300ebda7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a3b38b91afa51515b0e25cef300ebda7a">SetOnEnterCallback</a> (std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt; onEnter)</td></tr>
+<tr class="memdesc:a3b38b91afa51515b0e25cef300ebda7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the callback that will be triggered 1 time for ever collision with another component. This callback will be triggered the moment this component collides with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>.  <a href="#a3b38b91afa51515b0e25cef300ebda7a">More...</a><br/></td></tr>
+<tr class="separator:a3b38b91afa51515b0e25cef300ebda7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc74a020539b2df95663dde47e388d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a6fc74a020539b2df95663dde47e388d7">SetOnStayCallback</a> (std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt; onStay)</td></tr>
+<tr class="memdesc:a6fc74a020539b2df95663dde47e388d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the callback that will be triggered while this component collides with another component. This callback will be triggered while this component collides with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>.  <a href="#a6fc74a020539b2df95663dde47e388d7">More...</a><br/></td></tr>
+<tr class="separator:a6fc74a020539b2df95663dde47e388d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39eb8e2130b4b40190a417d7f16e0f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#ac39eb8e2130b4b40190a417d7f16e0f3">SetOnExitCallback</a> (std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt; onExit)</td></tr>
+<tr class="memdesc:ac39eb8e2130b4b40190a417d7f16e0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the callback that will be triggered 1 time for ever collision with another component. This callback will be triggered the moment this component stops colliding with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>.  <a href="#ac39eb8e2130b4b40190a417d7f16e0f3">More...</a><br/></td></tr>
+<tr class="separator:ac39eb8e2130b4b40190a417d7f16e0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e98d9bc04612f58bb8ca7871e447f30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a2e98d9bc04612f58bb8ca7871e447f30">TriggerOnEnter</a> (<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *other)</td></tr>
+<tr class="memdesc:a2e98d9bc04612f58bb8ca7871e447f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the OnEnter callback. This function is used in the collision manager and should not be used by the user.  <a href="#a2e98d9bc04612f58bb8ca7871e447f30">More...</a><br/></td></tr>
 <tr class="separator:a2e98d9bc04612f58bb8ca7871e447f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af81d50c583ca03f7cd8986d6a4ecbcd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#af81d50c583ca03f7cd8986d6a4ecbcd4">TriggerOnStay</a> (<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *other)</td></tr>
+<tr class="memdesc:af81d50c583ca03f7cd8986d6a4ecbcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the OnStay callback. This function is used in the collision manager and should not be used by the user.  <a href="#af81d50c583ca03f7cd8986d6a4ecbcd4">More...</a><br/></td></tr>
 <tr class="separator:af81d50c583ca03f7cd8986d6a4ecbcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b62abebee42c51ff1fd0d599c0c026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a16b62abebee42c51ff1fd0d599c0c026">TriggerOnExit</a> (<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *other)</td></tr>
+<tr class="memdesc:a16b62abebee42c51ff1fd0d599c0c026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the OnExit callback.  <a href="#a16b62abebee42c51ff1fd0d599c0c026">More...</a><br/></td></tr>
 <tr class="separator:a16b62abebee42c51ff1fd0d599c0c026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d35fd5152ac366e34916248da64988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#ac4d35fd5152ac366e34916248da64988">SetAsTrigger</a> (bool isTrigger)</td></tr>
+<tr class="memdesc:ac4d35fd5152ac366e34916248da64988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this component as a trigger. If the component is a trigger, it means that the callbacks will be triggered, but nothing will happen to the component and its object. Else, the component and its object would really collide and affect movement.  <a href="#ac4d35fd5152ac366e34916248da64988">More...</a><br/></td></tr>
 <tr class="separator:ac4d35fd5152ac366e34916248da64988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a577131e2474e006e70f7ad9876e1a50a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a577131e2474e006e70f7ad9876e1a50a">IsTrigger</a> () const </td></tr>
+<tr class="memdesc:a577131e2474e006e70f7ad9876e1a50a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this component is a trigger. If the component is a trigger, it means that the callbacks will be triggered, but nothing will happen to the component and its object. Else, the component and its object would really collide and affect movement.  <a href="#a577131e2474e006e70f7ad9876e1a50a">More...</a><br/></td></tr>
 <tr class="separator:a577131e2474e006e70f7ad9876e1a50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c955971dc92bd440f2ce2920fb696a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a95c955971dc92bd440f2ce2920fb696a">SetAsStatic</a> (bool isStatic)</td></tr>
+<tr class="memdesc:a95c955971dc92bd440f2ce2920fb696a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks this component as static. Static components will not be transformed.  <a href="#a95c955971dc92bd440f2ce2920fb696a">More...</a><br/></td></tr>
 <tr class="separator:a95c955971dc92bd440f2ce2920fb696a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91e76240e01b57343a40e1ed884d865a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a91e76240e01b57343a40e1ed884d865a">IsStatic</a> () const </td></tr>
+<tr class="memdesc:a91e76240e01b57343a40e1ed884d865a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this component is static. Static components will not be transformed.  <a href="#a91e76240e01b57343a40e1ed884d865a">More...</a><br/></td></tr>
 <tr class="separator:a91e76240e01b57343a40e1ed884d865a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebdcb9b8b7d25c9e00681b5b8dd01ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a6ebdcb9b8b7d25c9e00681b5b8dd01ab">SetEntered</a> (bool hasEntered)</td></tr>
+<tr class="memdesc:a6ebdcb9b8b7d25c9e00681b5b8dd01ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that this component has entered collision. This function is used in the collision manager and should not be used by the user.  <a href="#a6ebdcb9b8b7d25c9e00681b5b8dd01ab">More...</a><br/></td></tr>
 <tr class="separator:a6ebdcb9b8b7d25c9e00681b5b8dd01ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517c413a64765439d166ab01169365c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a517c413a64765439d166ab01169365c8">GetEntered</a> () const </td></tr>
+<tr class="memdesc:a517c413a64765439d166ab01169365c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if this component has entered collsion. This function is used in the collision manager and should not be used by the user.  <a href="#a517c413a64765439d166ab01169365c8">More...</a><br/></td></tr>
 <tr class="separator:a517c413a64765439d166ab01169365c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e962718a340ddf380dd15c17d9a88f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a3e962718a340ddf380dd15c17d9a88f6">SetExited</a> (bool hasLeft)</td></tr>
+<tr class="memdesc:a3e962718a340ddf380dd15c17d9a88f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that this component has left collision. This function is used in the collision manager and should not be used by the user.  <a href="#a3e962718a340ddf380dd15c17d9a88f6">More...</a><br/></td></tr>
 <tr class="separator:a3e962718a340ddf380dd15c17d9a88f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81806f07c7105189462a69aa35503c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#ac81806f07c7105189462a69aa35503c0">GetExited</a> () const </td></tr>
+<tr class="memdesc:ac81806f07c7105189462a69aa35503c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if this component has left collsion. This function is used in the collision manager and should not be used by the user.  <a href="#ac81806f07c7105189462a69aa35503c0">More...</a><br/></td></tr>
 <tr class="separator:ac81806f07c7105189462a69aa35503c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f50548760d51f559d04f816271e0ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#ab4f50548760d51f559d04f816271e0ca">SetDrawColor</a> (const <a class="el" href="structstar_1_1_color.html">Color</a> &amp;color)</td></tr>
+<tr class="memdesc:ab4f50548760d51f559d04f816271e0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color of the <a class="el" href="classstar_1_1_debug_draw.html">DebugDraw</a> of this component.  <a href="#ab4f50548760d51f559d04f816271e0ca">More...</a><br/></td></tr>
 <tr class="separator:ab4f50548760d51f559d04f816271e0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7435af4770cf0ce4f4d57cd217fb8c73"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structstar_1_1_color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a7435af4770cf0ce4f4d57cd217fb8c73">GetDrawColor</a> () const </td></tr>
+<tr class="memdesc:a7435af4770cf0ce4f4d57cd217fb8c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color of the <a class="el" href="classstar_1_1_debug_draw.html">DebugDraw</a> of this component.  <a href="#a7435af4770cf0ce4f4d57cd217fb8c73">More...</a><br/></td></tr>
 <tr class="separator:a7435af4770cf0ce4f4d57cd217fb8c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a053afbba3aa5d98029a44c22269a9511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a053afbba3aa5d98029a44c22269a9511">EnableDrawing</a> (bool enable)</td></tr>
+<tr class="memdesc:a053afbba3aa5d98029a44c22269a9511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles debug drawing of this component.  <a href="#a053afbba3aa5d98029a44c22269a9511">More...</a><br/></td></tr>
 <tr class="separator:a053afbba3aa5d98029a44c22269a9511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9e272edc180de52b7b048e77641278"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_pointer_array.html">PointerArray</a>&lt; <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a1a9e272edc180de52b7b048e77641278">GetLayers</a> () const </td></tr>
+<tr class="memdesc:a1a9e272edc180de52b7b048e77641278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all layers this component is in.  <a href="#a1a9e272edc180de52b7b048e77641278">More...</a><br/></td></tr>
 <tr class="separator:a1a9e272edc180de52b7b048e77641278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f8af78f64478f2ecca7972936f63f12"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a0f8af78f64478f2ecca7972936f63f12">CollidesWithPoint</a> (const <a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a> &amp;point) const =0</td></tr>
 <tr class="separator:a0f8af78f64478f2ecca7972936f63f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,11 +243,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7924de28ffd7801eb640ed47d2018939"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a7924de28ffd7801eb640ed47d2018939">InitializeColliderComponent</a> ()=0</td></tr>
 <tr class="separator:a7924de28ffd7801eb640ed47d2018939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5315a52e16500b2341361fb2bf45616f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a5315a52e16500b2341361fb2bf45616f">Draw</a> ()</td></tr>
+<tr class="memdesc:a5315a52e16500b2341361fb2bf45616f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws this instance.  <a href="#a5315a52e16500b2341361fb2bf45616f">More...</a><br/></td></tr>
 <tr class="separator:a5315a52e16500b2341361fb2bf45616f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a687fcd5ddff295e53f891d73d90b745c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a687fcd5ddff295e53f891d73d90b745c">RectangleCircleCollision</a> (const <a class="el" href="classstar_1_1_rectangle_collider_component.html">RectangleColliderComponent</a> *rect, const <a class="el" href="classstar_1_1_circle_collider_component.html">CircleColliderComponent</a> *circle) const </td></tr>
+<tr class="memdesc:a687fcd5ddff295e53f891d73d90b745c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks rectangle vs circle collision. This includes Axis Aligned Bounding Boxes (AABB) and <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Boxes (OOBB) rectangles. Collision checks are done with the Seperated Axis Theorem (SAT)  <a href="#a687fcd5ddff295e53f891d73d90b745c">More...</a><br/></td></tr>
 <tr class="separator:a687fcd5ddff295e53f891d73d90b745c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc649b31e4b3b8f0b00feb5e7615955e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#afc649b31e4b3b8f0b00feb5e7615955e">FindClosestPointToOOBB</a> (const <a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a> &amp;point, const <a class="el" href="classstar_1_1_rectangle_collider_component.html">RectangleColliderComponent</a> *oobb) const </td></tr>
-<tr class="separator:afc649b31e4b3b8f0b00feb5e7615955e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc0e98dd98b563a24f47030b0a0a3cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#a3dc0e98dd98b563a24f47030b0a0a3cb">FindClosestPointToOOBB</a> (const <a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a> &amp;vector, const <a class="el" href="classstar_1_1_rectangle_collider_component.html">RectangleColliderComponent</a> *oobb) const </td></tr>
+<tr class="memdesc:a3dc0e98dd98b563a24f47030b0a0a3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to find the closest point on a vector to an <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Box (OOBB)  <a href="#a3dc0e98dd98b563a24f47030b0a0a3cb">More...</a><br/></td></tr>
+<tr class="separator:a3dc0e98dd98b563a24f47030b0a0a3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -267,7 +284,9 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:ab65044706093a1b8918f3c590ce484c3"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_base_collider_component.html#ab65044706093a1b8918f3c590ce484c3">DEFAULT_LAYER_NAME</a> = <a class="el" href="defines_types_8h.html#ae936e4c15227768f7da4e0951def89c8">_T</a>(&quot;default&quot;)</td></tr>
 <tr class="separator:ab65044706093a1b8918f3c590ce484c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for other collider components </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a30325b0aa1a7f3258c34e97c82a36ff1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -280,6 +299,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class. Using collision layers is strongly advised, so use this default constructor with care. The collider will be added to the default collision group. </p>
 
 </div>
 </div>
@@ -307,6 +328,15 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initializes a new instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class. The collider will be added to the collision groups you specify as arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layers</td><td>An array of layers to add the component to.</td></tr>
+    <tr><td class="paramname">n</td><td>The number of layers in the array.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a6ea8c791f7c8cd5302fdfe9172b77d05"></a>
@@ -329,6 +359,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Finalizes an instance of the <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a> class. </p>
 
 </div>
 </div>
@@ -442,6 +474,8 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Draws this instance. </p>
+
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#a3dad5b5f8b09a62f459101a41f1992e4">star::BaseComponent</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classstar_1_1_rectangle_collider_component.html#a492bcd283de685472094a941f93aa007">star::RectangleColliderComponent</a>, and <a class="el" href="classstar_1_1_circle_collider_component.html#a1443ce29e9b3d0cf5f948b2118d03181">star::CircleColliderComponent</a>.</p>
@@ -462,9 +496,17 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Toggles debug drawing of this component. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enable</td><td>True to enable debug drawing.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="afc649b31e4b3b8f0b00feb5e7615955e"></a>
+<a class="anchor" id="a3dc0e98dd98b563a24f47030b0a0a3cb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -475,7 +517,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a> star::BaseColliderComponent::FindClosestPointToOOBB </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="defines_math_8h.html#a8ee07add2e8ba042c39286f78e276290">vec2</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em>, </td>
+          <td class="paramname"><em>vector</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -496,6 +538,16 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Helper function to find the closest point on a vector to an <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Box (OOBB) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>The vector.</td></tr>
+    <tr><td class="paramname">oobb</td><td>The <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Box (OOBB).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The closest point to the <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Box (OOBB)</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a7435af4770cf0ce4f4d57cd217fb8c73"></a>
@@ -510,6 +562,10 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the color of the <a class="el" href="classstar_1_1_debug_draw.html">DebugDraw</a> of this component. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color.</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structstar_1_1_color.html">Color</a></dd></dl>
 
 </div>
 </div>
@@ -526,6 +582,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets if this component has entered collsion. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if this component has entered collision.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ac81806f07c7105189462a69aa35503c0"></a>
@@ -541,6 +600,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets if this component has left collsion. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if this component has left collision.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a1a9e272edc180de52b7b048e77641278"></a>
@@ -555,6 +617,10 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets all layers this component is in. </p>
+<dl class="section return"><dt>Returns</dt><dd>returns the array and the number of layers</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="struct_pointer_array.html" title="A small struct that can be used to represent an array of objects and a number that represents the amo...">PointerArray</a></dd></dl>
 
 </div>
 </div>
@@ -596,6 +662,9 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Checks if this component is static. Static components will not be transformed. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if this component is static.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a577131e2474e006e70f7ad9876e1a50a"></a>
@@ -610,6 +679,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if this component is a trigger. If the component is a trigger, it means that the callbacks will be triggered, but nothing will happen to the component and its object. Else, the component and its object would really collide and affect movement. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if this component is a trigger.</dd></dl>
 
 </div>
 </div>
@@ -645,6 +717,16 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks rectangle vs circle collision. This includes Axis Aligned Bounding Boxes (AABB) and <a class="el" href="classstar_1_1_object.html">Object</a> Orientated Bounding Boxes (OOBB) rectangles. Collision checks are done with the Seperated Axis Theorem (SAT) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rect</td><td>The <a class="el" href="classstar_1_1_rectangle_collider_component.html">RectangleColliderComponent</a>.</td></tr>
+    <tr><td class="paramname">circle</td><td>The <a class="el" href="classstar_1_1_circle_collider_component.html">CircleColliderComponent</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True when a collision happens.</dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a95c955971dc92bd440f2ce2920fb696a"></a>
@@ -660,6 +742,14 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Marks this component as static. Static components will not be transformed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isStatic</td><td>True to set this as static.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -677,6 +767,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets this component as a trigger. If the component is a trigger, it means that the callbacks will be triggered, but nothing will happen to the component and its object. Else, the component and its object would really collide and affect movement. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isTrigger</td><td>True to set this as a trigger.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="ab4f50548760d51f559d04f816271e0ca"></a>
@@ -692,6 +790,15 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the color of the <a class="el" href="classstar_1_1_debug_draw.html">DebugDraw</a> of this component. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structstar_1_1_color.html">Color</a></dd></dl>
 
 </div>
 </div>
@@ -709,6 +816,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Mark that this component has entered collision. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hasEntered</td><td>True if this component has entered collision.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a3e962718a340ddf380dd15c17d9a88f6"></a>
@@ -725,53 +840,85 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Mark that this component has left collision. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hasLeft</td><td>True if this component has left collision.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a9c7b46da179881a5d6a8f0dabed2c361"></a>
+<a class="anchor" id="a3b38b91afa51515b0e25cef300ebda7a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void star::BaseColliderComponent::SetOnEnterCallback </td>
           <td>(</td>
-          <td class="paramtype">Callback&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt;&#160;</td>
           <td class="paramname"><em>onEnter</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the callback that will be triggered 1 time for ever collision with another component. This callback will be triggered the moment this component collides with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onEnter</td><td>Function to be triggered. (Can be a function pointer, lambda expression, ..). This function has as argument a <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. This is the other component this component collided with. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="afd8dc90e939448a9786469c32301e06e"></a>
+<a class="anchor" id="ac39eb8e2130b4b40190a417d7f16e0f3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void star::BaseColliderComponent::SetOnExitCallback </td>
           <td>(</td>
-          <td class="paramtype">Callback&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt;&#160;</td>
           <td class="paramname"><em>onExit</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the callback that will be triggered 1 time for ever collision with another component. This callback will be triggered the moment this component stops colliding with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onExit</td><td>Function to be triggered. (Can be a function pointer, lambda expression, ..). This function has as argument a <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. This is the other component this component collided with. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a7336c48a8839ecf4be6ac304446b186e"></a>
+<a class="anchor" id="a6fc74a020539b2df95663dde47e388d7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void star::BaseColliderComponent::SetOnStayCallback </td>
           <td>(</td>
-          <td class="paramtype">Callback&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="classstar_1_1_base_collider_component.html">BaseColliderComponent</a> *collider)&gt;&#160;</td>
           <td class="paramname"><em>onStay</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the callback that will be triggered while this component collides with another component. This callback will be triggered while this component collides with Another component with parent of type <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onStay</td><td>Function to be triggered. (Can be a function pointer, lambda expression, ..). This function has as argument a <a class="el" href="classstar_1_1_base_collider_component.html" title="Base class for other collider components ">BaseColliderComponent</a>. This is the other component this component collided with. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -789,6 +936,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Triggers the OnEnter callback. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The colliding component.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a16b62abebee42c51ff1fd0d599c0c026"></a>
@@ -805,6 +960,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Triggers the OnExit callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The colliding component.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="af81d50c583ca03f7cd8986d6a4ecbcd4"></a>
@@ -820,6 +983,14 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Triggers the OnStay callback. This function is used in the collision manager and should not be used by the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The colliding component.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -844,6 +1015,14 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Updates this instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td><a class="el" href="structstar_1_1_context.html" title="Struct that is used to pass around information between all the update functions in the engine classes...">Context</a> containing usefull information.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classstar_1_1_base_component.html#afe7830a05341130dfc784670baed68e6">star::BaseComponent</a>.</p>
 
@@ -971,13 +1150,13 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Components/Physics/<a class="el" href="_base_collider_component_8h_source.html">BaseColliderComponent.h</a></li>
-<li>StarEngine/jni/Components/Physics/<a class="el" href="_base_collider_component_8cpp.html">BaseColliderComponent.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Physics/<a class="el" href="_base_collider_component_8h_source.html">BaseColliderComponent.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Components/Physics/<a class="el" href="_base_collider_component_8cpp.html">BaseColliderComponent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:28 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:10 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

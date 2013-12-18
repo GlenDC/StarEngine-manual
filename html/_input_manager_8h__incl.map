@@ -1,8 +1,0 @@
-<map id="StarEngine/jni/Input/InputManager.h" name="StarEngine/jni/Input/InputManager.h">
-<area shape="rect" id="node6" href="$defines_8h.html" title="../defines.h" alt="" coords="501,253,587,280"/>
-<area shape="rect" id="node18" href="$_gesture_manager_8h.html" title="Gestures/GestureManager.h" alt="" coords="200,96,387,123"/>
-<area shape="rect" id="node7" href="$_serialized_data_8h.html" title="Helpers\\SerializedData.h" alt="" coords="381,336,547,363"/>
-<area shape="rect" id="node8" href="$defines_types_8h.html" title="../definesTypes.h" alt="" coords="403,411,524,437"/>
-<area shape="rect" id="node15" href="$defines_math_8h.html" title="definesMath.h" alt="" coords="571,336,673,363"/>
-<area shape="rect" id="node21" href="$_base_gesture_8h.html" title="BaseGesture.h" alt="" coords="352,171,461,197"/>
-</map>

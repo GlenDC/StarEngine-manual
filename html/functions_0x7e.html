@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -117,7 +116,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -178,8 +177,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>~Customer()
 : <a class="el" href="class_customer.html#ae09c0fe853c917e423d4da38aef28ac3">Customer</a>
 </li>
+<li>~DebugDraw()
+: <a class="el" href="classstar_1_1_debug_draw.html#aa30e39570186a5f4e0e19ebf402a7a80">star::DebugDraw</a>
+</li>
 <li>~DelayedAction()
 : <a class="el" href="classstar_1_1_delayed_action.html#a4a0b5f2966e2062228f13a087f46c089">star::DelayedAction</a>
+</li>
+<li>~DelayedFramesAction()
+: <a class="el" href="classstar_1_1_delayed_frames_action.html#acfb19a5973d9b623590998e01a6d492c">star::DelayedFramesAction</a>
 </li>
 <li>~Dictionary()
 : <a class="el" href="classstar_1_1_dictionary.html#a2d7fd486edf76a172087e8627291b318">star::Dictionary&lt; TKey, TValue &gt;</a>
@@ -193,8 +198,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>~FallingObject()
 : <a class="el" href="class_falling_object.html#a6689eb9c6b5fa584f293c0c803fbeae6">FallingObject</a>
 </li>
-<li>~Filepath()
-: <a class="el" href="classstar_1_1_filepath.html#a1de3bc937fe6175770282fc656688dc6">star::Filepath</a>
+<li>~FilePath()
+: <a class="el" href="classstar_1_1_file_path.html#a75edf900d25efb8e1411b0fe55bc0e3e">star::FilePath</a>
 </li>
 <li>~FillingGenerator()
 : <a class="el" href="class_filling_generator.html#a4804c06aab43f6be1e6c98885a2af6a2">FillingGenerator</a>
@@ -316,11 +321,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>~SpriteComponent()
 : <a class="el" href="classstar_1_1_sprite_component.html#a319400c5fb874a7ab60702fb44e63494">star::SpriteComponent</a>
 </li>
-<li>~Spritesheet()
-: <a class="el" href="classstar_1_1_spritesheet.html#aba450ccc969583edea5638b1b360df4f">star::Spritesheet</a>
+<li>~SpriteSheet()
+: <a class="el" href="classstar_1_1_sprite_sheet.html#af54d8f52be939806557c5155de873dac">star::SpriteSheet</a>
 </li>
-<li>~SpritesheetComponent()
-: <a class="el" href="classstar_1_1_spritesheet_component.html#a3ac7b68cd6ade420e123c419eb7ac02c">star::SpritesheetComponent</a>
+<li>~SpriteSheetComponent()
+: <a class="el" href="classstar_1_1_sprite_sheet_component.html#acd5c7d86cd7ab6d3c5d1a73856d43b1f">star::SpriteSheetComponent</a>
 </li>
 <li>~SSMSplashScreen()
 : <a class="el" href="class_s_s_m_splash_screen.html#ad2756ebdc50131dae0e1ebeec0290f25">SSMSplashScreen</a>
@@ -375,6 +380,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>~TimedMoveAction()
 : <a class="el" href="classstar_1_1_timed_move_action.html#a9146460b45e1f857e679490e0f0609ca">star::TimedMoveAction</a>
+</li>
+<li>~TimedScaleAction()
+: <a class="el" href="classstar_1_1_timed_scale_action.html#a22f0922a11805bb88c13ea0f4891ac7c">star::TimedScaleAction</a>
 </li>
 <li>~TimeManager()
 : <a class="el" href="classstar_1_1_time_manager.html#a70554bdfe2eb52898d74c9ecc7df15d2">star::TimeManager</a>
@@ -452,13 +460,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classstar_1_1_x_m_l_file_serializer.html#a5e09f58d001b8e20c2851e9065d8277c">star::XMLFileSerializer</a>
 </li>
 <li>~XmlValues()
-: <a class="el" href="class_xml_values.html#a4fd6610ba53e95e10b99399f77c74f94">XmlValues</a>
+: <a class="el" href="class_xml_values.html#a8cb4ffe87171399ca52cf2e468b853aa">XmlValues</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:30 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -10,10 +10,14 @@ var searchData=
   ['peru',['Peru',['../structstar_1_1_color.html#aea0cf23daf22cedf727935a75d1b50bd',1,'star::Color']]],
   ['pi',['PI',['../defines_math_8h.html#a372bd109726b3b7da5fc16c16a7d041b',1,'definesMath.h']]],
   ['pink',['Pink',['../structstar_1_1_color.html#a97beb1b23c823a4b8a722b59ef5538c2',1,'star::Color']]],
+  ['playbutton',['PlayButton',['../struct_tutorial_menu_data.html#a79a31732c03d6cd95242b6aa5ae94f26',1,'TutorialMenuData']]],
   ['plum',['Plum',['../structstar_1_1_color.html#a134655a1262eda8cf46efcbd091eec86',1,'star::Color']]],
   ['position',['Position',['../structstar_1_1_finger_pointer_a_n_d_r.html#af4bb3d5a0f651fc9a045d24afd92d120',1,'star::FingerPointerANDR']]],
+  ['posx',['PosX',['../struct_image.html#ac69f521935d74b1b3ac22e539e8e9c5e',1,'Image']]],
+  ['posy',['PosY',['../struct_image.html#a59f9de6723051c9ce03ee2db49ecbb43',1,'Image']]],
   ['powderblue',['PowderBlue',['../structstar_1_1_color.html#a3ee46af188f1ec6ce40f7acdee82e423',1,'star::Color']]],
   ['pressure',['Pressure',['../structstar_1_1_finger_pointer_a_n_d_r.html#ab92c399a42394b99d87895744f2026bb',1,'star::FingerPointerANDR']]],
   ['previousfps',['PreviousFPS',['../structstar_1_1_f_p_s.html#a020b56db117dbcaf39f996031b1521b7',1,'star::FPS']]],
+  ['primitivetype',['primitiveType',['../structstar_1_1_primitive_info.html#a269fb3f165b62be41bf18731fae1ba5b',1,'star::PrimitiveInfo']]],
   ['purple',['Purple',['../structstar_1_1_color.html#acb296a19dafcad5864f4c23c92f2c391',1,'star::Color']]]
 ];

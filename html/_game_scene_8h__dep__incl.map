@@ -1,7 +1,0 @@
-<map id="jni/scenes/GameScene.h" name="jni/scenes/GameScene.h">
-<area shape="rect" id="node2" href="$_game_8cpp.html" title="jni/Game.cpp" alt="" coords="5,80,104,107"/>
-<area shape="rect" id="node3" href="$_filling_generator_8cpp.html" title="jni/Objects/FillingGenerator.cpp" alt="" coords="129,80,332,107"/>
-<area shape="rect" id="node4" href="$_order_handler_8cpp.html" title="jni/Objects/OrderHandler.cpp" alt="" coords="357,80,547,107"/>
-<area shape="rect" id="node5" href="$_stats_8cpp.html" title="jni/Objects/Stats.cpp" alt="" coords="571,80,715,107"/>
-<area shape="rect" id="node6" href="$_game_scene_8cpp.html" title="jni/scenes/GameScene.cpp" alt="" coords="739,80,921,107"/>
-</map>

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -117,7 +116,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -130,12 +129,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
-<li>name
-: <a class="el" href="structstar_1_1_tiled_scene_1_1_tile_object.html#a1255bfb0bbd796118ae7a185f6275f6f">star::TiledScene::TileObject</a>
-</li>
 <li>Name
 : <a class="el" href="structstar_1_1_u_i_user_element_1_1_effect_info.html#a38774f0f8c6a25ba7a4d28c1eaa7c2fb">star::UIUserElement::EffectInfo</a>
 , <a class="el" href="structstar_1_1_tiled_scene_1_1_tile_set.html#abcb56c4b1245c8f78ebcb19a5169ee29">star::TiledScene::TileSet</a>
+</li>
+<li>name
+: <a class="el" href="structstar_1_1_tiled_scene_1_1_tile_object.html#a1255bfb0bbd796118ae7a185f6275f6f">star::TiledScene::TileObject</a>
 </li>
 <li>NavajoWhite
 : <a class="el" href="structstar_1_1_color.html#a73de76acb7fc8ee96848093fb02691c1">star::Color</a>
@@ -143,17 +142,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>Navy
 : <a class="el" href="structstar_1_1_color.html#a57b498393e3892edb782620e2e66bc2f">star::Color</a>
 </li>
+<li>NextArrow
+: <a class="el" href="struct_tutorial_menu_data.html#af6e7be4b7def246f9a0460fa7d3d1c9f">TutorialMenuData</a>
+</li>
 <li>NextPathPos()
 : <a class="el" href="classstar_1_1_path_find_manager.html#afbaa1115cd317d9ee8b02388763b7fd4">star::PathFindManager</a>
 </li>
 <li>NONE
 : <a class="el" href="classstar_1_1_transform_component.html#a5688099e7c640f50f9c6126a1ea30221a1e0621946b3bb487ee7fba25715327c3">star::TransformComponent</a>
 </li>
+<li>NR_OF_BUTTONS
+: <a class="el" href="struct_main_menu_data.html#ad836d331144395c3025d2e6e7c1be5ca">MainMenuData</a>
+</li>
+<li>NR_OF_SCORES
+: <a class="el" href="struct_score_menu_data.html#ad8ef8c6c0f5d4d13b752c8bc2bc25347">ScoreMenuData</a>
+</li>
+<li>NR_OF_SLIDES
+: <a class="el" href="struct_splash_screen_menu_data.html#a7803a491a73f3fe139afa557a5e98ff6">SplashScreenMenuData</a>
+, <a class="el" href="struct_tutorial_menu_data.html#ac16d78b69717cb196370f394da311c97">TutorialMenuData</a>
+</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:30 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

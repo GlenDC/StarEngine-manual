@@ -1,4 +1,0 @@
-<map id="star::BaseSound" name="star::BaseSound">
-<area shape="rect" id="node2" href="$classstar_1_1_sound_effect.html" title="{star::SoundEffect\n||+ SoundEffect()\l+ ~SoundEffect()\l+ Play()\l+ Stop()\l+ Pause()\l+ Resume()\l+ SetChannel()\l+ UnsetChannel()\l+ GetVolume()\l+ SetMuted()\l+ IsMuted()\l}" alt="" coords="5,440,128,664"/>
-<area shape="rect" id="node3" href="$classstar_1_1_sound_file.html" title="{star::SoundFile\n||+ SoundFile()\l+ ~SoundFile()\l+ Play()\l+ PlayQueued()\l+ Stop()\l+ Pause()\l+ Resume()\l+ SetChannel()\l+ UnsetChannel()\l+ GetVolume()\l+ SetMuted()\l+ IsMuted()\l# CreateSoundDetails()\l# RegisterCallback()\l# MusicStoppedCallback()\l}" alt="" coords="153,411,327,693"/>
-</map>

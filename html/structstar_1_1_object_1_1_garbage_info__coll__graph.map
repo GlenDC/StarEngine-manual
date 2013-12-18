@@ -1,4 +1,0 @@
-<map id="star::Object::GarbageInfo" name="star::Object::GarbageInfo">
-<area shape="rect" id="node2" href="$classstar_1_1_entity.html" title="{star::Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ GetName()\l+ SetName()\l+ CompareName()\l+ Destroy()\l}" alt="" coords="24,309,152,475"/>
-<area shape="rect" id="node3" href="$classstar_1_1_hash_tag.html" title="{star::HashTag\n||+ HashTag()\l+ HashTag()\l+ HashTag()\l+ operator=()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ operator==()\land 6 more...\l+ GenerateHash()\l}" alt="" coords="25,6,151,245"/>
-</map>

@@ -40,7 +40,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -66,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -75,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,13 +100,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_load_screen_8h_source.html">LoadScreen.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for star::LoadScreen:</div>
-<div class="dyncontent">
-<div class="center"><img src="classstar_1_1_load_screen__coll__graph.png" border="0" usemap="#star_1_1_load_screen_coll__map" alt="Collaboration graph"/></div>
-<map name="star_1_1_load_screen_coll__map" id="star_1_1_load_screen_coll__map">
-<area shape="rect" id="node2" href="classstar_1_1_filepath.html" title="A class that is mostly used internally in the engine. It allows you to get the full static path..." alt="" coords="5,6,144,303"/><area shape="rect" id="node3" href="classstar_1_1_shader.html" title="{star::Shader\n||+ Shader()\l+ Shader()\l+ Shader()\l+ ~Shader()\l+ Init()\l+ Init()\l+ Bind()\l+ Unbind()\l+ GetID()\l+ GetUniformLocation()\l+ GetAttribLocation()\l+ PrintActiveAttribs()\l+ PrintActiveUniforms()\l}" alt="" coords="169,28,324,281"/></map>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,8 +121,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a987fd1068ef8c67cd705d8e7e482ebc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstar_1_1_shader.html">Shader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_load_screen.html#a987fd1068ef8c67cd705d8e7e482ebc4">m_Shader</a></td></tr>
 <tr class="separator:a987fd1068ef8c67cd705d8e7e482ebc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f19cdfa4ae9032b0115363bfcda35b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstar_1_1_filepath.html">Filepath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_load_screen.html#aa2f19cdfa4ae9032b0115363bfcda35b">m_FilePath</a></td></tr>
-<tr class="separator:aa2f19cdfa4ae9032b0115363bfcda35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc1bd6ed4996eefac29b805b3e94e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstar_1_1_file_path.html">FilePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_load_screen.html#aacc1bd6ed4996eefac29b805b3e94e8b">m_FilePath</a></td></tr>
+<tr class="separator:aacc1bd6ed4996eefac29b805b3e94e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2100e5f662767210691c80d7e054ef34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#ae5d59c80151fb6bca8c486086a1ed05b">tstring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_load_screen.html#a2100e5f662767210691c80d7e054ef34">m_SpriteName</a></td></tr>
 <tr class="separator:a2100e5f662767210691c80d7e054ef34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fae6ce9ddb2a7f648d586045ce79411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="defines_types_8h.html#ab7903878916593daecbeb95b98115ab0">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstar_1_1_load_screen.html#a3fae6ce9ddb2a7f648d586045ce79411">m_Width</a></td></tr>
@@ -266,7 +258,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa2f19cdfa4ae9032b0115363bfcda35b"></a>
+<a class="anchor" id="aacc1bd6ed4996eefac29b805b3e94e8b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -274,7 +266,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classstar_1_1_filepath.html">Filepath</a> star::LoadScreen::m_FilePath</td>
+          <td class="memname"><a class="el" href="classstar_1_1_file_path.html">FilePath</a> star::LoadScreen::m_FilePath</td>
         </tr>
       </table>
   </td>
@@ -427,13 +419,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>StarEngine/jni/Scenes/<a class="el" href="_load_screen_8h_source.html">LoadScreen.h</a></li>
-<li>StarEngine/jni/Scenes/<a class="el" href="_load_screen_8cpp.html">LoadScreen.cpp</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Scenes/<a class="el" href="_load_screen_8h_source.html">LoadScreen.h</a></li>
+<li>C:/AndroidTools/Workspace/SVN/trunk/Code/StarEngine/StarEngine/jni/Scenes/<a class="el" href="_load_screen_8cpp.html">LoadScreen.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 14 2013 04:16:29 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 18 2013 09:29:11 for StarEngine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
